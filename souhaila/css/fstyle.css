@@ -1,0 +1,74 @@
+body{
+background-image:url(file:///C|/Users/souhaila/Desktop/projetTR/images/fond.jpg)
+
+}
+
+#container{
+	width :1000px;
+	margin-top:100px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(file:///C|/Users/souhaila/Desktop/projetTR/images/ag.png);
+	border-radius:10px;}   
+	
+	header{
+		width:1000px;
+		font-size:20px;
+		text-align:center;
+		background-color:pink;
+		font-style: above;
+		
+	}
+	footer{
+		width:1000px;
+		font-size:20px;
+		text-align:center;
+		background-color:pink;
+		clear:both;
+		
+	}
+	#content{
+		width:1000pxpx;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	#content ul{
+		list-style-type:none;
+	}
+	#content li{
+		float:right;
+		width:200px;
+		display:block;
+		margin-right:40px;
+		margin-bottom:10px
+	}
+	
+#content img{
+	-moz-webkit-transition: all 1s ease;
+	-ms-webkit-transition: all 1s ease;
+	-o-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+	filter: blur(3px);
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-ms-filter: blur(3px);
+	-o-filter: blur(3px);
+	border: 1px solid #000000; 
+}
+#content img:hover{
+	-webkit-webkit-transition: all 1s ease;
+	-moz-webkit-transition: all 1s ease;
+	-ms-webkit-transition: all 1s ease;
+	-o-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+	filter: blur(0px);
+	-webkit-filter: blur(0px);
+	-moz-filter: blur(0px);
+	-ms-filter: blur(0px);
+	-o-filter: blur(0px);
+	
+	
+}
+	
+	

@@ -1,0 +1,31 @@
+
+body{
+background-image:url(file:///C|/Users/souhaila/Desktop/projetTR/images/fond.jpg)
+
+}
+
+.Borders {
+	background-color: #20B2AA;
+	text-align: justify;
+	border: solid 1px;
+	text-align: center;
+	font: 18px bold, sans-serif;
+	padding: 4px;
+}
+
+.TableBorder {
+	border: solid 1px;
+	border: inherit 25px;
+
+}
+
+.LeftBorder {
+	border: solid 1px;
+	border: inherit 25px;
+}
+
+.TextFont {
+	font: 18px bold, sans-serif;
+	text-align: center;
+	margin-top: 30px;
+}
