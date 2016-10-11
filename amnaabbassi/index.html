@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Trombinscope THYP</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<meta charset="utf-8">    
+    <script type="text/javascript" src="js/d3.v3.js"></script>
+ 	<script type="text/javascript" src="js/jquery.min.js" ></script>
+</head>
+
+<body>
+
+<div id="global">
+<div id="bandeau">
+	<span class="titreSite">THYP</span>
+	<br />
+	<span class="slogan">Bonjour M2 THYP</span>
+</div>
+ <div id="contenu">
+
+				<div class="img">
+						<a href="detail.html" target="_blank"  title=" See details">
+					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
+					 </a>
+			        <div class="desc">
+			         	<p>jhzgjzhge</p>
+					</div>
+					
+		        </div>
+	
+		
+				<div class="img">
+						<a href="detail.html" target="_blank"  title=" les détails de membre">
+						<img src="1.jpg"  alt="Photo de mon site" height="30" width="40" />
+						</a>
+						<div class="desc">
+			         	<p>kjzhkezjg</p>
+						</div>
+			
+				</div>
+				<div class="img">
+						<a href="detail.html" target="_blank"  title=" See details">
+					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
+					 </a>
+			        <div class="desc">
+			         	<p>jhzgjzhge</p>
+					</div>
+					
+		        </div>
+				<div class="img">
+						<a href="detail.html" target="_blank"  title=" See details">
+					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
+					 </a>
+			        <div class="desc">
+			         	<p>jhzgjzhge</p>
+					</div>
+					
+		        </div>
+				<div class="img">
+						<a href="detail.html" target="_blank"  title=" See details">
+					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
+					 </a>
+			        <div class="desc">
+			         	<p>jhzgjzhge</p>
+					</div>
+					
+		        </div>
+				<div class="img">
+						<a href="detail.html" target="_blank"  title=" See details">
+					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
+					 </a>
+			        <div class="desc">
+			         	<p>jhzgjzhge</p>
+					</div>
+					
+		        </div>
+				<div class="img">
+						<a href="detail.html" target="_blank"  title=" See details">
+					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
+					 </a>
+			        <div class="desc">
+			         	<p>jhzgjzhge</p>
+					</div>
+					
+		        </div>
+				<div class="img">
+						<a href="detail.html" target="_blank"  title=" See details">
+					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
+					 </a>
+			        <div class="desc">
+			         	<p>jhzgjzhge</p>
+					</div>
+					
+		        </div>
+				<div class="img">
+						<a href="detail.html" target="_blank"  title=" See details">
+					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
+					 </a>
+			        <div class="desc">
+			         	<p>jhzgjzhge</p>
+					</div>
+					
+		        </div>
+				<div class="img">
+						<a href="detail.html" target="_blank"  title=" See details">
+					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
+					 </a>
+			        <div class="desc">
+			         	<p>jhzgjzhge</p>
+					</div>
+					
+		        </div>
+				<div class="img">
+						<a href="detail.html" target="_blank"  title=" See details">
+					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
+					 </a>
+			        <div class="desc">
+			         	<p>jhzgjzhge</p>
+					</div>
+					
+		        </div>
+				<div class="img">
+						<a href="detail.html" target="_blank"  title=" See details">
+					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
+					 </a>
+			        <div class="desc">
+			         	<p>jhzgjzhge</p>
+					</div>
+					
+		        </div>
+				<div class="img">
+				<div id="trombi"/>
+				<script type="text/javascript">
+					var urlData = "php/lecteurFlux.php?url=THYP1617data";
+						d3.csv(urlData, function(data)
+						{
+							//prices is an array of json objects containing the data in from the csv
+							//console.log("data:", data);
+							data.forEach(function(d,i){
+									var h = d.Prénom+" "+d.Nom+" "+d['N° étudiant'];
+								$('<div class="data" id="data_' + i + '"></div>').html(h).appendTo('#trombi');
+									
+							});
+						})
+						</script>
+				</div>
+				
+</div>
+		
+	
+		
+
+		
+			        
+		<div style="clear:both;"></div>
+		<div id="piedDePage">
+			Copyright AMNA abbassi
+		</div>
+
+	</div>
+</div>
+
+</body>
+</html>
