@@ -1,0 +1,35 @@
+.left_picture, .div_left_picture
+{
+	width: 200px;
+}
+
+.div_left_picture, .div_right_content
+{
+	float: left;
+}
+
+.div_student
+{
+	background-color: #dedede;
+    overflow: auto;
+    padding: 20px;
+}
+
+.icone_git
+{
+	width: 20px;
+}
+
+.icone_mail
+{
+	width: 20px;
+}
+.div_graph
+{
+	float: left;
+    margin-left: 62px;
+}
+.div_inforamation
+{
+	float:left;
+}

@@ -1,0 +1,28 @@
+.bigContainer
+{
+	padding: 18px;
+	overflow: auto;
+	background-color: #d9d7ff;
+}
+.containerLeft
+{
+	width: 252px;
+	float: left;
+}
+.containerRight
+{
+	float:left;
+	padding-left: 18px;
+}
+#titleMaquette
+{
+	text-align: center;
+}
+p
+{
+	margin: 0px;
+}
+a
+{
+	text-decoration: none;
+}
