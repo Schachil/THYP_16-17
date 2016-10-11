@@ -1,0 +1,28 @@
+
+body
+{
+	background-color: #efefef;
+	
+}
+.container
+{
+	width: 900px;
+	margin: auto;
+	background-color: white;
+	padding: 0px;
+
+}
+header
+{
+	background-color: #4e6573;
+	margin: 0px;
+}
+header h2
+{
+	margin: 40px;
+	color: white;
+}
+.separateur
+{
+	margin: 10px;
+}
