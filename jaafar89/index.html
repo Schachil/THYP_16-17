@@ -9,8 +9,43 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">  
 	
+<style>
+	body{
+		width:1060px;
+		margin:50px auto;
+	}
+	path {  stroke: #fff; }
+	path:hover {  opacity:0.9; }
+	rect:hover {  fill:blue; }
+	.axis {  font: 10px sans-serif; }
+	.legend tr{    border-bottom:1px solid grey; }
+	.legend tr:first-child{    border-top:1px solid grey; }
+	.axis path,
+	.axis line {
+		fill: none;
+		stroke: #000;
+		shape-rendering: crispEdges;
+	}
+	.x.axis path {  display: none; }
+	.legend{
+		margin-bottom:76px;
+		display:inline-block;
+		border-collapse: collapse;
+		border-spacing: 0px;
+	}
+	.legend td{
+		padding:4px 5px;
+		vertical-align:bottom;
+	}
+		.legendFreq, .legendPerc{
+		align:right;
+		width:50px;
+	}
+</style>
+	
     <script type="text/javascript" src="js/d3.v3.js"></script>
  	<script type="text/javascript" src="js/jquery.min.js" ></script>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
  
 
  </head>
@@ -45,7 +80,7 @@
 							</a>
 						
 							<a href="details.html">
-							<img style="width:20%" src="images/man.png" />
+							<img style="width:20%" src="images/pic1.png" />
 							</a>
 
 							<a href="details.html">
@@ -53,7 +88,7 @@
 							</a>
 						
 						<a href="details.html">
-							<img style="width:20%" src="images/man.png" />
+							<img style="width:20%" src="images/pic1.png" />
 							</a>			
 						
 				      </div>	
@@ -61,3 +96,5 @@
 
  </body>
 </html>
+
+
