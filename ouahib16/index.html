@@ -80,13 +80,11 @@
 			<dd id='dashboard'></dd>
 			<dd class="clear"></dd>
 			<dt>EXPERIENCE PROFESSIONNELLE</dt>			
-			<dd class="clear"></dd>            
-            <dt>FORMATION</dt>       
-            <dd class="clear"></dd>
-            <dt>LANGUES ET LOISIRES</dt>   
+			<dd class="clear"></dd>               
             <dd class="clear"></dd>
         </dl>
     </div>
+	
 </body>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
@@ -107,9 +105,8 @@ function dashboard(id, fData){
                     );
    	*/
    var segColor = d3.scale.category20b();
-   	
     fData.forEach(function(d){
-        d.total =   d.freq.PHP+d.freq.JS+d.freq.HTML;}
+        d.total =   d.freq.Java+d.freq.PHP+d.freq.JS+d.freq.HTML+d.freq.UML+d.freq.JOOMLA+d.freq.WORDPRESS+d.freq.DRUPAL+d.freq.SPIP;}
                     );
     
     // function to handle histogram.
@@ -316,9 +313,17 @@ function dashboard(id, fData){
     
     // calculate total frequency by segment for all state.
     var tF = [
-            'PHP',
+            'Java',
+			'PHP',
 			'JS',
-			'HTML'].map(function(d){ 
+			'HTML',
+			'SQL',
+			'CSS',
+			'UML',
+			'JOOMLA',
+			'Wordpress',
+			'Drupal',
+			'SPIP'].map(function(d){ 
               return {type:d, freq: d3.sum(fData.map(function(t){ return t.freq[d];}))}; 
           });    
 
@@ -344,9 +349,18 @@ d3.csv("php/lecteurFlux.php?url=THYP1617data", null, function(error, data) {
 		var args = {
 			State:d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase()
 			,freq:{
+				Java:comp[d["Vos compétences : langage informatique [JAVA]"]], 
                 PHP:comp[d["Vos compétences : langage informatique [PHP]"]], 
-                JS:comp[d["Vos compétences : langage informatique [Javascript]"]], 
+				JS:comp[d["Vos compétences : langage informatique [Javascript]"]], 
                 HTML:comp[d["Vos compétences : langage informatique [HTML]"]], 
+				SQL:comp[d["Vos compétences : langage informatique [SQL]"]], 
+			    CSS:comp[d["Vos compétences : langage informatique [CSS]"]], 
+				UML:comp[d["Vos compétences : langage informatique [UML]"]], 
+				JOOMLA:comp[d["Vos compétences : langage informatique [JOOMLA]"]], 
+				WORDPRESS:comp[d["Vos compétences : langage informatique [Wordpress]"]], 
+				DRUPAL:comp[d["Vos compétences : langage informatique [Drupal]"]], 
+				SPIP:comp[d["Vos compétences : langage informatique [SPIP]"]], 
+
 			}
 		};
 		d.state = d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase();	
