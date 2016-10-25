@@ -47,101 +47,60 @@
 
 		<section id="our-team" class="our-team">
 
-			<ul>
+			<ul id="THYP">
+			</ul>
+			<ul id="THYPtofs">
+			</ul>
 				
 					
 					<!--<a href="about/Dave-Wrightson.html">-->
-						<div id="THYP" ><!--<div>Dave Wrightson</div>-->
 						
 						 <script type="text/javascript">
+		var rssPhoto = "http://picasaweb.google.com/data/feed/base/user/107069028374380439764/albumid/6340716155566922545?alt=rss&kind=photo&hl=en_US";
 	    var urlData = "php/lecteurFlux.php?url=THYP1617data";
     		d3.csv(urlData, function(data)
     	    {
     	        //prices is an array of json objects containing the data in from the csv
     	        //console.log("data:", data);
     	        data.forEach(function(d,i){
-	    	        	var h = d.Prénom+" "+d.Nom+" "+d['N° étudiant'];
-    	            $('<div class="person" id="data_' + i + '"><img src="h.jpg"></div>').html(h).appendTo('#THYP');
-    	        		
+	    	        //var h = '<a href="about/will-blackmore.html"><div class="person" id="data_' + i + '"><img src="h.jpg"></div>'d.Prénom+" "+d.Nom+" "+d['N° étudiant'];
+	    	        var h = '<a href="about/will-blackmore.html">'
+	    	        +'<div class="person">'
+	    	        +'<img src="h.jpg" id="tof_'+d['lien vers la photo']+'" >'
+	    	        +'<div>'
+	    	        +'<h4>'+d['Prénom']+' '+d.Nom+'</h4>'
+	    	        +'<h5>'+d['N° étudiant']+'</h5>'
+	    	        +'</div>'
+	    	        +'</div>'
+	    	        +'</a>';		    	        	
+    	            $('<li></li>').html(h).appendTo('#THYP');
     	        });
+    	        d3.xml("../samszo/php/lecteurFlux.php?url=THYP1617photo", "application/xml", function(xml) {
+    	        	var tofs = xml.documentElement.getElementsByTagName("enclosure"); 
+    	        	for (i = 0; i < tofs.length; i++) { 
+    	        		console.log(tofs[i].getAttribute("url"));
+        	        	d3.select("#tof_"+i)
+        	        		.attr('src',tofs[i].getAttribute("url"))
+        	        		.style('width',100);
+
+    	        		/*
+    	    	        var h = '<div class="person">'
+    		    	        +'<img src="'+tofs[i].getAttribute("url")+'" id="tof_'+i+'" >'
+    		    	        +'<div>'
+    		    	        +'<h4>'+i+'</h4>'
+    		    	        +'</div>'
+    		    	        +'</div>';		    	        	
+    	        		$('<li></li>').html(h).appendTo('#THYPtofs');
+    	        		*/
+    	        	}
+
+    	        	});
+    	        
     	    })
     	    </script>
-		</div>	
 					
 		<!-- End intération de l'appel du csv depuis google drive-->
 
-
-				
-					<li>
-						<a href="about/will-blackmore.html">
-							<div class="person">
-	<img src="https://engage-site-cms.s3.amazonaws.com/production/utility/users/8a3f26224bedd4a8d4bb703976e49185.jpg">
-	<div>
-		<h4>Will Blackmore</h4>
-
-					<h5>UX Director</h5>
-		
-	</div>
-</div>						</a>
-					</li>
-
-				
-					<li>
-						<a href="about/tom-schofield.html">
-							<div class="person">
-	<img src="https://engage-site-cms.s3.amazonaws.com/production/utility/users/53d7fe7679154e744abb8001a29c998f.jpg">
-	<div>
-		<h4>Tom Schofield</h4>
-
-					<h5>Creative director</h5>
-		
-	</div>
-</div>						</a>
-					</li>
-
-				
-					<li>
-						<a href="about/durham-hale.html">
-							<div class="person">
-	<img src="https://engage-site-cms.s3.amazonaws.com/production/utility/users/30b66916896dc4f1b45c821632b8d395.jpg">
-	<div>
-		<h4>Durham Hale</h4>
-
-					<h5>Technical Director</h5>
-		
-	</div>
-</div>						</a>
-					</li>
-
-				
-					<li>
-						<a href="about/dom-mernock.html">
-							<div class="person">
-	<img src="https://engage-site-cms.s3.amazonaws.com/production/utility/users/1ea17ea59effdfd8e1ad16ef96d19480.jpg">
-	<div>
-		<h4>Dom Mernock</h4>
-
-					<h5>Strategy director</h5>
-		
-	</div>
-</div>						</a>
-					</li>
-
-				
-					<li>
-						<a href="about/viki-ross.html">
-							<div class="person">
-	<img src="https://engage-site-cms.s3.amazonaws.com/production/utility/users/71411b98797d751ae217f50af4089fb2.jpg">
-	<div>
-		<h4>Viki Ross</h4>
-
-					<h5>Studio Manager</h5>
-		
-	</div>
-</div>						</a>
-					</li>
-				
-				</ul>
 
 		</section>
 
