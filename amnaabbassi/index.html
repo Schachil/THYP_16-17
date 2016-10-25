@@ -18,132 +18,50 @@
 </div>
  <div id="contenu">
 
-				<div class="img">
-						<a href="detail.html" target="_blank"  title=" See details">
-					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
-					 </a>
-			        <div class="desc">
-			         	<p>jhzgjzhge</p>
-					</div>
-					
-		        </div>
-	
-		
-				<div class="img">
-						<a href="detail.html" target="_blank"  title=" les détails de membre">
-						<img src="1.jpg"  alt="Photo de mon site" height="30" width="40" />
-						</a>
-						<div class="desc">
-			         	<p>kjzhkezjg</p>
-						</div>
-			
-				</div>
-				<div class="img">
-						<a href="detail.html" target="_blank"  title=" See details">
-					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
-					 </a>
-			        <div class="desc">
-			         	<p>jhzgjzhge</p>
-					</div>
-					
-		        </div>
-				<div class="img">
-						<a href="detail.html" target="_blank"  title=" See details">
-					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
-					 </a>
-			        <div class="desc">
-			         	<p>jhzgjzhge</p>
-					</div>
-					
-		        </div>
-				<div class="img">
-						<a href="detail.html" target="_blank"  title=" See details">
-					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
-					 </a>
-			        <div class="desc">
-			         	<p>jhzgjzhge</p>
-					</div>
-					
-		        </div>
-				<div class="img">
-						<a href="detail.html" target="_blank"  title=" See details">
-					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
-					 </a>
-			        <div class="desc">
-			         	<p>jhzgjzhge</p>
-					</div>
-					
-		        </div>
-				<div class="img">
-						<a href="detail.html" target="_blank"  title=" See details">
-					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
-					 </a>
-			        <div class="desc">
-			         	<p>jhzgjzhge</p>
-					</div>
-					
-		        </div>
-				<div class="img">
-						<a href="detail.html" target="_blank"  title=" See details">
-					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
-					 </a>
-			        <div class="desc">
-			         	<p>jhzgjzhge</p>
-					</div>
-					
-		        </div>
-				<div class="img">
-						<a href="detail.html" target="_blank"  title=" See details">
-					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
-					 </a>
-			        <div class="desc">
-			         	<p>jhzgjzhge</p>
-					</div>
-					
-		        </div>
-				<div class="img">
-						<a href="detail.html" target="_blank"  title=" See details">
-					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
-					 </a>
-			        <div class="desc">
-			         	<p>jhzgjzhge</p>
-					</div>
-					
-		        </div>
-				<div class="img">
-						<a href="detail.html" target="_blank"  title=" See details">
-					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
-					 </a>
-			        <div class="desc">
-			         	<p>jhzgjzhge</p>
-					</div>
-					
-		        </div>
-				<div class="img">
-						<a href="detail.html" target="_blank"  title=" See details">
-					 <img  name="img1" src="1.jpg" alt="yoow towww"/  title=" Click to see details" width="30" height="40">
-					 </a>
-			        <div class="desc">
-			         	<p>jhzgjzhge</p>
-					</div>
-					
-		        </div>
-				<div class="img">
-				<div id="trombi"/>
+				
+				 <ul id="trombi">
+	 </ul>
+	 <ul id="trombitofs">
+	 </ul>
+				
+				
 				<script type="text/javascript">
+				var rssPhoto = "http://picasaweb.google.com/data/feed/base/user/107069028374380439764/albumid/6340716155566922545?alt=rss&kind=photo&hl=en_US";
 					var urlData = "php/lecteurFlux.php?url=THYP1617data";
 						d3.csv(urlData, function(data)
 						{
 							//prices is an array of json objects containing the data in from the csv
 							//console.log("data:", data);
 							data.forEach(function(d,i){
-									var h = d.Prénom+" "+d.Nom+" "+d['N° étudiant'];
-								$('<div class="data" id="data_' + i + '"></div>').html(h).appendTo('#trombi');
-									
-							});
-						})
-						</script>
-				</div>
+					
+											var h = '<a href="detail.html">'
+											 +'<div class="img">'
+											 +'<img src="1.jpg" width="100" id="tof_'+d['lien vers la photo']+'" >'
+											 +'<div>'
+											 +'<h4>'+d['Prénom']+' '+d.Nom+'</h4>'
+											 +'<h5>'+d['N° étudiant']+'</h5>'
+											 +'</div>'
+											 +'</div>'
+											 +'</a>';
+											$('<div></div>').html(h).appendTo('#trombi');
+														});
+						
+						});
+						d3.xml("php/lecteurFlux.php?url=THYP1617photo", "application/xml", function(xml) {
+				 var tofs = xml.documentElement.getElementsByTagName("enclosure");
+				 for (i = 0; i < tofs.length; i++) {
+					 console.log(tofs[i].getAttribute("url"));
+					 d3.select("#tof_"+i)
+							 .attr('src',tofs[i].getAttribute("url"))
+							 .style('width',100);
+
+				 }
+
+			 });
+						
+						
+				</script>
+				
 				
 </div>
 		

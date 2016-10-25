@@ -8,6 +8,38 @@ html {
 }
 
 
+a {
+	color: black;
+}
+a:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+div.img {
+    margin: 50px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+
+}
+div.img:hover {
+    border: 1.5px solid #777;
+
+}
+div.img img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 5px;
+    
+}
+
+h1{
+
+	letter-spacing: 7.5px ;
+}
+
 body {
    font-family: "Calibri"; 
    font-weight: 300;
@@ -19,66 +51,17 @@ a {
     color: black;
 }
 
-.titles { 
-	text-align: center;
-	color: white;
-	letter-spacing: 8;
-    border-bottom: 3px solid white;
-    padding-bottom: 6px;
-    
-
-
-}
-
-
-
-.tab{
-	color: white;
-
-}
-.sommaire { 
-	text-align: center;
-	text-align: justify;
-	text-justify: inter-word;
-	
-
-
-}
-
-.formation { 
-	text-align: center;
-	color: #ffb3f3;
-	font-weight: bold;
-
-
-}
-
-.content {
-
-	background-color:  rgba(43,43,43,0.6);
-	color: white;
-	padding: 150px;
-	height: 1508px;
-	width: 480px;
-	margin: 100 auto;
-
-}
-
-.profile_photo{
-	height: 230px;
-	border-radius: 5%;
-
-}
-
-h1{
-	    letter-spacing: 6;
-}
 
 
 th {
 
 	font-weight: normal;
 	letter-spacing: 1;
+}
+
+.blocc {
+
+	 display: inline;
 }
 
 
