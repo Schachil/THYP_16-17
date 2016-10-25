@@ -1,0 +1,177 @@
+<!doctype html>
+<!--[if IE 8]><html lang="en" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+
+	<meta charset="utf-8">
+	<title>THYP Trombino</title>
+	<meta name="description" content="trombinoscope of master 2 THYP.">
+	<meta name="keywords" content="Informatique, web, hypermedia">
+
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic">
+	<link rel="stylesheet" href="assets/css/site-v=20160905.css">
+
+	<!-- JS -->
+	
+    <script type="text/javascript" src="js/d3.v3.js"></script>
+ 	<script type="text/javascript" src="js/jquery.min.js" ></script>
+	
+	<script src="assets/js/libs/modernizr.js"></script>
+	<script src="http://use.typekit.net/yzq3vbo.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+	
+</head>
+
+<body class="page-about">
+
+
+	<div class="site-wrapper" id="site-wrapper">
+
+
+	<div class="page-wrapper" id="page-wrapper">
+
+		<section class="about-introduction">
+		
+			<div class="container-large">
+
+				<h3>THYP Trombino&hellip;</h3>
+
+			</div>
+			<br/><br/><br/><br/>
+</section>
+
+
+		<!-- intération de l'appel du csv depuis google drive-->
+
+		<section id="our-team" class="our-team">
+
+			<ul id="THYP">
+			</ul>
+			<ul id="THYPtofs">
+			</ul>
+				
+					
+					<!--<a href="about/Dave-Wrightson.html">-->
+						
+						 <script type="text/javascript">
+		var rssPhoto = "http://picasaweb.google.com/data/feed/base/user/107069028374380439764/albumid/6340716155566922545?alt=rss&kind=photo&hl=en_US";
+	    var urlData = "php/lecteurFlux.php?url=THYP1617data";
+    		d3.csv(urlData, function(data)
+    	    {
+    	        //prices is an array of json objects containing the data in from the csv
+    	        //console.log("data:", data);
+    	        data.forEach(function(d,i){
+	    	        //var h = '<a href="about/will-blackmore.html"><div class="person" id="data_' + i + '"><img src="h.jpg"></div>'d.Prénom+" "+d.Nom+" "+d['N° étudiant'];
+	    	        var h = '<a href="about/will-blackmore.html">'
+	    	        +'<div class="person">'
+	    	        +'<img src="h.jpg" id="tof_'+d['lien vers la photo']+'" >'
+	    	        +'<div>'
+	    	        +'<h4>'+d['Prénom']+' '+d.Nom+'</h4>'
+	    	        +'<h5>'+d['N° étudiant']+'</h5>'
+	    	        +'</div>'
+	    	        +'</div>'
+	    	        +'</a>';		    	        	
+    	            $('<li></li>').html(h).appendTo('#THYP');
+    	        });
+    	        d3.xml("../samszo/php/lecteurFlux.php?url=THYP1617photo", "application/xml", function(xml) {
+    	        	var tofs = xml.documentElement.getElementsByTagName("enclosure"); 
+    	        	for (i = 0; i < tofs.length; i++) { 
+    	        		console.log(tofs[i].getAttribute("url"));
+        	        	d3.select("#tof_"+i)
+        	        		.attr('src',tofs[i].getAttribute("url"))
+        	        		.style('width',100);
+
+    	        		//
+    	    	        var h = '<div class="person">'
+    		    	        +'<img src="'+tofs[i].getAttribute("url")+'" id="tof_'+i+'" >'
+    		    	        +'<div>'
+    		    	        +'<h4>'+i+'</h4>'
+    		    	        +'</div>'
+    		    	        +'</div>';		    	        	
+    	        		$('<li></li>').html(h).appendTo('#THYPtofs');
+    	        		//
+    	        	}
+
+    	        	});
+    	        
+    	    })
+    	    </script>
+					
+		<!-- End intération de l'appel du csv depuis google drive-->
+
+
+		</section>
+
+	</div>
+
+		<footer class="site-footer" id="site-footer">
+
+			<a href="about.html#site-wrapper" class="back-to-top" id="back-to-top">
+				<img src="assets/img/template/logo-e.svg" alt="Engage Interactive">
+				<span class="icon-arrow-up"></span>
+			</a>
+
+			<p id="footer-strapline">Trombinoscope THYP&trade;</p>
+
+			<div class="bottom">
+
+				<div class="container-large">
+
+					<ul class="site">
+						<li><a href="index.html" class="dimmed">&copy; THYP 2016-2017</a></li>
+
+					</ul>
+
+		
+
+				</div>
+
+			</div>
+
+		</footer>
+
+	</div>
+
+	<div class="site-menu" id="site-menu" data-scroll-scope="force">
+
+		<div class="site-menu__wrapper" id="site-menu-wrapper">
+
+			<section class="site-menu__navigation" id="site-menu-navigation" data-scroll-scope="force">
+
+				<div class="inner" id="site-menu-navigation-inner">
+
+					<h1 class="site-menu__title">Explore our site</h1>
+
+					<ul>
+						<li><a href="index.html" >Home</a></li>
+						<li><a href="about.html" class="on">About us</a></li>
+						<li><a href="work.html" >Our work</a></li>
+						<li><a href="services.html" >Services</a></li>
+						<li class="smaller" style="margin-top:3rem;"><a href="blog/announcing-the-engage-elympics.html">contact</a></li>
+						<li class="smaller"><a href="culture.html" >Culture</a></li>
+						<li class="smaller"><a href="blog.html" >Blog</a></li>
+						<li class="smaller" ><a href="careers.html" >Careers</a></li>
+						<li class="smaller"><a href="contact.html" >Contact</a></li>
+					</ul>
+
+				</div>
+
+				<span class="site-menu__close icon-close">Close</span>
+
+			</section>
+
+
+			<div class="site-menu__dim" id="site-menu-dim"></div>
+
+		</div>
+
+	</div>
+
+
+	
+	<script src="assets/js-min/site.js"></script>
+
+</body>
+</html>
