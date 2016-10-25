@@ -26,19 +26,19 @@
 	 <!-- premier rang du trombi-->
 
 	 <div class="row rang1">
-		 <div class="col-md-2 col-md-offset-1 casetr "><p id="hide">Mes informations</p></div>
-		 <div class="col-md-2 casetr"><p class="hide">Mes informations</p></div>
-		 <div class="col-md-2 casetr"><p class="hide">Mes informations</p></div>
-		 <div class="col-md-2 casetr"><p class="hide">Mes informations</p></div>
-		 <div class="col-md-2 casetr"><p class="hide">Mes informations</p></div>
+		 <div class="col-md-2 col-md-offset-1 casetr "><p id="hide"></p></div>
+		 <div class="col-md-2 casetr"><p class="hide"></p></div>
+		 <div class="col-md-2 casetr"><p class="hide"></p></div>
+		 <div class="col-md-2 casetr"><p class="hide"></p></div>
+		 <div class="col-md-2 casetr"><p class="hide"></p></div>
 	 </div>
 	 <!-- deuxieme rang du trombi-->
 	 <div class="row rang2">
-		 <div class="col-md-2 col-md-offset-1 casetr"><span class="hide">Mes informations</span></div>
-		 <div class="col-md-2 casetr"><p class="hide">Mes informations</p></div>
-		 <div class="col-md-2 casetr"><p class="hide">Mes informations</p></div>
-		 <div class="col-md-2 casetr"><p class="hide">Mes informations</p></div>
-		 <div class="col-md-2 casetr"><p class="hide">Mes informations</p></div>
+		 <div class="col-md-2 col-md-offset-1 casetr"><span class="hide"></span></div>
+		 <div class="col-md-2 casetr"><p class="hide"><div
+		 <div class="col-md-2 casetr"><p class="hide"></p></div>
+		 <div class="col-md-2 casetr"><p class="hide"></p></div>
+		 <div class="col-md-2 casetr"><p class="hide"></p></div>
 	 </div>
 
  </div>
@@ -77,6 +77,68 @@
 <div class="col-md-10"><iframe src="dashboard.html" class="ifram1 hide"></iframe></div>
  </div>
  </div>
+ <!-- intération de l'appel du csv depuis google drive-->
+
+ <section id="our-team" class="our-team">
+
+	 <ul id="THYP">
+	 </ul>
+	 <ul id="THYPtofs">
+	 </ul>
+
+
+	 <!--<a href="about/Dave-Wrightson.html">-->
+
+	 <script type="text/javascript">
+		 var rssPhoto = "http://picasaweb.google.com/data/feed/base/user/107069028374380439764/albumid/6340716155566922545?alt=rss&kind=photo&hl=en_US";
+		 var urlData = "php/lecteurFlux.php?url=THYP1617data";
+		 d3.csv(urlData, function(data)
+		 {
+			 //prices is an array of json objects containing the data in from the csv
+			 //console.log("data:", data);
+			 data.forEach(function(d,i){
+				 //var h = '<a href="about/will-blackmore.html"><div class="person" id="data_' + i + '"><img src="h.jpg"></div>'d.Prénom+" "+d.Nom+" "+d['N° étudiant'];
+				 var h = '<a href="#">'
+						 +'<div class="blocmaq">'
+						 +'<img src="h.jpg" id="tof_'+d['lien vers la photo']+'" >'
+						 +'<div>'
+						 +'<h4>'+d['Prénom']+' '+d.Nom+'</h4>'
+						 +'<h5>'+d['N° étudiant']+'</h5>'
+						 +'</div>'
+						 +'</div>'
+						 +'</a>';
+				 $('<div></div>').html(h).appendTo('#THYP');
+			 });
+			 d3.xml("../samszo/php/lecteurFlux.php?url=THYP1617photo", "application/xml", function(xml) {
+				 var tofs = xml.documentElement.getElementsByTagName("enclosure");
+				 for (i = 0; i < tofs.length; i++) {
+					 console.log(tofs[i].getAttribute("url"));
+					 d3.select("#tof_"+i)
+							 .attr('src',tofs[i].getAttribute("url"))
+							 .style('width',50);
+
+					 /*
+					  var h = '<div class="person">'
+					  +'<img src="'+tofs[i].getAttribute("url")+'" id="tof_'+i+'" >'
+					  +'<div>'
+					  +'<h4>'+i+'</h4>'
+					  +'</div>'
+					  +'</div>';
+					  $('<li></li>').html(h).appendTo('#THYPtofs');
+					  */
+				 }
+
+			 });
+
+		 })
+	 </script>
+
+	 <!-- End intération de l'appel du csv depuis google drive-->
+
+
+ </section>
+ <!--footer-->
+
  <div class="container">
  	<div class="row">
 	 <div class="modal-footer fotr">BEKKARI Djamel</div>

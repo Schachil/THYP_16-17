@@ -63,7 +63,7 @@
         var segColor = d3.scale.category20b();
 
         fData.forEach(function(d){
-            d.total =   d.freq.PHP+d.freq.JS;}
+            d.total =   d.freq.PHP+d.freq.JS+d.freq.HTML+d.freq.XML+d.freq.;}
         );
 
         // function to handle histogram.
@@ -285,8 +285,8 @@
 
 <script>
     var dataEtu;
-    d3.csv("data/THYP16-17.csv",null, function(error, data) { pour recuperer en local
-  // d3.csv("php/lecteurFlux.php?url=THYP1617data", null, function(error, data) {
+  //  d3.csv("data/THYP16-17.csv",null, function(error, data) { //pour recuperer en local
+  d3.csv("php/lecteurFlux.php?url=THYP1617data", null, function(error, data) {
         freqData = [];
         dataEtu = data;
         /*formulaire THYP*/

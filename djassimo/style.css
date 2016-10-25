@@ -39,6 +39,7 @@ body {
     background-color: gainsboro;
     border: 4px groove cyan;
     height: 245px;
+    width: 200px;
 }
 .blocmaq{
     background-color: burlywood;
