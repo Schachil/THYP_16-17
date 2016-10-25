@@ -293,8 +293,9 @@ d3.csv("php/lecteurFlux.php?url=THYP1617data", null, function(error, data) {
 			State:d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase()
 			,freq:{
                 PHP:comp[d["Vos compétences : langage informatique [PHP]"]], 
-                JS:comp[d["Vos compétences : langage informatique [Javascript]"]], 
-			}
+                JS:comp[d["Vos compétences : langage informatique [Javascript]"]],
+
+            }
 		};
 		d.state = d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase();	
 		

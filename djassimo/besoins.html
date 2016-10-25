@@ -1,93 +1,47 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+body{
+    width:1060px;
+    margin:50px auto;
+}
+path {  stroke: #fff; }
+path:hover {  opacity:0.9; }
+rect:hover {  fill:blue; }
+.axis {  font: 10px sans-serif; }
+.legend tr{    border-bottom:1px solid grey; }
+.legend tr:first-child{    border-top:1px solid grey; }
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
 
-<head>
-     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+.x.axis path {  display: none; }
+.legend{
+    margin-bottom:76px;
+    display:inline-block;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+.legend td{
+    padding:4px 5px;
+    vertical-align:bottom;
+}
+.legendFreq, .legendPerc{
+    align:right;
+    width:50px;
+}
 
-     <title>Curriculum vitae</title>
-
-     <style type="text/css">
-        * { margin: 0; padding: 0; }
-        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
-        .clear { clear: both; }
-        #page-wrap { width: 800px; margin: 40px auto 60px; }
-        #pic { float: right; margin: -30px 0 0 0; }
-        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
-        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
-        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
-        p { margin: 0 0 16px 0; }
-        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
-        a:hover { border-bottom-style: solid; color: black; }
-        ul { margin: 0 0 32px 17px; }
-        #objective { width: 500px; float: left; }
-        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
-        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
-        dd { width: 600px; float: right; }
-        dd.clear { float: none; margin: 0; height: 15px; }
-		body{
-		width:1060px;
-		margin:50px auto;
-		}
-		path {  stroke: #fff; }
-		path:hover {  opacity:0.9; }
-		rect:hover {  fill:blue; }
-		.axis {  font: 10px sans-serif; }
-		.legend tr{    border-bottom:1px solid grey; }
-		.legend tr:first-child{    border-top:1px solid grey; }
-
-		.axis path,
-		.axis line {
-		fill: none;
-		stroke: #000;
-		shape-rendering: crispEdges;
-		}
-
-		.x.axis path {  display: none; }
-		.legend{
-			margin-bottom:76px;
-		display:inline-block;
-		border-collapse: collapse;
-		border-spacing: 0px;
-		}
-		.legend td{
-		padding:4px 5px;
-		vertical-align:bottom;
-		}
-		.legendFreq, .legendPerc{
-		align:center;
-		width:500px;
-		}
-
-     </style>
-</head>
+</style>
 <body>
-    <div id="page-wrap">    
-        <img src="images/inconnu.png" alt="Photo of Cthulu" id="pic" />
-        <div id="contact-info" class="vcard">  
-            <h1 id="sltEtu"></h1>
-            <p>
-				Numéro:<span id="numEtu"></span><br/>		
-                Email: <span id="mailEtu"></span><br />
-				Inscrit le:<span id="horEtu"></span>
-            </p>
-        </div>       	
-        <dl> 
-			<dd class="clear"></dd>	
-			<dd class="clear"></dd>			
-			<dt>COMPETENCES TECHNIQUES</dt>
-			<dd id='dashboard'></dd>
-			<dd class="clear"></dd>
-			<dt>EXPERIENCE PROFESSIONNELLE</dt>			
-			<dd class="clear"></dd>            
-            <dt>FORMATION</dt>       
-            <dd class="clear"></dd>
-            <dt>LANGUES ET LOISIRES</dt>   
-            <dd class="clear"></dd>
-        </dl>
-    </div>
-</body>
+<h1>Les besoins des étudiants</h1>
+<h2 id="sltEtu"></h2>
+<p id="mailEtu"></p>
+<div id='dashboard'>
+</div>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 function dashboard(id, fData){
@@ -109,14 +63,34 @@ function dashboard(id, fData){
    var segColor = d3.scale.category20b();
    	
     fData.forEach(function(d){
-        d.total =   d.freq.PHP+d.freq.JS+d.freq.HTML;}
+        d.total =   d.freq.EditWeb
+        		+d.freq.HTML
+        		+d.freq.Responsive
+        		+d.freq.ScenarStat
+        		+d.freq.ScenarMulti
+        		+d.freq.Carto
+        		+d.freq.Rss
+        		+d.freq.Meta
+        		+d.freq.LienSponsor
+        		+d.freq.GestAccess
+        		+d.freq.Forum
+        		+d.freq.Newsletter
+        		+d.freq.Enquete
+        		+d.freq.Veille
+        		+d.freq.Ranking
+        		+d.freq.SocialNetwork
+        		+d.freq.Ecommerce
+        		+d.freq.Epublication
+        		+d.freq.Podcast
+        		+d.freq.PublicationDistance
+        		+d.freq.Multilingue;}
                     );
     
     // function to handle histogram.
     function histoGram(fD){
         var hG={},    hGDim = {t: 60, r: 0, b: 30, l: 0};
-        hGDim.w = 420 - hGDim.l - hGDim.r, 
-        hGDim.h = 220 - hGDim.t - hGDim.b;
+        hGDim.w = 500 - hGDim.l - hGDim.r, 
+        hGDim.h = 300 - hGDim.t - hGDim.b;
             
         //create svg for histogram.
         var hGsvg = d3.select(id).append("svg")
@@ -169,13 +143,10 @@ function dashboard(id, fData){
         			d3.select("#sltEtu").text(etu["Prénom"]+' '+etu["Nom"]+' : '+etu["N° étudiant"]);
         			d3.select("#mailEtu").text(etu["E-mail"]);        			
         			*/
-        		    
-					d3.select("#horEtu").text(etu["Horodateur"]);
-					d3.select("#sltEtu").text(etu["Prénom"]+' '+etu["Nom"]);
-        			d3.select("#numEtu").text(etu["N° étudiant"]);
-					d3.select("#mailEtu").text(etu["E-mail"]);        			
-        		
-				}
+        			d3.select("#sltEtu").text(etu["Votre prénom"]+' '+etu["Votre nom"]+' : '+etu["Lien vers un site qui vous inspire"]);
+        			d3.select("#mailEtu").text(etu["Votre mail"]);        			
+        			
+        		}
 	
 			// filter for selected state.
             var st = fData.filter(function(s){ return s.State == d[0];})[0],
@@ -188,11 +159,9 @@ function dashboard(id, fData){
         
         function mouseout(d){    // utility function to be called on mouseout.
 	    		//met à jour le titre de la légende
-			d3.select("#sltEtu").text("Prénom Nom");
-			d3.select("#numEtu").text("---");
+			d3.select("#sltEtu").text("---");
 			d3.select("#mailEtu").text("---");
-			d3.select("#horEtu").text("---");
-			
+
         		// reset the pie-chart and legend.    
             pC.update(tF);
             leg.update(tF);
@@ -222,7 +191,7 @@ function dashboard(id, fData){
     
     // function to handle pieChart.
     function pieChart(pD){
-        var pC ={},    pieDim ={w:170, h: 170};
+        var pC ={},    pieDim ={w:250, h: 250};
         pieDim.r = Math.min(pieDim.w, pieDim.h) / 2;
                 
         // create svg for pie chart.
@@ -315,10 +284,36 @@ function dashboard(id, fData){
     }
     
     // calculate total frequency by segment for all state.
+    /*
     var tF = [
-            'PHP',
-			'JS',
-			'HTML'].map(function(d){ 
+        'HTML',
+        'Javascript',
+        'Java'].map(function(d){ 
+        return {type:d, freq: d3.sum(fData.map(function(t){ return t.freq[d];}))}; 
+    });
+    */
+    var tF = [
+            'EditWeb',
+			'HTML',
+			'Responsive',
+			'ScenarStat',
+			'ScenarMulti',
+			'Carto',
+			'Rss',
+			'Meta',
+			'LienSponsor',
+			'GestAccess',
+			'Forum',
+			'Newsletter',
+			'Enquete',
+			'Veille',
+			'Ranking',
+			'SocialNetwork',
+			'Ecommerce',
+			'Epublication',
+			'Podcast',
+			'PublicationDistance',
+			'Multilingue'].map(function(d){ 
               return {type:d, freq: d3.sum(fData.map(function(t){ return t.freq[d];}))}; 
           });    
 
@@ -333,23 +328,69 @@ function dashboard(id, fData){
 </script>
 
 <script>
+var freqData=[
+{State:'AL',freq:{low:4786, mid:1319, high:249}}
+,{State:'AZ',freq:{low:1101, mid:412, high:674}}
+,{State:'CT',freq:{low:932, mid:2149, high:418}}
+,{State:'DE',freq:{low:832, mid:1152, high:1862}}
+,{State:'FL',freq:{low:4481, mid:3304, high:948}}
+,{State:'GA',freq:{low:1619, mid:167, high:1063}}
+,{State:'IA',freq:{low:1819, mid:247, high:1203}}
+,{State:'IL',freq:{low:4498, mid:3852, high:942}}
+,{State:'IN',freq:{low:797, mid:1849, high:1534}}
+,{State:'KS',freq:{low:162, mid:379, high:471}}
+];
 var dataEtu;
-d3.csv("php/lecteurFlux.php?url=THYP1617data", null, function(error, data) {
+//d3.csv("data/EtudiantsOCI15-16.csv", null, function(error, data) {
+d3.csv("php/lecteurFlux.php?url=CFI1617data", null, function(error, data) {
 	freqData = [];
 	dataEtu = data;
-	/*formulaire THYP*/
-																					
-	var comp = {"médiocre":5,"trop fort":10,"mauvais":2,"connais pas":1};
+	/*formulaire OCI
+	var comp = {"j'men sors":12,"fort":15,"boffff":8,"pas très bon":10,"connais pas":2,"expert":18};
 	data.forEach(function(d){
 		var args = {
 			State:d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase()
 			,freq:{
-                PHP:comp[d["Vos compétences : langage informatique [PHP]"]], 
-                JS:comp[d["Vos compétences : langage informatique [Javascript]"]], 
-                HTML:comp[d["Vos compétences : langage informatique [HTML]"]], 
+                HTML:comp[d["Vos compétences [HTML]"]], 
+                Javascript:comp[d["Vos compétences [Javascript]"]], 
+                Java:comp[d["Vos compétences [Java]"]]}
+		};
+		d.state = d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase();
+		freqData.push(args);		
+	});
+	d.state = d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase();	
+	*/
+	/*formulaire CFI*/
+																					
+	var comp = {"Pas besoin":1,"Besoin d'approfondissement":5,"Besoin urgent":10};
+	data.forEach(function(d){
+		var args = {
+			State:d["Votre nom"].substring(0,1).toUpperCase()+" "+d["Votre prénom"].substring(0,1).toUpperCase()
+			,freq:{
+                EditWeb:comp[d["Quelles sont besoins ? [connaître les outils d’édition web (éditeurs html, CSS, …) ]"]], 
+                HTML:comp[d["Quelles sont besoins ? [connaître les base du langage HTML 5]"]], 
+                Responsive:comp[d["Quelles sont besoins ? [connaître les bases du responsive web design (RWD)]"]],
+                ScenarStat:comp[d["Quelles sont besoins ? [savoir scénariser et réaliser les rubriques « statiques » d’un site web]"]],
+                ScenarMulti:comp[d["Quelles sont besoins ? [savoir scénariser et réaliser des rubriques multimédias (« page vidéo », « page photo », exposition virtuelle, …)]"]],
+                Carto:comp[d["Quelles sont besoins ? [savoir utiliser des cartes géographiques interactives]"]],
+                Rss:comp[d["Quelles sont besoins ? [savoir travailler avec le RSS]"]],
+                Meta:comp[d["Quelles sont besoins ? [savoir utiliser correctement les métadonnées pour une meilleure diffusion des contenus du site]"]],
+                LienSponsor:comp[d["Quelles sont besoins ? [savoir utiliser les programmes de liens sponsorisés]"]],
+                GestAccess:comp[d["Quelles sont besoins ? [savoir utiliser des outils de gestion d’accès aux rubriques (accès par mot de passe, …)]"]],
+                Forum:comp[d["Quelles sont besoins ? [savoir mettre en place et gérer un forum de discussion]"]],
+                Newsletter:comp[d["Quelles sont besoins ? [savoir mettre en place et gérer un service de type « newsletter » (impliquant la mise en place et la gestion d’un annuaire d’abonnés)]"]],
+                Enquete:comp[d["Quelles sont besoins ? [savoir mettre en place des enquêtes enligne]"]],
+                Veille:comp[d["Quelles sont besoins ? [savoir mettre en place et exploiter des outils de veille d’information]"]],
+                Ranking:comp[d["Quelles sont besoins ? [savoir mettre en place des outils de type « ranking »]"]],
+                SocialNetwork:comp[d["Quelles sont besoins ? [savoir intégrer, dans un page, des outils de diffusion web 2 (twitter, facebook, …)]"]],
+                Ecommerce:comp[d["Quelles sont besoins ? [savoir faire fonctionner, sur un site, un service de type « e-commerce » (vente de produits, …)]"]],
+                Epublication:comp[d["Quelles sont besoins ? [savoir réaliser et diffuser des e-publications : brochures, dépliants, publications multimédias, …]"]],
+                Podcast:comp[d["Quelles sont besoins ? [savoir réaliser des podcasts]"]],
+                PublicationDistance:comp[d["Quelles sont besoins ? [savoir gérer la publication à distance d’un site web]"]],
+                Multilingue:comp[d["Quelles sont besoins ? [savoir gérer un site multilingue]"]],
 			}
 		};
-		d.state = d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase();	
+		d.state = d["Votre nom"].substring(0,1).toUpperCase()+" "+d["Votre prénom"].substring(0,1).toUpperCase();	
 		
 		//vérification des données
 		for(var p in args.freq) {
@@ -364,4 +405,3 @@ d3.csv("php/lecteurFlux.php?url=THYP1617data", null, function(error, data) {
 });
 
 </script>
-</html>

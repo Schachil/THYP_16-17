@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Trombiniscope</title>
+	<meta charset="utf-8">
+	 <link rel="icon" type="image/png" href="images/img2.png" />
+
+    <script type="text/javascript" src="js/d3.v3.js"></script>
+
+ </head>
+ <body>
+ <link rel="stylesheet" href="style.css">
+ <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+ <script src="bootstrap/dist/js/jquery-2.1.4.js"></script>
+ <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+ <style>
+	 .prof_bckgrnd{
+		 background-image: url("images/join-uxcam.png");
+		 background-repeat: no-repeat;
+
+	 }
+ </style>
+ <!-- maquette-->
+
+ <div class="container blocmaq">
+	 <!-- premier rang du trombi-->
+
+	 <div class="row rang1">
+		 <div class="col-md-2 col-md-offset-1 casetr "><p id="hide"></p></div>
+		 <div class="col-md-2 casetr"><p class="hide"></p></div>
+		 <div class="col-md-2 casetr"><p class="hide"></p></div>
+		 <div class="col-md-2 casetr"><p class="hide"></p></div>
+		 <div class="col-md-2 casetr"><p class="hide"></p></div>
+	 </div>
+	 <!-- deuxieme rang du trombi-->
+	 <div class="row rang2">
+		 <div class="col-md-2 col-md-offset-1 casetr"><span class="hide"></span></div>
+		 <div class="col-md-2 casetr"><p class="hide"><div
+		 <div class="col-md-2 casetr"><p class="hide"></p></div>
+		 <div class="col-md-2 casetr"><p class="hide"></p></div>
+		 <div class="col-md-2 casetr"><p class="hide"></p></div>
+	 </div>
+
+ </div>
+ <div>
+	 <div class="hide"><p>Bonjour</p></div></div>
+ <script type="text/javascript" src="js/monscript.js"></script>
+ 	<div id="trombi"/>
+    <script type="text/javascript">/*
+	    var urlData = "php/lecteurFlux.php?url=THYP1617data";
+    		d3.csv(urlData, function(data)
+    	    {
+    	        //prices is an array of json objects containing the data in from the csv
+    	        //console.log("data:", data);
+    	        data.forEach(function(d,i){
+	    	        	var h = "N"+ i + " " + d.Prénom+" "+d.Nom+" "+d['N° étudiant'];
+
+    	            $('<div class="data" id="data_' + i + '"></div>').html(h).appendTo('#trombi');
+					//$('<div class="data" id="data_' + i + '"></div>').html(h).appendTo(this).next('.casetr');
+
+    	        });
+    	    })
+*/
+	</script>
+ <br><br>
+ <div class="container">
+	 <div class="row">
+		 <div class="col-md-8 col-md-offset-4">
+			 <button type="button" class="btn btn-success voirg">Voir le graphe</button>
+			 <button type="button" class="btn btn-danger cachg">cacher le graphe</button>
+		 </div>
+	 </div>
+ </div>
+ <br><br>
+ <div class="container presgraph ">
+	 <div class="row modal-content">
+<div class="col-md-10"><iframe src="dashboard.html" class="ifram1 hide"></iframe></div>
+ </div>
+ </div>
+ <!-- intération de l'appel du csv depuis google drive-->
+
+ <section id="our-team" class="our-team">
+
+	 <ul id="THYP">
+	 </ul>
+	 <ul id="THYPtofs">
+	 </ul>
+
+
+	 <!--<a href="about/Dave-Wrightson.html">-->
+
+	 <script type="text/javascript">
+		 var rssPhoto = "http://picasaweb.google.com/data/feed/base/user/107069028374380439764/albumid/6340716155566922545?alt=rss&kind=photo&hl=en_US";
+		 var urlData = "php/lecteurFlux.php?url=THYP1617data";
+		 d3.csv(urlData, function(data)
+		 {
+			 //prices is an array of json objects containing the data in from the csv
+			 //console.log("data:", data);
+			 data.forEach(function(d,i){
+				 //var h = '<a href="about/will-blackmore.html"><div class="person" id="data_' + i + '"><img src="h.jpg"></div>'d.Prénom+" "+d.Nom+" "+d['N° étudiant'];
+				 var h = '<a href="#">'
+						 +'<div class="blocmaq">'
+						 +'<img src="h.jpg" id="tof_'+d['lien vers la photo']+'" >'
+						 +'<div>'
+						 +'<h4>'+d['Prénom']+' '+d.Nom+'</h4>'
+						 +'<h5>'+d['N° étudiant']+'</h5>'
+						 +'</div>'
+						 +'</div>'
+						 +'</a>';
+				 $('<div></div>').html(h).appendTo('#THYP');
+			 });
+			 d3.xml("../samszo/php/lecteurFlux.php?url=THYP1617photo", "application/xml", function(xml) {
+				 var tofs = xml.documentElement.getElementsByTagName("enclosure");
+				 for (i = 0; i < tofs.length; i++) {
+					 console.log(tofs[i].getAttribute("url"));
+					 d3.select("#tof_"+i)
+							 .attr('src',tofs[i].getAttribute("url"))
+							 .style('width',50);
+
+					 /*
+					  var h = '<div class="person">'
+					  +'<img src="'+tofs[i].getAttribute("url")+'" id="tof_'+i+'" >'
+					  +'<div>'
+					  +'<h4>'+i+'</h4>'
+					  +'</div>'
+					  +'</div>';
+					  $('<li></li>').html(h).appendTo('#THYPtofs');
+					  */
+				 }
+
+			 });
+
+		 })
+	 </script>
+
+	 <!-- End intération de l'appel du csv depuis google drive-->
+
+
+ </section>
+ <!--footer-->
+
+ <div class="container">
+ 	<div class="row">
+	 <div class="modal-footer fotr">BEKKARI Djamel</div>
+	</div>
+ </div>
+ </body>
+</html>
