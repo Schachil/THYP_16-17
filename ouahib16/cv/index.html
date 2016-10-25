@@ -109,7 +109,7 @@ function dashboard(id, fData){
    var segColor = d3.scale.category20b();
    	
     fData.forEach(function(d){
-        d.total =   d.freq.PHP+d.freq.JS;}
+        d.total =   d.freq.PHP+d.freq.JS+d.freq.HTML;}
                     );
     
     // function to handle histogram.
@@ -317,7 +317,8 @@ function dashboard(id, fData){
     // calculate total frequency by segment for all state.
     var tF = [
             'PHP',
-			'JS'].map(function(d){ 
+			'JS',
+			'HTML'].map(function(d){ 
               return {type:d, freq: d3.sum(fData.map(function(t){ return t.freq[d];}))}; 
           });    
 
@@ -345,6 +346,7 @@ d3.csv("php/lecteurFlux.php?url=THYP1617data", null, function(error, data) {
 			,freq:{
                 PHP:comp[d["Vos compétences : langage informatique [PHP]"]], 
                 JS:comp[d["Vos compétences : langage informatique [Javascript]"]], 
+                HTML:comp[d["Vos compétences : langage informatique [HTML]"]], 
 			}
 		};
 		d.state = d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase();	
