@@ -1,7 +1,8 @@
-body{
-background-image:url(file:///D|/thyp-COURS/Numerique/Souhaila/images/fond.jpg);
 
-}
+
+	body{
+	background-image:url(file:///C|/wamp/www/THYP_16-17/Souhaila/images/fond1.jpeg);
+		}
 
 #container{
 	width :1000px;
@@ -12,23 +13,25 @@ background-image:url(file:///D|/thyp-COURS/Numerique/Souhaila/images/fond.jpg);
 	border-radius:10px;}   
 	
 	header{
+		
 		width:1000px;
 		font-size:20px;
 		text-align:center;
-		background-color:pink;
-		font-style: above;
+		background-color:#FFE4C4;
+		font-style:above;
+		
 		
 	}
 	footer{
 		width:1000px;
 		font-size:20px;
 		text-align:center;
-		background-color:pink;
+		background-color:#FFE4C4;
 		clear:both;
 		
 	}
 	#content{
-		width:1000pxpx;
+		width:1000px;
 		margin-left:auto;
 		margin-right:auto;
 	}
