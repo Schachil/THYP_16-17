@@ -5,7 +5,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="" />
 <meta name="keywords" content="" />
-<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+ <script type="text/javascript" src="js/d3.v3.js"></script>
+ 	<script type="text/javascript" src="js/jquery.min.js" ></script>
+	
+	<script>try{Typekit.load();}catch(e){}</script> 
 </head>
 <body>
 
