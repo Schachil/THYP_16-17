@@ -1,0 +1,218 @@
+<!doctype html>
+<!--[if IE 8]><html lang="en" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+
+	<meta charset="utf-8">
+	<title>THYP Trombino</title>
+	<meta name="description" content="trombinoscope of master 2 THYP.">
+	<meta name="keywords" content="Informatique, web, hypermedia">
+
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic">
+	<link rel="stylesheet" href="assets/css/site-v=20160905.css">
+
+	<!-- JS -->
+	
+    <script type="text/javascript" src="js/d3.v3.js"></script>
+ 	<script type="text/javascript" src="js/jquery.min.js" ></script>
+	
+	<script src="assets/js/libs/modernizr.js"></script>
+	<script src="http://use.typekit.net/yzq3vbo.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+	
+</head>
+
+<body class="page-about">
+
+
+	<div class="site-wrapper" id="site-wrapper">
+
+
+	<div class="page-wrapper" id="page-wrapper">
+
+		<section class="about-introduction">
+		
+			<div class="container-large">
+
+				<h3>THYP Trombino&hellip;</h3>
+
+			</div>
+			<br/><br/><br/><br/>
+</section>
+
+
+		<!-- intération de l'appel du csv depuis google drive-->
+
+		<section id="our-team" class="our-team">
+
+			<ul>
+				
+					
+					<!--<a href="about/Dave-Wrightson.html">-->
+						<div id="THYP" ><!--<div>Dave Wrightson</div>-->
+						
+						 <script type="text/javascript">
+	    var urlData = "php/lecteurFlux.php?url=THYP1617data";
+    		d3.csv(urlData, function(data)
+    	    {
+    	        //prices is an array of json objects containing the data in from the csv
+    	        //console.log("data:", data);
+    	        data.forEach(function(d,i){
+	    	        	var h = d.Prénom+" "+d.Nom+" "+d['N° étudiant'];
+    	            $('<div class="person" id="data_' + i + '"><img src="h.jpg"></div>').html(h).appendTo('#THYP');
+    	        		
+    	        });
+    	    })
+    	    </script>
+		</div>	
+					
+		<!-- End intération de l'appel du csv depuis google drive-->
+
+
+				
+					<li>
+						<a href="about/will-blackmore.html">
+							<div class="person">
+	<img src="https://engage-site-cms.s3.amazonaws.com/production/utility/users/8a3f26224bedd4a8d4bb703976e49185.jpg">
+	<div>
+		<h4>Will Blackmore</h4>
+
+					<h5>UX Director</h5>
+		
+	</div>
+</div>						</a>
+					</li>
+
+				
+					<li>
+						<a href="about/tom-schofield.html">
+							<div class="person">
+	<img src="https://engage-site-cms.s3.amazonaws.com/production/utility/users/53d7fe7679154e744abb8001a29c998f.jpg">
+	<div>
+		<h4>Tom Schofield</h4>
+
+					<h5>Creative director</h5>
+		
+	</div>
+</div>						</a>
+					</li>
+
+				
+					<li>
+						<a href="about/durham-hale.html">
+							<div class="person">
+	<img src="https://engage-site-cms.s3.amazonaws.com/production/utility/users/30b66916896dc4f1b45c821632b8d395.jpg">
+	<div>
+		<h4>Durham Hale</h4>
+
+					<h5>Technical Director</h5>
+		
+	</div>
+</div>						</a>
+					</li>
+
+				
+					<li>
+						<a href="about/dom-mernock.html">
+							<div class="person">
+	<img src="https://engage-site-cms.s3.amazonaws.com/production/utility/users/1ea17ea59effdfd8e1ad16ef96d19480.jpg">
+	<div>
+		<h4>Dom Mernock</h4>
+
+					<h5>Strategy director</h5>
+		
+	</div>
+</div>						</a>
+					</li>
+
+				
+					<li>
+						<a href="about/viki-ross.html">
+							<div class="person">
+	<img src="https://engage-site-cms.s3.amazonaws.com/production/utility/users/71411b98797d751ae217f50af4089fb2.jpg">
+	<div>
+		<h4>Viki Ross</h4>
+
+					<h5>Studio Manager</h5>
+		
+	</div>
+</div>						</a>
+					</li>
+				
+				</ul>
+
+		</section>
+
+	</div>
+
+		<footer class="site-footer" id="site-footer">
+
+			<a href="about.html#site-wrapper" class="back-to-top" id="back-to-top">
+				<img src="assets/img/template/logo-e.svg" alt="Engage Interactive">
+				<span class="icon-arrow-up"></span>
+			</a>
+
+			<p id="footer-strapline">Trombinoscope THYP&trade;</p>
+
+			<div class="bottom">
+
+				<div class="container-large">
+
+					<ul class="site">
+						<li><a href="index.html" class="dimmed">&copy; THYP 2016-2017</a></li>
+
+					</ul>
+
+		
+
+				</div>
+
+			</div>
+
+		</footer>
+
+	</div>
+
+	<div class="site-menu" id="site-menu" data-scroll-scope="force">
+
+		<div class="site-menu__wrapper" id="site-menu-wrapper">
+
+			<section class="site-menu__navigation" id="site-menu-navigation" data-scroll-scope="force">
+
+				<div class="inner" id="site-menu-navigation-inner">
+
+					<h1 class="site-menu__title">Explore our site</h1>
+
+					<ul>
+						<li><a href="index.html" >Home</a></li>
+						<li><a href="about.html" class="on">About us</a></li>
+						<li><a href="work.html" >Our work</a></li>
+						<li><a href="services.html" >Services</a></li>
+						<li class="smaller" style="margin-top:3rem;"><a href="blog/announcing-the-engage-elympics.html">contact</a></li>
+						<li class="smaller"><a href="culture.html" >Culture</a></li>
+						<li class="smaller"><a href="blog.html" >Blog</a></li>
+						<li class="smaller" ><a href="careers.html" >Careers</a></li>
+						<li class="smaller"><a href="contact.html" >Contact</a></li>
+					</ul>
+
+				</div>
+
+				<span class="site-menu__close icon-close">Close</span>
+
+			</section>
+
+
+			<div class="site-menu__dim" id="site-menu-dim"></div>
+
+		</div>
+
+	</div>
+
+
+	
+	<script src="assets/js-min/site.js"></script>
+
+</body>
+</html>
