@@ -13,8 +13,8 @@
     border-radius:         32px / 44px; 
 }
 img {
-	width: 50px;
-	height: 50px;
+	width: 200px;
+	height: 200px;
 }
 #bande {
 	margin-left: auto; 
@@ -26,6 +26,24 @@ img {
 	background-repeat:repeat-x;
 	height:85px;
 	width: 1000px;
+	-webkit-border-radius: 32px / 44px;
+    -moz-border-radius:    32px / 44px; 
+    border-radius:         32px / 44px; 
+	
+background-image:radial-gradient(white, red);
+
+	
+}
+#bloc {
+	margin-left: auto; 
+    margin-right: auto; /* centre le bloc */
+	margin-top:50px;
+	padding:5px;
+	background-color:white;
+	background-image:url(images/fond-haut.gif);
+	background-repeat:repeat-x;
+	height:85px;
+	width: 50px;
 	-webkit-border-radius: 32px / 44px;
     -moz-border-radius:    32px / 44px; 
     border-radius:         32px / 44px; 
@@ -47,7 +65,27 @@ background-image:radial-gradient(white, red);
     -moz-border-radius:    32px / 44px; 
     border-radius:         32px / 44px; 
 }
+.bloc
+{
+	position:relative;
+border:solid 1px #d6d6d6}
+.titre
+{
+	padding : right;
+}
+.bloc img
+{
+	display:block;
+margin-bottom:6.5rem}
 
+.bloc div
+{
+	position:absolute;
+	right:0;
+	bottom:0;
+	left:0;
+	padding:1.5rem;
+background:#fff}
 
 *{
 	padding:0px;

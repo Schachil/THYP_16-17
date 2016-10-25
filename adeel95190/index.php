@@ -17,27 +17,23 @@
 <body>
 
 
-<div id="bande">
-	<center>
-	<span class="titreSite"> trombinoscope : M2 THYP</span>
-	<br />
-	</center>
-</div>
+	<div id="bande">
+		<center>
+			<span class="titreSite"> trombinoscope : M2 THYP</span>
+			<br />
+		</center>
+	</div>
 <div id="Lapage">
- <div id="contenu">
+	<div id="contenu">
 
 		
-				<center>
-				<!--<div class="img">-->
-							<ul id="THYP">
-			</ul>
-			<ul id="THYPtofs">
-			</ul> 
+				
+			<ul id="THYP"></ul>
+			<ul id="THYPtofs"></ul> 
 				
 					
-					<!--<a href="about/Dave-Wrightson.html">-->
 						
-						 <script type="text/javascript">
+		<script type="text/javascript">
 		var rssPhoto = "http://picasaweb.google.com/data/feed/base/user/107069028374380439764/albumid/6340716155566922545?alt=rss&kind=photo&hl=en_US";
 	    var urlData = "php/lecteurFlux.php?url=THYP1617data";
     		d3.csv(urlData, function(data)
@@ -45,18 +41,20 @@
     	      
     	        data.forEach(function(d,i){
 	    	       
+					
 	    	        var h = '<a href="renseignement.php">'
-	    	        +'<div class="person">'
+					 +'<div class="bloc">'
 	    	        +'<img src="h.jpg" id="tof_'+d['lien vers la photo']+'" >'
-	    	        +'<div>'
+	    	        +'<div class="titre">'
 	    	        +'<h4>'+d['Prénom']+' '+d.Nom+'</h4>'
 	    	        +'<h5>'+d['N° étudiant']+'</h5>'
 	    	        +'</div>'
 	    	        +'</div>'
-	    	        +'</a>';		    	        	
+	    	        +'</a>';	
     	            $('<li></li>').html(h).appendTo('#THYP');
+					
     	        });
-    	        d3.xml("../samszo/php/lecteurFlux.php?url=THYP1617photo", "application/xml", function(xml) {
+    	        d3.xml("../THYP_16-17/samszo/php/lecteurFlux.php?url=THYP1617photo", "application/xml", function(xml) {
     	        	var tofs = xml.documentElement.getElementsByTagName("enclosure"); 
     	        	for (i = 0; i < tofs.length; i++) { 
     	        		console.log(tofs[i].getAttribute("url"));
@@ -81,7 +79,7 @@
 					
 
 		        </div>
-				<center>
+				
 				<div class="img">
 				<div id="trombi"/>
 				
