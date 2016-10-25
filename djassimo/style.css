@@ -52,3 +52,19 @@ body {
 .rang1{
     margin-top: 80px;
 }
+.chang{
+    background-color: yellow;
+}
+.ifram1{
+    width: 1110px;
+    height: 1100px;
+    overflow: hidden;
+    background-color: #00FF33;
+}
+.fotr{
+    background-color: gold;
+}
+.voirg, .cachg{
+    height: 60px;
+    width: 178px;
+}
