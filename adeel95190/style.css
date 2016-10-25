@@ -1,0 +1,121 @@
+#Lapage { 
+	
+    margin-left: auto;
+    margin-right: auto; 
+    width: 1200px;
+	background-color:#dfdfdf; /couleur du block du trombi //
+    border: 1px solid #000000;
+	text-align:left;
+	padding-bottom:0px;
+	margin-top:80px;
+	-webkit-border-radius: 32px / 44px;
+    -moz-border-radius:    32px / 44px; 
+    border-radius:         32px / 44px; 
+}
+
+#bande {
+	margin-left: auto; 
+    margin-right: auto; /* centre le bloc */
+	margin-top:50px;
+	padding:5px;
+	background-color:red;
+	background-image:url(images/fond-haut.gif);
+	background-repeat:repeat-x;
+	height:85px;
+	width: 1000px;
+	-webkit-border-radius: 32px / 44px;
+    -moz-border-radius:    32px / 44px; 
+    border-radius:         32px / 44px; 
+	
+background-image:radial-gradient(white, red);
+
+	
+}
+#Ppage{
+	margin-bottom:-13px;
+	background-color:#FFFFFF;
+	text-align:center;
+	font-family:verdana;
+	font-size:9px;
+	height:15px;
+	padding-top:2px;
+	color:#5a0000;	
+	-webkit-border-radius: 32px / 44px;
+    -moz-border-radius:    32px / 44px; 
+    border-radius:         32px / 44px; 
+}
+
+
+*{
+	padding:0px;
+	margin:0px;
+}
+
+body  {	
+	background-color:black;
+	background-image:url(images/dark_wall.png);
+	background-repeat:repeat;
+}
+div.img {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 150px;
+	margin-left:25px;
+	
+}
+
+div.img:hover {
+    border: 1.5px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+	-webkit-border-radius:120px;
+    -moz-border-radius:120px;
+    border-radius:120px;
+}
+
+div.desc {
+    padding: 5px;
+    
+}
+
+
+
+a{
+	color:#6c2323;	
+} 
+
+
+.titreSite {
+	font-family: "trebuchet ms";
+	font-size: 45px;
+	color:#641616;
+}
+.slogan {
+	font-family:"trebuchet ms";
+	font-size:12px;
+	color:#641616;
+}
+
+
+#contenu {
+	padding:20px;
+	
+}
+h1 {
+	font-family: "trebuchet ms";
+	font-size: 15px;
+	color:#FF0000;
+	text-align:center;
+	margin-bottom:20px;
+}
+h2 {
+	font-family: "verdana";
+	font-size: 15px;
+	color:#4d4d4d;
+	font-variant: small-caps;
+}
+
