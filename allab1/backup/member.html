@@ -32,13 +32,70 @@ if (location.search) {
 var nom = params.nom;
 var prenom=params.prenom;
 var mail=params.mail;
+var ident=params.ident;
 
 
 
-</script>
+
+// -------------------------------
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                var urlData = "php/lecteurFlux.php?url=THYP1617data";
+            d3.csv(urlData, function(data)
+            {
+                data.forEach(function(d,i){
+                    //  var h = ' <a href=member.html?mail='+d['E-mail']+'&prenom='+d.Prénom+'&nom='+d.Nom+'><img src="test.jpg" id="tof_'+d['N° étudiant']+'" alt="ronad" /><span class="name">'+d.Prénom+' '+d.Nom+'</span>'; 
+                      
+                    //     //+" "+d['N° étudiant'];
+                    // $('<div class="col"> </div>').html(h).appendTo('#tro');
+                 
+                        
+                });
+
+    
+ 
+
+
+
+            })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </script>
 
 	
 
