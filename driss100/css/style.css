@@ -1,0 +1,75 @@
+
+html { 
+  background: url(../images/se.jpg) ; 
+  
+  background-size: cover;
+}
+
+
+
+
+
+div.blocc {
+    margin: 10px;
+    border: 20px  ;
+    float: right;
+
+    
+ 
+}
+
+
+img:hover {
+    border: 2px relative ;
+}
+
+
+img {
+    border: 40px;
+	width : 150px;
+	
+
+}
+
+
+
+h1{
+
+	letter-spacing: 8px ;
+	color : white ;
+}
+
+
+h4{
+  letter-spacing: 3.5px; 
+}
+
+h5{
+  letter-spacing: 1.5px; 
+}
+
+
+
+body {
+   font-family: "Calibri"; 
+   font-weight: 10;
+
+
+}
+
+a {
+    color: white;
+}
+
+
+
+th {
+
+	font-weight: normal;
+	letter-spacing: 3;
+}
+
+
+
+
+
