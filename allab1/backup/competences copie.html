@@ -27,7 +27,6 @@ rect:hover {  fill:blue; }
   shape-rendering: crispEdges;
 }
 
-
 .x.axis path {  display: none; }
 .legend{
     margin-bottom:76px;
@@ -45,7 +44,7 @@ rect:hover {  fill:blue; }
 }
 #etu{
 	width:500px;
-	height:220px;
+	height:200px;
 }
 #dashboard{
 	width:100%;
@@ -55,7 +54,6 @@ rect:hover {  fill:blue; }
 	float:right;
 	height:200px;
 }
-
 </style>
  <style>
  table {
@@ -82,12 +80,8 @@ rect:hover {  fill:blue; }
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="src/AddCalEventZones.js"></script>
     <script src="src/AddCalEvent.js"></script>
-
-
-
-
 <style>
-.ace_btn {padding: 10px 40px;margin: 25px;display:inline-block;border:1px solid #999;}
+.ace_btn {padding: 10px 20px;margin: 25px;display:inline-block;border:1px solid #999;}
 .ace_btn.dis {display:none;}
 </style>
 
@@ -96,8 +90,6 @@ rect:hover {  fill:blue; }
 
 </head>
 <body>
-
-
 
     <div align=center>
     <a href="#" class="button">  Competénces</a>
@@ -146,7 +138,6 @@ $(".ace_btn").addcalevent({
 </div>
 </td></tr>
 </table>
-
 <div id='dashboard'>
 </div>
 <script src="http://d3js.org/d3.v3.min.js"></script>
@@ -165,10 +156,9 @@ Absence:
         //   alert(identi);
 
 document.getElementById("pr_"+identi).innerText=identi+" : "+presence;
-document.getElementById("etat").innerText=presence;
+
  
- 
-// $(".pr").hide();
+$(".pr").hide();
  } 
 
 
@@ -248,14 +238,15 @@ function dashboard(id, fData){
 	    			});
         		if(etu[0]){
         			etu = etu[0];
-        	
+        			/*
+        			d3.select("#sltEtu").text(etu["Pré
 
-         var et= (document.getElementById("pr_"+etu["N° étudiant"]).innerText).split(':');
-
-                    d3.select("#etat").text(et[1] );  
+                    "]+' '+etu["Nom"]+' : '+etu["N° étudiant"]);
+        			d3.select("#mailEtu").text(etu["E-mail"]);        			
+        			*/
         			d3.select("#sltEtu").text(etu["Prénom"]+' '+etu["Nom"]+' : '+etu["N° étudiant"]);
         			d3.select("#mailEtu").text(etu["E-mail"]);
-                    
+                    d3.select("#etat").text( document.getElementById("pr_"+etu["N° étudiant"]).innerText);
                     //d3.select("#present").text('<button type="button">Click Me!</button>');
                 document.getElementById("present").innerHTML='<button class="pr" style="background-color: #81F781"  onclick=rappel("Present",'+etu["N° étudiant"]+'); type="button">Present</button>';
                 document.getElementById("absent").innerHTML='<button class="pr" style="background-color: "  onclick=rappel("Absent",'+etu["N° étudiant"]+'); type="button">Absent</button>'
@@ -490,14 +481,5 @@ d3.csv("php/lecteurFlux.php?url=THYP1617data", null, function(error, data) {
 });
 
 </script>
-
-<!-- -------------------------------------- -->
-
-
-
-
-     
-
-
 </body>
 </html>
