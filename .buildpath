@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<buildpath>
-	<buildpathentry kind="src" path="allab1/php"/>
-	<buildpathentry kind="src" path="amnaabbassi/php"/>
-	<buildpathentry kind="src" path="Mourik/contact"/>
-	<buildpathentry kind="src" path="samszo/php"/>
-	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
-</buildpath>
