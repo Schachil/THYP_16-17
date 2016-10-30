@@ -5,41 +5,77 @@
 	<title>trombinoscope</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 <body>
 	
 	<div class="container">
-		<header >
-			<h2> Tromboniscope</h2>
+		<header>
+			<h2> Trombinoscope</h2>
 		</header>
-		<section>
-			<div class="col-md-12 separateur">
-			<div class="col-xs-6 col-md-3 "><img src="img/1.jpg"></div>
-			<div class="col-xs-6 col-md-3"><img src="img/1.jpg"></div>
-			<div class="col-xs-6 col-md-3"><img src="img/1.jpg"></div>
-			<div class="col-xs-6 col-md-3"><img src="img/1.jpg"></div>
-			</div>
-			<div class="col-md-12 separateur">
-			<div class="col-xs-6 col-md-3"><img src="img/1.jpg"></div>
-			<div class="col-xs-6 col-md-3"><img src="img/1.jpg"></div>
-			<div class="col-xs-6 col-md-3"><img src="img/1.jpg"></div>
-			<div class="col-xs-6 col-md-3"><img src="img/1.jpg"></div>
-			</div>
-			<div class="col-md-12 separateur">
-			<div class="col-xs-6 col-md-3"><img src="img/1.jpg"></div>
-			<div class="col-xs-6 col-md-3"><img src="img/1.jpg"></div>
-			<div class="col-xs-6 col-md-3"><img src="img/1.jpg"></div>
-			<div class="col-xs-6 col-md-3"><img src="img/1.jpg"></div>
-			</div>
-			<div class="col-md-12 separateur">
-			<div class="col-xs-6 col-md-3"><img src="img/1.jpg"></div>
-			<div class="col-xs-6 col-md-3"><img src="img/1.jpg"></div>
-			<div class="col-xs-6 col-md-3"><img src="img/1.jpg"></div>
-			<div class="col-xs-6 col-md-3"><img src="img/1.jpg"></div>
-	        </div>
+		<section id="etudiant">
+		
 		</section>		
 
 	</div>
 
 </body>
+
+
+
+<script type="text/javascript" src="js/d3.v3.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript">
+
+                          var rssPhoto = "http://picasaweb.google.com/data/feed/base/user/107069028374380439764/albumid/6340716155566922545?alt=rss&kind=photo&hl=en_US";
+                         var urlData = "php/lecteurFlux.php?url=THYP1617data";
+                         d3.csv(urlData, function(data)
+                         {
+                            //prices is an array of json objects containing the data in from the csv
+                            //console.log("data:", data);
+
+                            data.forEach(function(d,i)
+                            {
+                                
+                                var h = /*'<div class="content"> '
+                                        +*/'<a href="dashboard.html" target="blank" title="Click for more details on the student">'
+                                        +'<div class="col-xs-6 col-md-3 ">'
+                                        +'<img class="img" src="h.jpg" id="tof_'+d['lien vers la photo']+'" >'
+                                        +'<div>'
+                                        +'<h4> <center>'+d['Prénom']+' '+d.Nom+'</center></h4>'
+                                        +'<h5><center>'+d['N° étudiant']+'</center></h5>'
+                                        +'</div>'
+                                        +'</div>'
+                                        +'</a>'
+                                        /*+'</div>'*/;                            
+                                        $('<div></div>').html(h).appendTo('#etudiant');
+
+
+
+                                    /*var h1 ='<div class="desc">'
+                                            +'<div>'
+                                            +'<h4>'+d['Prénom']+' '+d.Nom+'</h4>'
+                                            +'<h5>'+d['N° étudiant']+'</h5>'
+                                            +'</div>'
+                                            +'</div>'
+                                            +'</a>';                            
+                                            $('<div></div>').html(h1).appendTo('#THYPinfo');*/
+                            });
+
+                            d3.xml("php/lecteurFlux.php?url=THYP1617photo", "application/xml", function(xml) 
+                            {
+                                var tofs = xml.documentElement.getElementsByTagName("enclosure"); 
+                                for (i = 0; i < tofs.length; i++) { 
+                                    console.log(tofs[i].getAttribute("url"));
+                                    d3.select("#tof_"+i)
+                                        .attr('src',tofs[i].getAttribute("url"))
+                                        .style('width',100);
+                                    
+                                    
+                                }
+                                });
+                            
+                        })
+                     </script>
+
 </html>

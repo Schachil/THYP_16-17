@@ -69,3 +69,16 @@ header h2
     	vertical-align: top;
     }
 
+.img{
+    width: 100px;
+
+}
+.row{
+    height: 200px;
+}
+
+.col6{
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
