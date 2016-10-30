@@ -1,4 +1,3 @@
-
 html { 
   background: url(../images/bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -9,11 +8,11 @@ html {
 
 
 a {
-	color: black;
+  color: black;
 }
 a:hover {
-	color: #fff3d8;
-	text-decoration: underline;
+  color: #fff3d8;
+  text-decoration: underline;
 }
 div.blocc {
     margin: 40px;
@@ -48,7 +47,7 @@ img {
 
 h1{
 
-	letter-spacing: 8px ;
+  letter-spacing: 8px ;
 }
 
 
@@ -77,21 +76,20 @@ a {
 
 th {
 
-	font-weight: normal;
-	letter-spacing: 1;
+  font-weight: normal;
+  letter-spacing: 1;
 }
 
 .blocc {
 
-	 display: inline;
+   display: inline;
 }
 
 
 #THYP{
 
 
-	float:center ;
-	margin: auto;
-	padding: 15px 10px; 
+  float:center ;
+  margin: auto;
+  padding: 15px 10px; 
 }
-
