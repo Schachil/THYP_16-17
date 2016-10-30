@@ -1,52 +1,60 @@
-<!DOCTYPE html>
-<html>
- <head>
-    <title>trombinoscope</title>
-	
+<!doctype html>
+<!--[if IE 8]><html lang="en" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="utf-8">  
-	<style>
-body{
-    width:1060px;
-    margin:50px auto;
-}
-path {  stroke: #fff; }
-path:hover {  opacity:0.9; }
-rect:hover {  fill:blue; }
-.axis {  font: 10px sans-serif; }
-.legend tr{    border-bottom:1px solid grey; }
-.legend tr:first-child{    border-top:1px solid grey; }
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
-.x.axis path {  display: none; }
-.legend{
-    margin-bottom:76px;
-    display:inline-block;
-    border-collapse: collapse;
-    border-spacing: 0px;
-}
-.legend td{
-    padding:4px 5px;
-    vertical-align:bottom;
-}
-.legendFreq, .legendPerc{
-    align:right;
-    width:50px;
-}
-</style>
+	<meta charset="utf-8">
+	<title>THYP Trombino</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="trombinoscope of master 2 THYP.">
+	<meta name="keywords" content="Informatique, web, hypermedia">
+
+	
+	<!-- CSS -->
+	    <link rel="icon" type="image/ico" href="favicon.ico"/>
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic">
+	<link rel="stylesheet" href="assets/css/site-v=20160905.css">
+	<link rel="stylesheet" href="assets/css/stylesheets.css">
+	
+	    
+
+
+   <!-- <link href="assets/css1/stylesheets.css" rel="stylesheet" type="text/css" /> -->
+
+	<!-- JS -->
+	    
+    <script type='text/javascript' src='js/plugins/jquery/jquery.min.js'></script>
+    <script type='text/javascript' src='js/plugins/jquery/jquery-ui.min.js'></script>   
+    <script type='text/javascript' src='js/plugins/jquery/jquery-migrate.min.js'></script>
+    <script type='text/javascript' src='js/plugins/jquery/globalize.js'></script>    
+    <script type='text/javascript' src='js/plugins/bootstrap/bootstrap.min.js'></script>
+    
+    <script type='text/javascript' src='js/plugins/fancybox/jquery.fancybox.pack.js'></script>             
+    <script type='text/javascript' src='js/plugins/uniform/jquery.uniform.min.js'></script>
+    
+    <script type='text/javascript' src='js/plugins.js'></script>    
+    <script type='text/javascript' src='js/actions.js'></script>
+    <script type='text/javascript' src='js/settings.js'></script>
 	
     <script type="text/javascript" src="js/d3.v3.js"></script>
  	<script type="text/javascript" src="js/jquery.min.js" ></script>
-	<script src="http://d3js.org/d3.v3.min.js"></script>
+	
+	<script src="assets/js/libs/modernizr.js"></script>
+	<script src="http://use.typekit.net/yzq3vbo.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
 	
 	
+	
+</head>
+
+<body  class="bg-img-num1">
+
+<h1 style="color:yellow; margin-top:100px;">Les compétences des étudiants</h1>
+<h2 id="Etudiant"></h2>
+<p id="email"></p>
+<div id='dashboard'>
+</div>
+<script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 function dashboard(id, fData){
     var barColor = 'steelblue';
@@ -119,11 +127,11 @@ function dashboard(id, fData){
         		if(etu[0]){
         			etu = etu[0];
         			/*
-        			d3.select("#sltEtu").text(etu["Prénom"]+' '+etu["Nom"]+' : '+etu["N° étudiant"]);
-        			d3.select("#mailEtu").text(etu["E-mail"]);        			
+        			d3.select("#Etudiant").text(etu["Prénom"]+' '+etu["Nom"]+' : '+etu["N° étudiant"]);
+        			d3.select("#email").text(etu["E-mail"]);        			
         			*/
-        			d3.select("#sltEtu").text(etu["Prénom"]+' '+etu["Nom"]+' : '+etu["N° étudiant"]);
-        			d3.select("#mailEtu").text(etu["E-mail"]);        			
+        			d3.select("#Etudiant").text(etu["Prénom"]+' '+etu["Nom"]+' : '+etu["N° étudiant"]);
+        			d3.select("#email").text(etu["E-mail"]);        			
         			
         		}
 	
@@ -138,8 +146,8 @@ function dashboard(id, fData){
         
         function mouseout(d){    // utility function to be called on mouseout.
 	    		//met à jour le titre de la légende
-			d3.select("#sltEtu").text("---");
-			d3.select("#mailEtu").text("---");
+			d3.select("#Etudiant").text("---");
+			d3.select("#email").text("---");
         		// reset the pie-chart and legend.    
             pC.update(tF);
             leg.update(tF);
@@ -294,25 +302,6 @@ d3.csv("php/lecteurFlux.php?url=THYP1617data", null, function(error, data) {
 	dashboard('#dashboard',freqData);
 });
 </script>
- </head>
- 
- 
- <body>
-	<h1>Les compétences des étudiants</h1>
-	<h2 id="sltEtu"></h2>
-	<p id="mailEtu"></p>
-	<div id='dashboard'>
-	</div>
 
-
- </body>
+</body>
 </html>
-
-
-
-
-
-
-
-
-

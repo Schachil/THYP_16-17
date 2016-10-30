@@ -1,100 +1,84 @@
-<!DOCTYPE html>
-<html>
- <head>
-    <title>trombinoscope</title>
-	
+<!doctype html>
+<!--[if IE 8]><html lang="en" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="utf-8">  
+	<meta charset="utf-8">
+	<title>Trombinoscope THYP 2016-2017</title>
+
 	
-<style>
-	body{
-		width:1060px;
-		margin:50px auto;
-	}
-	path {  stroke: #fff; }
-	path:hover {  opacity:0.9; }
-	rect:hover {  fill:blue; }
-	.axis {  font: 10px sans-serif; }
-	.legend tr{    border-bottom:1px solid grey; }
-	.legend tr:first-child{    border-top:1px solid grey; }
-	.axis path,
-	.axis line {
-		fill: none;
-		stroke: #000;
-		shape-rendering: crispEdges;
-	}
-	.x.axis path {  display: none; }
-	.legend{
-		margin-bottom:76px;
-		display:inline-block;
-		border-collapse: collapse;
-		border-spacing: 0px;
-	}
-	.legend td{
-		padding:4px 5px;
-		vertical-align:bottom;
-	}
-		.legendFreq, .legendPerc{
-		align:right;
-		width:50px;
-	}
-</style>
+	<link rel="stylesheet" href="assets/css/style.css">
+
 	
     <script type="text/javascript" src="js/d3.v3.js"></script>
  	<script type="text/javascript" src="js/jquery.min.js" ></script>
-	<script src="http://d3js.org/d3.v3.min.js"></script>
- 
+	<script>try{Typekit.load();}catch(e){}</script>
+	
+</head>
 
- </head>
- <body>
- 	<div id="trombi"/>
-    <script type="text/javascript">
+<body style="background-color:#DCDCDC;">
+<h1>Trombinoscope THYP 2016-2017</h1>
+
+
+		<!-- intération de l'appel du csv depuis google drive-->
+
+	<br/><br/>
+			<div id="THYP" style="margin-left:30px;margin-right:30px;" >
+			</div>
+		
+				
+					
+					<!--<a href="about/Dave-Wrightson.html">-->
+						
+						 <script type="text/javascript">
+		var rssPhoto = "http://picasaweb.google.com/data/feed/base/user/107069028374380439764/albumid/6340716155566922545?alt=rss&kind=photo&hl=en_US";
 	    var urlData = "php/lecteurFlux.php?url=THYP1617data";
+		
+		
     		d3.csv(urlData, function(data)
     	    {
-    	        //prices is an array of json objects containing the data in from the csv
-    	        //console.log("data:", data);
     	        data.forEach(function(d,i){
-	    	        	var h = d.Prénom+" "+d.Nom+" "+d['N° étudiant'];
-    	            $('<div class="data" id="data_' + i + '"></div>').html(h).appendTo('#trombi');
-    	        		
+				if(+d['N° étudiant'] != 14507934){
+				
+				
+	    	        var h = '<a href="detail.html" class="nounderline">' 
+	    	        +'<img src="h.jpg" style="border: 20px solid #2F4F4F;border-radius: 30px;" id="tof_'+d['lien vers la photo']+'" >'	    	  
+	    	        +'<h4>'+d['Prénom']+' '+d.Nom+'</h4>'
+	    	        +'<h5>N° etudiant : '+d['N° étudiant']+'</h5>'	    	       	    	
+	    	        +'</a>';		    	        	
+    	            $('<div class="monStyle"></div>').html(h).appendTo('#THYP');
+					
+					
+					
+					}
     	        });
+    	        d3.xml("../samszo/php/lecteurFlux.php?url=THYP1617photo", "application/xml", function(xml) {
+    	        	var tofs = xml.documentElement.getElementsByTagName("enclosure"); 
+    	        	for (i = 0; i < tofs.length; i++) { 
+    	        		console.log(tofs[i].getAttribute("url"));
+        	        	d3.select("#tof_"+i)
+        	        		.attr('src',tofs[i].getAttribute("url"))
+        	  
+    	        	}
+
+    	        	});
+    	        
     	    })
     	    </script>
-			
-			
-			
-
-<!--header starts-->
-
-<!---->
-
-			   
-					 <div style="margin-left:150px;" >
-						    <a href="details.html">
-							<img style="width:20%" src="images/man.png"  />
-						
-							</a>
-						
-							<a href="details.html">
-							<img style="width:20%" src="images/pic1.png" />
-							</a>
-
-							<a href="details.html">
-							<img style="width:20%" src="images/man.png"  />		
-							</a>
-						
-						<a href="details.html">
-							<img style="width:20%" src="images/pic1.png" />
-							</a>			
-						
-				      </div>	
+					
+		<!-- End intération de l'appel du csv depuis google drive-->
 
 
- </body>
+	</div>
+
+	
+
+
+	</div>
+
+
+
+	
+
+</body>
 </html>
-
-

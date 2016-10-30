@@ -1,10 +1,9 @@
-
-<html>
-
+<!DOCTYPE html>
+<meta charset="utf-8">
 <style>
 body{
     width:1060px;
-    margin:100px auto;
+    margin:50px auto;
 }
 path {  stroke: #fff; }
 path:hover {  opacity:0.9; }
@@ -20,7 +19,13 @@ rect:hover {  fill:blue; }
   shape-rendering: crispEdges;
 }
 
-
+.x.axis path {  display: none; }
+.legend{
+    margin-bottom:76px;
+    display:inline-block;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
 .legend td{
     padding:4px 5px;
     vertical-align:bottom;
@@ -31,73 +36,23 @@ rect:hover {  fill:blue; }
 }
 
 </style>
-	<head>
-		<title>Competences</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body>
-		<div id='dashboard'>
-</div>
-<script src="http://d3js.org/d3.v3.min.js"></script>
-
-		
-			<header id="header" class="preview">
-				<div class="inner">
-					<div class="content">
-						
-						
-					</div>
-					<a href="index.html" class="button hidden"><span>Let's Go</span></a>
-				</div>
-			
-			</header>
-			
-<marquee>Trombinoscop</marquee>
-    <div id="page-wrap">    
-        <div id="etu" >  
-			<img id="photoEtu" style="float:right;width:250px;height:250px;"/>
-			<h1 id="sltEtu"></h1>
-            <p>
-				Numéro:<span id="numEtu"></span><br/>		
-                Email: <span id="mailEtu"></span><br />
-				
-            </p>
-        </div>       	
-       	
-    </div>
-	<div id='dashboard'>
+<body>
+<div id='dashboard'>
 </div>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 function dashboard(id, fData){
     var barColor = 'steelblue';
-    /*
-    function segColor(c){ 
-        return {
-            HTML:"#807dba", 
-            Javascript:"#e08214",
-            Java:"#41ab5d"}[c]; 
-        }    
+    function segColor(c){ return {HTML:"#807dba", PHP:"#e08214",CSS:"#41ab5d"}[c]; }
+    
     // compute total for each state.
-    fData.forEach(function(d){
-        d.total =   d.freq.HTML
-                    +d.freq.Javascript
-                    +d.freq.Java;}
-                    );
-   	*/
-   var segColor = d3.scale.category20b();
-   var sltEtu = false;	
-    fData.forEach(function(d){
-        d.total =   d.freq.Java+d.freq.PHP+d.freq.JS+d.freq.HTML+d.freq.JOOMLA+d.freq.WORDPRESS+d.freq.XML;}
-                    );
+    fData.forEach(function(d){d.total=d.freq.HTML+d.freq.PHP+d.freq.CSS;});
     
     // function to handle histogram.
     function histoGram(fD){
         var hG={},    hGDim = {t: 60, r: 0, b: 30, l: 0};
-        hGDim.w = 420 - hGDim.l - hGDim.r, 
-        hGDim.h = 220 - hGDim.t - hGDim.b;
+        hGDim.w = 500 - hGDim.l - hGDim.r, 
+        hGDim.h = 300 - hGDim.t - hGDim.b;
             
         //create svg for histogram.
         var hGsvg = d3.select(id).append("svg")
@@ -129,11 +84,6 @@ function dashboard(id, fData){
             .attr("width", x.rangeBand())
             .attr("height", function(d) { return hGDim.h - y(d[1]); })
             .attr('fill',barColor)
-		//--------------------------------	
-			.on("click",function(d){
-            	sltEtu = true;
-            	})
-		//--------------------------------	
             .on("mouseover",mouseover)// mouseover is defined below.
             .on("mouseout",mouseout);// mouseout is defined below.
             
@@ -144,33 +94,7 @@ function dashboard(id, fData){
             .attr("text-anchor", "middle");
         
         function mouseover(d){  // utility function to be called on mouseover.
-		//--------------------------------	
-			sltEtu = false;
-		//--------------------------------	
-
-	    		//met à jour le titre de la légende
-	    		var etu = dataEtu.filter(function(e){
-	    			return e.state == d[0];
-	    			});
-        		if(etu[0]){
-        			etu = etu[0];
-        			/*
-        			d3.select("#sltEtu").text(etu["Prénom"]+' '+etu["Nom"]+' : '+etu["N° étudiant"]);
-        			d3.select("#mailEtu").text(etu["E-mail"]);        			
-        			*/
-        		    
-					d3.select("#horEtu").text(etu["Horodateur"]);
-					d3.select("#sltEtu").text(etu["Prénom"]+' '+etu["Nom"]);
-        			d3.select("#numEtu").text(etu["N° étudiant"]);
-					d3.select("#mailEtu").text(etu["E-mail"]);        			
-		//-------------------------------------		
-		        	var urlTof = tofEtu[etu["lien vers la photo"]] ? tofEtu[etu["lien vers la photo"]].large : "";
-        			d3.select("#photoEtu").attr('src', urlTof);
-		//-------------------------------------		
-        		
-				}
-	
-			// filter for selected state.
+            // filter for selected state.
             var st = fData.filter(function(s){ return s.State == d[0];})[0],
                 nD = d3.keys(st.freq).map(function(s){ return {type:s, freq:st.freq[s]};});
                
@@ -180,16 +104,7 @@ function dashboard(id, fData){
         }
         
         function mouseout(d){    // utility function to be called on mouseout.
-		//------------------------------------
-		if(sltEtu)return;
-		//------------------------------------
-	    		//met à jour le titre de la légende
-			d3.select("#sltEtu").text("Prénom Nom");
-			d3.select("#numEtu").text("---");
-			d3.select("#mailEtu").text("---");
-			d3.select("#horEtu").text("---");
-			d3.select("#photoEtu").attr('src', "images/inconnu.png");   
-        		// reset the pie-chart and legend.    
+            // reset the pie-chart and legend.    
             pC.update(tF);
             leg.update(tF);
         }
@@ -218,7 +133,7 @@ function dashboard(id, fData){
     
     // function to handle pieChart.
     function pieChart(pD){
-        var pC ={},    pieDim ={w:170, h: 170};
+        var pC ={},    pieDim ={w:250, h: 250};
         pieDim.r = Math.min(pieDim.w, pieDim.h) / 2;
                 
         // create svg for pie chart.
@@ -311,21 +226,10 @@ function dashboard(id, fData){
     }
     
     // calculate total frequency by segment for all state.
-    var tF = [
-            'Java',
-			'PHP',
-			'JOOMLA',
-			'JS',
-			'HTML',
-			'CSS',
-			'SQL',
-			'ASP',
-			'Wordpress',
-		
-			'XML'].map(function(d){ 
-              return {type:d, freq: d3.sum(fData.map(function(t){ return t.freq[d];}))}; 
-          });    
-
+    var tF = ['HTML','PHP','CSS'].map(function(d){ 
+        return {type:d, freq: d3.sum(fData.map(function(t){ return t.freq[d];}))}; 
+    });    
+    
     // calculate total frequency by state for all segment.
     var sF = fData.map(function(d){return [d.State,d.total];});
 
@@ -334,85 +238,21 @@ function dashboard(id, fData){
         leg= legend(tF);  // create the legend.
 }
 </script>
+
 <script>
-var dataEtu, tofEtu=[];
-d3.csv("php/lecteurFlux.php?url=THYP1617data", null, function(error, data) {
-	freqData = [];
-	dataEtu = data;
-	/*formulaire THYP*/
-																					
-	var comp = {"médiocre":5,"trop fort":10,"mauvais":2,"connais pas":1};
-	data.forEach(function(d){
-		var args = {
-			<!-- State:d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase() -->
-			State:getKeyLine(d)
-			,freq:{
-				Java:comp[d["Vos compétences : langage informatique [JAVA]"]], 
-                PHP:comp[d["Vos compétences : langage informatique [PHP]"]], 
-				JS:comp[d["Vos compétences : langage informatique [Javascript]"]], 
-                HTML:comp[d["Vos compétences : langage informatique [HTML]"]], 
-				SQL:comp[d["Vos compétences : langage informatique [SQL]"]], 
-			    CSS:comp[d["Vos compétences : langage informatique [CSS]"]], 
-				ASP:comp[d["Vos compétences : langage informatique [ASP]"]], 
-				JOOMLA:comp[d["Vos compétences : langage informatique [JOOMLA]"]], 
-				WORDPRESS:comp[d["Vos compétences : langage informatique [Wordpress]"]], 
-				XML:comp[d["Vos compétences : langage informatique [XML]"]], 
+var freqData=[
+{State:'Atif Nabil',freq:{HTML:6, PHP:6, CSS:2}}
+,{State:'Driss ',freq:{HTML:7, PHP:8, CSS:3}}
+,{State:'Jaafar ',freq:{HTML:7, PHP:8, CSS:9}}
+,{State:'Omar ',freq:{HTML:10, PHP:7, CSS:0}}
+,{State:'Hakim',freq:{HTML:8, PHP:8, CSS:2}}
+,{State:'Youssra',freq:{HTML:0, PHP:0, CSS:0}}
+,{State:'Meryem',freq:{HTML:9, PHP:4, CSS:8}}
+,{State:'Amna',freq:{HTML:7, PHP:0, CSS:7}}
+,{State:'Jamal X',freq:{HTML:8, PHP:6, CSS:7}}
+,{State:'Ouahib',freq:{HTML:0, PHP:4, CSS:7}}
 
-			}
-		};
-		<!-- d.state = d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase();	 -->
-		//--------------------------
-			d.state = getKeyLine(d);	
-		//----------------------------
-		
-		//vérification des données
-		for(var p in args.freq) {
-		   if(args.freq[p] == undefined)args.freq[p]=0;
-		}		
-		freqData.push(args);		
-	});
-	//--------------------------------------
-	function getKeyLine(d){
-		return d["Nom"].substring(0,1).toUpperCase()+""+d["Nom"].substring(2,1)+" "+d["Prénom"].substring(0,1).toUpperCase();
-	}
+];
 
-	//récupère les photos
-	d3.xml("php/lecteurFlux.php?url=THYP1617photo", "application/xml", function(xml) {
-		var tofs = xml.documentElement.getElementsByTagName("group"); 
-       	for (i = 0; i < tofs.length; i++) { 
-       		tofEtu[i]={'mini':tofs[i].childNodes[6].getAttribute("url"),'medium':tofs[i].childNodes[5].getAttribute("url"),'large':tofs[i].childNodes[0].getAttribute("url")};
-       	}
-       	
-    	dashboard('#dashboard',freqData);
-       	
-	});
-});
-	//--------------------------------------
+dashboard('#dashboard',freqData);
 </script>
-<footer id="footer">
-				<a href="#" class="info fa fa-info-circle"><span>A propos</span></a>
-				<div class="inner">
-					<div class="content">
-						<h3>Mon trombinoscop THYP 2016/2017 Nabil Atif</h3>
-						<p>Université paris 8 Master THYP</p>
-					</div>
-					<div class="copyright">
-						<h3>Follow me</h3>
-						<ul class="icons">
-							
-							<li><a href="https://www.facebook.com/atifnabile" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-					
-						</ul>
-						&copy; NABIL ATIF
-					</div>
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-	</body>
-</html>
-

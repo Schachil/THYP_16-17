@@ -13,7 +13,7 @@
         body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
         .clear { clear: both; }
         #page-wrap { width: 800px; margin: 40px auto 60px; }
-        #pic { float: right; margin: -30px 0 0 0; }
+        .pic { float: right; margin: -30px 0 0 0; }
         h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
         h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
         h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
@@ -58,15 +58,14 @@
 		.legendFreq, .legendPerc{
 		align:center;
 		width:500px;
-		}
 
      </style>
 </head>
 <body>
     <div id="page-wrap">    
-        <img src="images/inconnu.png" alt="Photo of Cthulu" id="pic" />
-        <div id="contact-info" class="vcard">  
-            <h1 id="sltEtu"></h1>
+        <div id="etu" >  
+			<img id="photoEtu" style="float:right;width:250px;height:250px;"/>
+			<h1 id="sltEtu"></h1>
             <p>
 				Numéro:<span id="numEtu"></span><br/>		
                 Email: <span id="mailEtu"></span><br />
@@ -82,10 +81,10 @@
 			<dt>EXPERIENCE PROFESSIONNELLE</dt>			
 			<dd class="clear"></dd>               
             <dd class="clear"></dd>
-        </dl>
+        </dl>		
     </div>
-	
-</body>
+	<div id='dashboard'>
+</div>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 function dashboard(id, fData){
@@ -105,8 +104,9 @@ function dashboard(id, fData){
                     );
    	*/
    var segColor = d3.scale.category20b();
+   var sltEtu = false;	
     fData.forEach(function(d){
-        d.total =   d.freq.Java+d.freq.PHP+d.freq.JS+d.freq.HTML+d.freq.UML+d.freq.JOOMLA+d.freq.WORDPRESS+d.freq.DRUPAL+d.freq.SPIP;}
+        d.total =   d.freq.Java+d.freq.PHP+d.freq.JS+d.freq.HTML+d.freq.JOOMLA+d.freq.WORDPRESS+d.freq.XML;}
                     );
     
     // function to handle histogram.
@@ -145,6 +145,11 @@ function dashboard(id, fData){
             .attr("width", x.rangeBand())
             .attr("height", function(d) { return hGDim.h - y(d[1]); })
             .attr('fill',barColor)
+		//--------------------------------	
+			.on("click",function(d){
+            	sltEtu = true;
+            	})
+		//--------------------------------	
             .on("mouseover",mouseover)// mouseover is defined below.
             .on("mouseout",mouseout);// mouseout is defined below.
             
@@ -155,6 +160,9 @@ function dashboard(id, fData){
             .attr("text-anchor", "middle");
         
         function mouseover(d){  // utility function to be called on mouseover.
+		//--------------------------------	
+			sltEtu = false;
+		//--------------------------------	
 
 	    		//met à jour le titre de la légende
 	    		var etu = dataEtu.filter(function(e){
@@ -171,6 +179,10 @@ function dashboard(id, fData){
 					d3.select("#sltEtu").text(etu["Prénom"]+' '+etu["Nom"]);
         			d3.select("#numEtu").text(etu["N° étudiant"]);
 					d3.select("#mailEtu").text(etu["E-mail"]);        			
+		//-------------------------------------		
+		        	var urlTof = tofEtu[etu["lien vers la photo"]] ? tofEtu[etu["lien vers la photo"]].large : "";
+        			d3.select("#photoEtu").attr('src', urlTof);
+		//-------------------------------------		
         		
 				}
 	
@@ -184,12 +196,15 @@ function dashboard(id, fData){
         }
         
         function mouseout(d){    // utility function to be called on mouseout.
+		//------------------------------------
+		if(sltEtu)return;
+		//------------------------------------
 	    		//met à jour le titre de la légende
 			d3.select("#sltEtu").text("Prénom Nom");
 			d3.select("#numEtu").text("---");
 			d3.select("#mailEtu").text("---");
 			d3.select("#horEtu").text("---");
-			
+			d3.select("#photoEtu").attr('src', "images/inconnu.png");   
         		// reset the pie-chart and legend.    
             pC.update(tF);
             leg.update(tF);
@@ -315,19 +330,18 @@ function dashboard(id, fData){
     var tF = [
             'Java',
 			'PHP',
+			'JOOMLA',
 			'JS',
 			'HTML',
-			'SQL',
 			'CSS',
-			'UML',
-			'JOOMLA',
+			'SQL',
+			'ASP',
 			'Wordpress',
-			'Drupal',
-			'SPIP'].map(function(d){ 
+		
+			'XML'].map(function(d){ 
               return {type:d, freq: d3.sum(fData.map(function(t){ return t.freq[d];}))}; 
           });    
 
-    
     // calculate total frequency by state for all segment.
     var sF = fData.map(function(d){return [d.State,d.total];});
 
@@ -336,9 +350,8 @@ function dashboard(id, fData){
         leg= legend(tF);  // create the legend.
 }
 </script>
-
 <script>
-var dataEtu;
+var dataEtu, tofEtu=[];
 d3.csv("php/lecteurFlux.php?url=THYP1617data", null, function(error, data) {
 	freqData = [];
 	dataEtu = data;
@@ -347,7 +360,8 @@ d3.csv("php/lecteurFlux.php?url=THYP1617data", null, function(error, data) {
 	var comp = {"médiocre":5,"trop fort":10,"mauvais":2,"connais pas":1};
 	data.forEach(function(d){
 		var args = {
-			State:d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase()
+			<!-- State:d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase() -->
+			State:getKeyLine(d)
 			,freq:{
 				Java:comp[d["Vos compétences : langage informatique [JAVA]"]], 
                 PHP:comp[d["Vos compétences : langage informatique [PHP]"]], 
@@ -355,15 +369,17 @@ d3.csv("php/lecteurFlux.php?url=THYP1617data", null, function(error, data) {
                 HTML:comp[d["Vos compétences : langage informatique [HTML]"]], 
 				SQL:comp[d["Vos compétences : langage informatique [SQL]"]], 
 			    CSS:comp[d["Vos compétences : langage informatique [CSS]"]], 
-				UML:comp[d["Vos compétences : langage informatique [UML]"]], 
+				ASP:comp[d["Vos compétences : langage informatique [ASP]"]], 
 				JOOMLA:comp[d["Vos compétences : langage informatique [JOOMLA]"]], 
 				WORDPRESS:comp[d["Vos compétences : langage informatique [Wordpress]"]], 
-				DRUPAL:comp[d["Vos compétences : langage informatique [Drupal]"]], 
-				SPIP:comp[d["Vos compétences : langage informatique [SPIP]"]], 
+				XML:comp[d["Vos compétences : langage informatique [XML]"]], 
 
 			}
 		};
-		d.state = d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase();	
+		<!-- d.state = d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase();	 -->
+		//--------------------------
+			d.state = getKeyLine(d);	
+		//----------------------------
 		
 		//vérification des données
 		for(var p in args.freq) {
@@ -371,11 +387,23 @@ d3.csv("php/lecteurFlux.php?url=THYP1617data", null, function(error, data) {
 		}		
 		freqData.push(args);		
 	});
+	//--------------------------------------
+	function getKeyLine(d){
+		return d["Nom"].substring(0,1).toUpperCase()+""+d["Nom"].substring(2,1)+" "+d["Prénom"].substring(0,1).toUpperCase();
+	}
 
-	
-	dashboard('#dashboard',freqData);
-
+	//récupère les photos
+	d3.xml("php/lecteurFlux.php?url=THYP1617photo", "application/xml", function(xml) {
+		var tofs = xml.documentElement.getElementsByTagName("group"); 
+       	for (i = 0; i < tofs.length; i++) { 
+       		tofEtu[i]={'mini':tofs[i].childNodes[6].getAttribute("url"),'medium':tofs[i].childNodes[5].getAttribute("url"),'large':tofs[i].childNodes[0].getAttribute("url")};
+       	}
+       	
+    	dashboard('#dashboard',freqData);
+       	
+	});
 });
-
+	//--------------------------------------
 </script>
+</body>
 </html>
