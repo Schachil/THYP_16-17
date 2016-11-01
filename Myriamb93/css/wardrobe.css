@@ -25,12 +25,18 @@ div.blocc {
 
 
 img:hover {
+  border-radius: 8%; 
     border: 2px solid #fff3d8;
+ 
+
 }
 
 
 img {
+  
+  border-radius: 8%; 
     border: 1px solid black;
+    
 
 }
 
