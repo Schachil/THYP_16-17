@@ -2,32 +2,11 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Competences</title>
 <style>
-
-
-h1{
-
-    letter-spacing: 8px ;
-}
-
-
-h4{
-  letter-spacing: 3.5px; 
-}
-
-h5{
-  letter-spacing: 1.5px; 
-}
-
 body{
-
     width:1060px;
     margin:50px auto;
 }
-
-
-
 path {  stroke: #fff; }
 path:hover {  opacity:0.9; }
 rect:hover {  fill:blue; }
@@ -58,41 +37,25 @@ rect:hover {  fill:blue; }
     width:50px;
 }
 #etu{
-    width:500px;
-    height:200px;
+	width:500px;
+	height:200px;
 }
 #dashboard{
-    width:100%;
-    float:left;
+	width:100%;
+	float:left;
 }
 #photoEtu{
-    float:right;
-    height:200px;
-
+	float:right;
+	height:200px;
 }
-
-
-img {
-  
-  border-radius: 8%; 
- 
-
-}
-
-
-
 </style>
 </head>
 <body>
-<br><h1>Les compétences des étudiants</h1>
+<h1>Les compétences des étudiants</h1>
 <div id="etu" >
 	<img id="photoEtu" />
 	<h2 id="sltEtu"></h2>
 	<p id="mailEtu"></p>
-    <p id="present"></p>
-    <p id="enretard"></p>
-    <p id="absent"></p>
-    
 </div>
 <div id='dashboard'>
 </div>
@@ -182,10 +145,6 @@ function dashboard(id, fData){
         			*/
         			d3.select("#sltEtu").text(etu["Prénom"]+' '+etu["Nom"]+' : '+etu["N° étudiant"]);
         			d3.select("#mailEtu").text(etu["E-mail"]);
-                    document.getElementById("present").innerHTML='<button class="pr" onclick=rappel("present",'+etu["N° étudiant"]+'); type="button">Présent(e)</button>';
-                    document.getElementById("enretard").innerHTML='<button class="pr" onclick=rappel("enRetard",'+etu["N° étudiant"]+'); type="button">En Retard</button>';
-                    document.getElementById("absent").innerHTML='<button class="pr" onclick=rappel("absent",'+etu["N° étudiant"]+'); type="button">Absent(e)</button>';
-                    
         			var urlTof = tofEtu[etu["lien vers la photo"]] ? tofEtu[etu["lien vers la photo"]].large : "";
         			d3.select("#photoEtu").attr('src', urlTof);        			
         			
@@ -203,12 +162,9 @@ function dashboard(id, fData){
         function mouseout(d){    // utility function to be called on mouseout.
     		if(sltEtu)return;
         	//met à jour le titre de la légende
-			d3.select("#sltEtu").text("Select one of the students to see more details ");
-			d3.select("#mailEtu").text("");
-			d3.select("#photoEtu").attr('src', "");     
-            d3.select("#present").text("");  
-            d3.select("#enretard").text(""); 
-            d3.select("#absent").text(""); 
+			d3.select("#sltEtu").text("---");
+			d3.select("#mailEtu").text("---");
+			d3.select("#photoEtu").attr('src', "");        			
 
         		// reset the pie-chart and legend.    
             pC.update(tF);

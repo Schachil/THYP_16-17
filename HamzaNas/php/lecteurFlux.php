@@ -10,6 +10,7 @@ $arrUrl = array(
 curl($arrUrl[$_GET['url']]);
 
 function curl($url){
+	// initialize session
 	$handle = curl_init();
 	curl_setopt($handle, CURLOPT_URL, $url);
     curl_setopt($handle, CURLOPT_RETURNTRANSFER, true);
