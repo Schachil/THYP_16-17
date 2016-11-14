@@ -12,3 +12,13 @@ $(document).ready(function(){
         $(".ifram1").removeClass("show");
     });
 });
+
+//ajout effet zoom sur les images
+$(document).ready( ".imgtrom" ).mouseover(function() {
+    $(".imgtrom").addClass("imgtrom1")
+});
+
+$(document).ready("#etu").mouseenter(function() {
+    $(".seduit").removeClass('hide');
+    console.log("hfjdshgkjdhfkdsjhfkdsjhfk");
+});
