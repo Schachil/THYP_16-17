@@ -3,12 +3,20 @@
     <head>
         <meta charset="utf-8" />
 		<link rel="stylesheet" href="style.css" />
-        <title>Titre</title>
+		
+    <script type="text/javascript" src="js/d3.v3.js"></script>
+ 	<script type="text/javascript" src="js/jquery.min.js" ></script>
+	
+	<script src="assets/js/libs/modernizr.js"></script>
+
+	
+        <title>Trombi</title>
     </head>
 	
     <body>
 
-    <div class="div_student">
+   <!--
+   <div class="div_student">
 	
 		<div class="div_left_picture">
 			
@@ -39,6 +47,74 @@
 			</div>
 			
 		</div>
+		
+		-->
+		<section id="our-team" class="our-team">
+
+			<ul id="THYP">
+			</ul>
+			<ul id="THYPtofs">
+			</ul>
+				
+					
+					<!--<a href="about/Dave-Wrightson.html">-->
+						
+						 <script type="text/javascript">
+		var rssPhoto = "http://picasaweb.google.com/data/feed/base/user/107069028374380439764/albumid/6340716155566922545?alt=rss&kind=photo&hl=en_US";
+	    var urlData = "php/lecteurFlux.php?url=THYP1617data";
+    		d3.csv(urlData, function(data)
+    	    {
+    	        //prices is an array of json objects containing the data in from the csv
+    	        //console.log("data:", data);
+    	        data.forEach(function(d,i){
+	    	        //var h = '<a href="about/will-blackmore.html"><div class="person" id="data_' + i + '"><img src="h.jpg"></div>'d.Prénom+" "+d.Nom+" "+d['N° étudiant'];
+	    	        var h = '<a href="about/will-blackmore.html">'
+	    	        +'<div class="div_student">'
+						+'<div class="div_left_picture">'
+							+'<img src="h.jpg" id="tof_'+d['lien vers la photo']+'" >'
+						+'</div>'
+						+'<div class="div_right_content">'
+							+'<div class="div_inforamation">'
+							+'<ul>'
+								+'<li>'+d.Nom+'</li>'
+								+'<li>'+d['Prénom']+'</li>'
+								+'<li>'+d['N° étudiant']+'</li>'
+							+'</ul>'
+							+'</div>'
+						+'</div>'
+					+'</div>'
+	    	        +'</a>';		    	        	
+    	            $('<li></li>').html(h).appendTo('#THYP');
+    	        });
+
+    	        d3.xml("../samszo/php/lecteurFlux.php?url=THYP1617photo", "application/xml", function(xml) {
+    	        	var tofs = xml.documentElement.getElementsByTagName("enclosure"); 
+    	        	for (i = 0; i < tofs.length; i++) { 
+    	        		console.log(tofs[i].getAttribute("url"));
+        	        	d3.select("#tof_"+i)
+        	        		.attr('src',tofs[i].getAttribute("url"))
+        	        		.style('width',100);
+
+    	        		/*
+    	    	        var h = '<div class="person">'
+    		    	        +'<img src="'+tofs[i].getAttribute("url")+'" id="tof_'+i+'" >'
+    		    	        +'<div>'
+    		    	        +'<h4>'+i+'</h4>'
+    		    	        +'</div>'
+    		    	        +'</div>';		    	        	
+    	        		$('<li></li>').html(h).appendTo('#THYPtofs');
+    	        		*/
+    	        	}
+
+    	        	});
+    	        
+    	    })
+    	    </script>
+					
+		<!-- End intération de l'appel du csv depuis google drive-->
+
+
+		</section>
 		
 	
 	</div>

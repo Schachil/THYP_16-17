@@ -11,7 +11,7 @@
 	
 	<!-- CSS -->
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic">
-	<link rel="stylesheet" href="assets/css/site-v=20160905.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 
 	<!-- JS -->
 	
@@ -21,11 +21,78 @@
 	<script src="assets/js/libs/modernizr.js"></script>
 	<script src="http://use.typekit.net/yzq3vbo.js"></script>
 	<script>try{Typekit.load();}catch(e){}</script>
+	<style>
+	.button {
+	    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#floatdiv{
+position: fixed; 
+width: 40%;
+height: 30% ;
+margin-left: 1px;
+margin-right: 5px;
+padding: 5px;
+background-color: blue;
+color: white;
+border: 2px solid white;
+margin-bottom: 20px;
+margin-top:30px;
+z-index:1000;
+text-indent: 10px;
+text-transform: capitalize;
+font-weight: bold;
+}
+ 
+ 
+.imageflottante{
+float: left;
+}
+</style>
+	
+	
+<script type="text/javascript">
+
+function showinfo(mail,idetudiant){ 
+  
+    document.getElementById("floatdiv").style.visibility="visible";
+
+    document.getElementById("mailbar").innerText=mail;
+	   document.getElementById("identibar").innerText=idetudiant;
+
+
+}
+
+function hidy()
+    { var e=document.getElementById("floatdiv").style.visibility="hidden";}
+
+
+    </script>
+	
 	
 </head>
 
 <body class="page-about">
 
+<div id="floatdiv" style="visibility:hidden;" >
+  
+   
+  <div id="identibar" style="white-space : normal;" >  </div><br />
+ <div id="mailbar" >  </div><br />
+<!-- <div id="nombar" >  </div><br /> -->
+  
+
+   </div>
+	
+	
 
 	<div class="site-wrapper" id="site-wrapper">
 
@@ -41,7 +108,7 @@
 			</div>
 			<br/><br/>
 			<a>
-            <button style= "color=red" onclick="window.location.href ='dashboard.html';">Dashboard</button></a>
+            <button class="button"  background-color= "red" onclick="window.location.href ='dashboard.html';">Dashboard</button></a>
 			<br/><br/>
 </section>
 
@@ -67,9 +134,9 @@
     	        //console.log("data:", data);
     	        data.forEach(function(d,i){
 	    	        //var h = '<a href="about/will-blackmore.html"><div class="person" id="data_' + i + '"><img src="h.jpg"></div>'d.Prénom+" "+d.Nom+" "+d['N° étudiant'];
-	    	        var h = '<a href="about/will-blackmore.html">'
+	    	        var h = '<a href="#" onmouseover=showinfo("'+d['E-mail']+'","'+d['N° étudiant']+'"); onmouseout=hidy()>'
 	    	        +'<div class="person">'
-	    	        +'<img src="h.jpg" id="tof_'+d['lien vers la photo']+'" >'
+	    	        +'<img src="user.jpg" height=220 weight=150 id="tof_'+d['lien vers la photo']+'" >'
 	    	        +'<div>'
 	    	        +'<h4>'+d['Prénom']+' '+d.Nom+'</h4>'
 	    	        +'<h5>'+d['N° étudiant']+'</h5>'

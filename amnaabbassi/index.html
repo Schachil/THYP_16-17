@@ -15,14 +15,16 @@
 	<span class="titreSite">THYP</span>
 	<br />
 	<span class="slogan">Bonjour M2 THYP</span>
+	
+	
 </div>
  <div id="contenu">
 
 				
 				 <ul id="trombi">
-	 </ul>
-	 <ul id="trombitofs">
-	 </ul>
+				 </ul>
+				 <ul id="trombitofs">
+				 </ul>
 				
 				
 				<script type="text/javascript">
@@ -34,9 +36,9 @@
 							//console.log("data:", data);
 							data.forEach(function(d,i){
 					
-											var h = '<a href="detail.html">'
+											var h = '<a href="dashboard.html">'
 											 +'<div class="img">'
-											 +'<img src="1.jpg" width="100" id="tof_'+d['lien vers la photo']+'" >'
+											 +'<img src="1.jpg"  id="tof_'+d['lien vers la photo']+'" >'
 											 +'<div>'
 											 +'<h4>'+d['Prénom']+' '+d.Nom+'</h4>'
 											 +'<h5>'+d['N° étudiant']+'</h5>'
@@ -52,8 +54,7 @@
 				 for (i = 0; i < tofs.length; i++) {
 					 console.log(tofs[i].getAttribute("url"));
 					 d3.select("#tof_"+i)
-							 .attr('src',tofs[i].getAttribute("url"))
-							 .style('width',100);
+							 .attr('src',tofs[i].getAttribute("url"));
 
 				 }
 
@@ -72,7 +73,7 @@
 			        
 		<div style="clear:both;"></div>
 		<div id="piedDePage">
-			Copyright AMNA abbassi
+			 AMNA abbassi
 		</div>
 
 	</div>

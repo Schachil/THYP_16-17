@@ -10,6 +10,9 @@
     <script type="text/javascript" src="js/d3.v3.js"></script>
  	<script type="text/javascript" src="js/jquery.min.js" ></script>
 	
+	<script src= "assets/js/libs/modernizr.js"></script>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	
 	<script>try{Typekit.load();}catch(e){}</script> 
    
 </head>
@@ -23,11 +26,21 @@
 			<br />
 		</center>
 	</div>
+	
+	
+	
+	
+	
+	
 <div id="Lapage">
-	<div id="contenu">
 
+
+	<div id="contenu">
+	
+		<div id='dashboard'>
+		</div>
 		
-				
+		
 			<ul id="THYP"></ul>
 			<ul id="THYPtofs"></ul> 
 				
@@ -42,7 +55,7 @@
     	        data.forEach(function(d,i){
 	    	       
 					
-	    	        var h = '<a href="renseignement.php">'
+	    	        var h = '<a href="page1.php">'
 					 +'<div class="bloc">'
 	    	        +'<img src="h.jpg" id="tof_'+d['lien vers la photo']+'" >'
 	    	        +'<div class="titre">'
@@ -54,7 +67,7 @@
     	            $('<li></li>').html(h).appendTo('#THYP');
 					
     	        });
-    	        d3.xml("../THYP_16-17/samszo/php/lecteurFlux.php?url=THYP1617photo", "application/xml", function(xml) {
+    	        d3.xml("../samszo/php/lecteurFlux.php?url=THYP1617photo", "application/xml", function(xml) {
     	        	var tofs = xml.documentElement.getElementsByTagName("enclosure"); 
     	        	for (i = 0; i < tofs.length; i++) { 
     	        		console.log(tofs[i].getAttribute("url"));
@@ -67,8 +80,13 @@
     	        
     	    })
     	    </script>
+			
+
 					
 		<!-- End intération de l'appel du csv depuis google drive-->
+		
+		
+		
 
 
 		</section>
@@ -86,6 +104,8 @@
 				</div>
 				
 </div>
+
+
 		
 	
 			        
@@ -96,6 +116,8 @@
 
 	</div>
 </div>
+
+
 
 </body>
 </html>

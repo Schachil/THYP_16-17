@@ -1,90 +1,238 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<body>
-<h1>Les compétences des étudiants</h1>
-<h2 id="sltEtu"></h2>
-<p id="mailEtu"></p>
-<p id="technologie"></p>
-<div id='dashboard'>
-</div>
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<script type="text/javascript" src="js/scriptDash.js"></script> >
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="fr"> <!--<![endif]-->
+<head>
+
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Trombinoscope</title>   
+
+ <link rel="stylesheet" type="text/css" href="css/style2.css">
    
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="js/scriptDash.js"></script> 
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main Style -->
+<link href="css/main.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="css/supersized.css" rel="stylesheet">
+<link href="css/supersized.shutter.css" rel="stylesheet">
+
+<!-- FancyBox -->
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+
+<!-- Font Icons -->
+<link href="css/fonts.css" rel="stylesheet">
+
+<!-- Shortcodes -->
+<link href="css/shortcodes.css" rel="stylesheet">
+
+<!-- Responsive -->
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="css/supersized.css" rel="stylesheet">
+<link href="css/supersized.shutter.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="#">
+
+<link rel="apple-touch-icon" href="#">
+<link rel="apple-touch-icon" sizes="114x114" href="#">
+<link rel="apple-touch-icon" sizes="72x72" href="#">
+<link rel="apple-touch-icon" sizes="144x144" href="#">
+
+<!-- Modernizr -->
+<script src="_includejs/modernizr.js"></script>
+
+<!-- Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'Insert Your Code']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
 </script>
+<!-- End Analytics -->
+
+</head>
+
+
+<body>
+
+
+
+<header>
+    <div class="sticky-nav">
+        <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+        
+        <div id="logo">
+            <a id="goUp" href="#home-slider" title="Brushed | Responsive One Page Template">Trombinoscope</a>
+        </div>
+        
+        <nav id="menu">
+            <ul id="menu-nav">
+                <li class="current"><a href="index.html">Accueil</a></li>
+                <li><a href="#dashboard.html">Compétences</a></li>
+                <li><a href="#about">Absence</a></li>
+               
+            </ul>
+        </nav>
+        
+    </div>
+</header>
+<!-- End Header -->
+
+<!-- Our Work Section -->
+<div id="work" class="page">
+    <div class="container">
+        <!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">Les compétences des étudiants</h2>
+                     <div class="row">
+                        <div class="span4">
+                                <h3 class="title-description" id="sltEtu">informations </h3>
+                                <h3 class="title-description" id="mailEtu">mail </h3>
+                                 <h3 class="title-description" id="technologie">Technologie </h3>
+
+                        </div>
+                        <div class="span4">
+                            <img class="img" id="photoEtu" />
+                        </div>
+                        <div class="span4">
+                            <button class="btn"> Présent</button>
+                            <button class="btn"> Absent</button>
+                        </div>
+              
+      
+  
+    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+        <!-- End Title Page -->
+        
+        <!-- Portfolio Projects -->
+        <div class="row">
+            
+            
+            <div class="span12">
+                <div class="row">
+                    <section id="projects">
+     
+
+  
+    <div id='dashboard'></div>
+                    </section>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- End Portfolio Projects -->
+    </div>
+</div>
+
+<footer>
+    <p class="credits">SEBAHI Yazid Master 2 THYP <a href="http://themes.alessioatzeni.com/html/brushed/" title="Trombinoscope">Template</a> </p>
+</footer>
+<!-- End Footer -->
+
+<!-- Back To Top -->
+<a id="back-to-top" href="#">
+    <i class="font-icon-arrow-simple-up"></i>
+</a>
+<!-- End Back to Top -->
+
+
+<!-- Js -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+<script src="js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src="js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src="js/waypoints.js"></script> <!-- WayPoints -->
+<script src="js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+<script src="js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<script src="js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+
+<script src="js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src="js/main.js"></script> <!-- Default JS -->
+<!-- End Js -->
+
+</body>
+   
+  
+
+
 
 <script>
-    var dataEtu;
-   // d3.csv("data/THYP16-17.csv",null, function(error, data) { pour recuperer en local
-   d3.csv("php/lecteurFlux.php?url=THYP1617data", null, function(error, data) {
-        freqData = [];
-        dataEtu = data;
-        /*formulaire THYP*/
+   var dataEtu, tofEtu=[];
+d3.csv("php/lecteurFlux.php?url=THYP1617data", null, function(error, data) {
+    freqData = [];
+    dataEtu = data;
+    /*formulaire THYP*/
+                                                                                    
+    var comp = {"médiocre":5,"trop fort":10,"mauvais":2,"connais pas":1};
+    data.forEach(function(d){
+        var args = {
+            State:getKeyLine(d)
+            ,freq:{
+                PHP:comp[d["Vos compétences : langage informatique [PHP]"]], 
+                HTML:comp[d["Vos compétences : langage informatique [HTML]"]],
+                JSON:comp[d["Vos compétences : langage informatique [jSON]"]],
+                CSS:comp[d["Vos compétences : langage informatique [CSS]"]],
+                XML:comp[d["Vos compétences : langage informatique [XML]"]],
+                JAVA:comp[d["Vos compétences : langage informatique [JAVA]"]],
+                SQL:comp[d["Vos compétences : langage informatique [SQL]"]], 
+                Python:comp[d["Vos compétences : langage informatique [Phyton]"]],
+                ASP:comp[d["Vos compétences : langage informatique [ASP]"]],
+                JS:comp[d["Vos compétences : langage informatique [JS]"]],
+            }
+        };
+        d.state = getKeyLine(d);    
+        
+        //vérification des données
+        for(var p in args.freq) {
+           if(args.freq[p] == undefined)args.freq[p]=0;
+        }       
+        freqData.push(args);        
+    });
+    
+    function getKeyLine(d){
+        return d["Nom"].substring(0,1).toUpperCase()+""+d["Nom"].substring(2,1)+" "+d["Prénom"].substring(0,1).toUpperCase();
+    }
 
-        var comp = {"médiocre":3,"trop fort":10,"mauvais":2,"connais pas":1,"génie":15};
-        data.forEach(function(d){
-            var args = {
-                State:d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase()
-                ,freq:{
-                    PHP:comp[d["Vos compétences : langage informatique [PHP]"]],
-                    JS:comp[d["Vos compétences : langage informatique [Javascript]"]],
-                    HTML:comp[d["Vos compétences : langage informatique [HTML]"]],
-                    CSS:comp[d["Vos compétences : langage informatique [CSS]"]],
-                    XML:comp[d["Vos compétences : langage informatique [XML]"]],
-                    JSON:comp[d["Vos compétences : langage informatique [JSON]"]],
-                    JAVA:comp[d["Vos compétences : langage informatique [JAVA]"]],
-                    SQL:comp[d["Vos compétences : langage informatique [SQL]"]],
-                    PYTHON:comp[d["Vos compétences : langage informatique [Python]"]],
-                    ASP:comp[d["Vos compétences : langage informatique [ASP]"]],
-                    JOOMLA:comp[d["Vos compétences : CMS [Joomla]"]],
-                    WORDPRESS:comp[d["Vos compétences : CMS [WORPRESS]"]],
-                    SPIP:comp[d["Vos compétences : CMS [SPIP]"]],
-                    DRUPAL:comp[d["Vos compétences : CMS [Drupal]"]],
-                    TYPO3:comp[d["Vos compétences : CMS [Typo 3]"]],
-                    PRESTASHOP:comp[d["Vos compétences : CMS [Prestashop]"]],
-                    OMEKA:comp[d["Vos compétences : CMS [Omeka]"]],
-                    MAGENTO:comp[d["Vos compétences : CMS [Magento]"]],
-                    EXOPLATFORME:comp[d["Vos compétences : CMS [Exo plateforme]"]],
-                    GIMP:comp[d["Vos compétences : logiciel [GIMP]"]],
-                    PHOTOSHOP:comp[d["Vos compétences : logiciel [Photoshop]"]],
-                    ILLUSTRATOR:comp[d["Vos compétences : logiciel [Illustrator]"]],
-                    INSKAPE:comp[d["Vos compétences : logiciel [Inkscape]"]],
-                    ECLIPSE:comp[d["Vos compétences : logiciel [Eclipse]"]],
-                    DEAMWEAVER:comp[d["Vos compétences : logiciel [Dreamweaver]"]],
-                    OFFFICE:comp[d["Vos compétences : logiciel [Office]"]],
-                    DSMAX3:comp[d["Vos compétences : logiciel [3DSMax]"]],
-                    VISUAL_STUDIO:comp[d["Vos compétences : logiciel [Visual Studio]"]],
-                    GITHUB:comp[d["Vos compétences : logiciel [Github]"]],
-                    SVN:comp[d["Vos compétences : logiciel [SVN]"]],
-                    NETBEANS:comp[d["Vos compétences : logiciel [Net Beans]"]],
-                    SUBLIMTEXT:comp[d["Vos compétences : logiciel [Sublime Text]"]],
-                    NOTEPADE:comp[d["Vos compétences : logiciel [Notepad ++]"]],
-                    FRANCAIS:comp[d["Langues [Français]"]],
-                    ARABE:[d["Langues [Arabe]"]],
-                    ESPAGNOL:[d["Langues [Espagnol]"]],
-                    ITALIEN:comp[d["Langues [Italien]"]],
-                    ANGLAIS:comp[d["Langues [Anglais]"]],
-                    ALLEMAND:comp[d["Langues [Allemand]"]],
-                    CHINOIS:comp[d["Langues [Chinois]"]],
-                    JAPONAIS:comp[d["Langues [Japonais]"]],
-                    BICYCLETTE:comp[d["Loisirs [Bicyclette]"]],
-                    FOOTBALL:comp[d["Loisirs [Football]"]],
-
-
-			}
-		};
-		d.state = d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase();
-		
-		//vérification des données
-		for(var p in args.freq) {
-		   if(args.freq[p] == undefined)args.freq[p]=0;
-		}		
-		freqData.push(args);		
-	});
-
-	
-	dashboard('#dashboard',freqData);
-
+    //récupère les photos
+    d3.xml("php/lecteurFlux.php?url=THYP1617photo", "application/xml", function(xml) {
+        var tofs = xml.documentElement.getElementsByTagName("group"); 
+        for (i = 0; i < tofs.length; i++) { 
+            tofEtu[i]={'mini':tofs[i].childNodes[6].getAttribute("url"),'medium':tofs[i].childNodes[5].getAttribute("url"),'large':tofs[i].childNodes[0].getAttribute("url")};
+        }
+        
+        dashboard('#dashboard',freqData);
+        
+    });
+    
 });
 
 </script>

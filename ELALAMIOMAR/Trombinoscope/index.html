@@ -1,8 +1,16 @@
-
 <html>
 <head>
 <title>Trombinoscope</title>
-
+<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />  
+		<script type="text/javascript" src="js/d3.v3.js"></script>
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+	
+		
+		
+		
+		<script>try{Typekit.load();}catch(e){}</script>
+	
 <style type="text/css">
 body {
 	background: #222;
@@ -38,27 +46,74 @@ a:hover {
 
 </head>
 <body>
+<header id="header">
 
-<div class="gallery" align="center">
-	<h2>Trombinoscope</h2>
-	<p>Master 2 : THYP2016-2017</p>
+					<div class="content">
+					<h2><center>Trombinoscope</center></h2>
+					<p><center>Master 2 : THYP2016-2017</center></p>
+					<HR size="2" align="center">
+					<br/>
+						
+						
+				
+			</header>
 
-	<br />
+     
+  <section class="content" >
+               
+                    <div id="Trom"  >
 
-	<div class="thumbnails">
-		<img onmouseover="preview.src=img1.src" name="img1" src="images/hypertext.png" alt=""/>
-		<img onmouseover="preview.src=img2.src" name="img2" src="images/hypermedia.jpg" alt=""/>
-		<img onmouseover="preview.src=img3.src" name="img3" src="images/web-dev.jpg" alt=""/>
-		<img onmouseover="preview.src=img4.src" name="img4" src="images/developpeur-web.jpg" alt=""/>
-		<img onmouseover="preview.src=img5.src" name="img5" src="images/web.jpeg" alt=""/>
-		</div><br/>
+                    </div>
 
-	<div class="preview" align="center">
-		<img name="preview" src="images/img1.jpg" alt=""/>
-	</div>
+                     <script type="text/javascript">
 
-</div>
+                          var rssPhoto = "http://picasaweb.google.com/data/feed/base/user/107069028374380439764/albumid/6340716155566922545?alt=rss&kind=photo&hl=en_US";
+                         var urlData = "php/lecteurFlux.php?url=THYP1617data";
+                         d3.csv(urlData, function(data)
+                         {
+                            
+
+                            data.forEach(function(d,i)
+                            {
+                                
+                                var pro = /*'<div class="content"> '
+                                        +*/'<a href=#  title="Compétences..." target="blank">'
+                                        +'<div class="blocc">'
+                                        +'<img src="profil.jpg" id="tof_'+d['lien vers la photo']+'" >'
+                                        +'<div>'
+                                        +'<h4> '+d['Prénom']+' '+d.Nom+'</h4>'
+                                        +'<h5>'+d['N° étudiant']+'</h5>'
+                                        +'</div>'
+                                        +'</div>'
+                                        +'</a>'
+                                        /*+'</div>'*/;                            
+                                        $('<div></div>').html(pro).appendTo('#Trom');
 
 
+
+                                    
+                            });
+
+                            d3.xml("php/lecteurFlux.php?url=THYP1617photo", "application/xml", function(xml) 
+                            {
+                                var tofs = xml.documentElement.getElementsByTagName("enclosure"); 
+                                for (i = 0; i < tofs.length; i++) { 
+                                    console.log(tofs[i].getAttribute("url"));
+                                    d3.select("#tof_"+i)
+                                        .attr('src',tofs[i].getAttribute("url"))
+                                        .style('width',100);
+                                    
+                                    
+                                }
+                                });
+                            
+                        })
+                     </script>
+
+
+</section>
+		
+			
+	
 </body>
 </html>
