@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="css/fstyle2.css" rel="stylesheet" type="text/css">
+
 <meta charset="utf-8">
 <style>
-
 body{
     width:1060px;
     margin:50px auto;
@@ -52,7 +58,15 @@ rect:hover {  fill:blue; }
 </style>
 </head>
 <body>
-<h1>Les compétences des étudiants</h1>
+<header> Les compétences des étudiants</header> </br>
+<div class="container">
+  <button type="button" class="btn btn-success" color:">présent </button> 	
+  <button type="button" class="btn btn-warning">absent</button>	
+  <button type="button" class="btn btn-danger">Retard</button>
+</div>
+
+
+<!--<h1 style="color:blue;">Les compétences des étudiants</h1>-->
 <div id="etu" >
 	<img id="photoEtu" />
 	<h2 id="sltEtu"></h2>
@@ -163,8 +177,8 @@ function dashboard(id, fData){
         function mouseout(d){    // utility function to be called on mouseout.
     		if(sltEtu)return;
         	//met à jour le titre de la légende
-			d3.select("#sltEtu").text("---");
-			d3.select("#mailEtu").text("---");
+			d3.select("#sltEtu").text("Nom et Prénom : N°étudiant");
+			d3.select("#mailEtu").text("E-mail");
 			d3.select("#photoEtu").attr('src', "");        			
 
         		// reset the pie-chart and legend.    
