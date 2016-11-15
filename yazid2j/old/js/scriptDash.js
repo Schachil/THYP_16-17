@@ -1,61 +1,3 @@
-<!doctype html>
-<!--[if IE 8]><html lang="en" class="lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
-<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-
-	<meta charset="utf-8">
-	<title>THYP Trombino</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="description" content="trombinoscope of master 2 THYP.">
-	<meta name="keywords" content="Informatique, web, hypermedia">
-
-	
-	<!-- CSS -->
-	    <link rel="icon" type="image/ico" href="favicon.ico"/>
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic">
-	<link rel="stylesheet" href="assets/css/site-v=20160905.css">
-	<link rel="stylesheet" href="assets/css/stylesheets.css">
-	
-	    
-
-
-   <!-- <link href="assets/css1/stylesheets.css" rel="stylesheet" type="text/css" /> -->
-
-	<!-- JS -->
-	    
-    <script type='text/javascript' src='js/plugins/jquery/jquery.min.js'></script>
-    <script type='text/javascript' src='js/plugins/jquery/jquery-ui.min.js'></script>   
-    <script type='text/javascript' src='js/plugins/jquery/jquery-migrate.min.js'></script>
-    <script type='text/javascript' src='js/plugins/jquery/globalize.js'></script>    
-    <script type='text/javascript' src='js/plugins/bootstrap/bootstrap.min.js'></script>
-    
-    <script type='text/javascript' src='js/plugins/fancybox/jquery.fancybox.pack.js'></script>             
-    <script type='text/javascript' src='js/plugins/uniform/jquery.uniform.min.js'></script>
-    
-    <script type='text/javascript' src='js/plugins.js'></script>    
-    <script type='text/javascript' src='js/actions.js'></script>
-    <script type='text/javascript' src='js/settings.js'></script>
-	
-    <script type="text/javascript" src="js/d3.v3.js"></script>
- 	<script type="text/javascript" src="js/jquery.min.js" ></script>
-	
-	<script src="assets/js/libs/modernizr.js"></script>
-	<script src="http://use.typekit.net/yzq3vbo.js"></script>
-	<script>try{Typekit.load();}catch(e){}</script>
-	
-	
-	
-</head>
-
-<body  class="bg-img-num1">
-
-<h1 style="color:yellow; margin-top:100px;">Les compétences des étudiants</h1>
-<h2 id="Etudiant"></h2>
-<p id="email"></p>
-<div id='dashboard'>
-</div>
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<script>
 function dashboard(id, fData){
     var barColor = 'steelblue';
     /*
@@ -71,11 +13,11 @@ function dashboard(id, fData){
                     +d.freq.Javascript
                     +d.freq.Java;}
                     );
-   	*/
+    */
    var segColor = d3.scale.category20b();
-   	
+   var sltEtu = false;  
     fData.forEach(function(d){
-        d.total =   d.freq.PHP+d.freq.JS;}
+        d.total =   d.freq.PHP+d.freq.HTML+d.freq.JSON+d.freq.CSS+d.freq.XML+d.freq.JAVA+d.freq.SQL+d.freq.Python+d.freq.ASP+d.freq.JS;}
                     );
     
     // function to handle histogram.
@@ -89,16 +31,20 @@ function dashboard(id, fData){
             .attr("width", hGDim.w + hGDim.l + hGDim.r)
             .attr("height", hGDim.h + hGDim.t + hGDim.b).append("g")
             .attr("transform", "translate(" + hGDim.l + "," + hGDim.t + ")");
+
         // create function for x-axis mapping.
         var x = d3.scale.ordinal().rangeRoundBands([0, hGDim.w], 0.1)
                 .domain(fD.map(function(d) { return d[0]; }));
+
         // Add x-axis to the histogram svg.
         hGsvg.append("g").attr("class", "x axis")
             .attr("transform", "translate(0," + hGDim.h + ")")
             .call(d3.svg.axis().scale(x).orient("bottom"));
+
         // Create function for y-axis map.
         var y = d3.scale.linear().range([hGDim.h, 0])
                 .domain([0, d3.max(fD, function(d) { return d[1]; })]);
+
         // Create bars for histogram to contain rectangles and freq labels.
         var bars = hGsvg.selectAll(".bar").data(fD).enter()
                 .append("g").attr("class", "bar");
@@ -110,6 +56,9 @@ function dashboard(id, fData){
             .attr("width", x.rangeBand())
             .attr("height", function(d) { return hGDim.h - y(d[1]); })
             .attr('fill',barColor)
+            .on("click",function(d){
+                sltEtu = true;
+                })
             .on("mouseover",mouseover)// mouseover is defined below.
             .on("mouseout",mouseout);// mouseout is defined below.
             
@@ -120,22 +69,25 @@ function dashboard(id, fData){
             .attr("text-anchor", "middle");
         
         function mouseover(d){  // utility function to be called on mouseover.
-	    		//met à jour le titre de la légende
-	    		var etu = dataEtu.filter(function(e){
-	    			return e.state == d[0];
-	    			});
-        		if(etu[0]){
-        			etu = etu[0];
-        			/*
-        			d3.select("#Etudiant").text(etu["Prénom"]+' '+etu["Nom"]+' : '+etu["N° étudiant"]);
-        			d3.select("#email").text(etu["E-mail"]);        			
-        			*/
-        			d3.select("#Etudiant").text(etu["Prénom"]+' '+etu["Nom"]+' : '+etu["N° étudiant"]);
-        			d3.select("#email").text(etu["E-mail"]);        			
-        			
-        		}
-	
-			// filter for selected state.
+                sltEtu = false;
+                //met à jour le titre de la légende
+                var etu = dataEtu.filter(function(e){
+                    return e.state == d[0];
+                    });
+                if(etu[0]){
+                    etu = etu[0];
+                    /*
+                    d3.select("#sltEtu").text(etu["Prénom"]+' '+etu["Nom"]+' : '+etu["N° étudiant"]);
+                    d3.select("#mailEtu").text(etu["E-mail"]);                  
+                    */
+                    d3.select("#sltEtu").text(etu["Prénom"]+' '+etu["Nom"]+' : '+etu["N° étudiant"]);
+                    d3.select("#mailEtu").text(etu["E-mail"]);
+                    var urlTof = tofEtu[etu["lien vers la photo"]] ? tofEtu[etu["lien vers la photo"]].large : "";
+                    d3.select("#photoEtu").attr('src', urlTof);                 
+                    
+                }
+    
+            // filter for selected state.
             var st = fData.filter(function(s){ return s.State == d[0];})[0],
                 nD = d3.keys(st.freq).map(function(s){ return {type:s, freq:st.freq[s]};});
                
@@ -145,10 +97,13 @@ function dashboard(id, fData){
         }
         
         function mouseout(d){    // utility function to be called on mouseout.
-	    		//met à jour le titre de la légende
-			d3.select("#Etudiant").text("---");
-			d3.select("#email").text("---");
-        		// reset the pie-chart and legend.    
+            if(sltEtu)return;
+            //met à jour le titre de la légende
+            d3.select("#sltEtu").text("---");
+            d3.select("#mailEtu").text("---");
+            d3.select("#photoEtu").attr('src', "");                 
+
+                // reset the pie-chart and legend.    
             pC.update(tF);
             leg.update(tF);
         }
@@ -166,6 +121,7 @@ function dashboard(id, fData){
                 .attr("y", function(d) {return y(d[1]); })
                 .attr("height", function(d) { return hGDim.h - y(d[1]); })
                 .attr("fill", color);
+
             // transition the frequency labels location and change value.
             bars.select("text").transition().duration(500)
                 .text(function(d){ return d3.format(",")(d[1])})
@@ -174,52 +130,58 @@ function dashboard(id, fData){
         return hG;
     }
     
-    // function to handle pieChart.
-    function pieChart(pD){
-        var pC ={},    pieDim ={w:250, h: 250};
-        pieDim.r = Math.min(pieDim.w, pieDim.h) / 2;
-                
-        // create svg for pie chart.
-        var piesvg = d3.select(id).append("svg")
-            .attr("width", pieDim.w).attr("height", pieDim.h).append("g")
-            .attr("transform", "translate("+pieDim.w/2+","+pieDim.h/2+")");
-        
-        // create function to draw the arcs of the pie slices.
-        var arc = d3.svg.arc().outerRadius(pieDim.r - 10).innerRadius(0);
-        // create a function to compute the pie slice angles.
-        var pie = d3.layout.pie().sort(null).value(function(d) { return d.freq; });
-        // Draw the pie slices.
-        piesvg.selectAll("path").data(pie(pD)).enter().append("path").attr("d", arc)
-            .each(function(d) { this._current = d; })
-            .style("fill", function(d) { return segColor(d.data.type); })
-            .on("mouseover",mouseover).on("mouseout",mouseout);
-        // create function to update pie-chart. This will be used by histogram.
-        pC.update = function(nD){
-            piesvg.selectAll("path").data(pie(nD)).transition().duration(500)
-                .attrTween("d", arcTween);
-        }        
-        // Utility function to be called on mouseover a pie slice.
-        function mouseover(d){
-            // call the update function of histogram with new data.
-            hG.update(fData.map(function(v){ 
-                return [v.State,v.freq[d.data.type]];}),segColor(d.data.type));
+        // function to handle pieChart.
+        function pieChart(pD){
+            var pC ={},    pieDim ={w:250, h: 250};
+            pieDim.r = Math.min(pieDim.w, pieDim.h) / 2;
+
+            // create svg for pie chart.
+            var piesvg = d3.select(id).append("svg")
+                    .attr("width", pieDim.w).attr("height", pieDim.h).append("g")
+                    .attr("transform", "translate("+pieDim.w/2+","+pieDim.h/2+")");
+
+            // create function to draw the arcs of the pie slices.
+            var arc = d3.svg.arc().outerRadius(pieDim.r - 10).innerRadius(0);
+
+            // create a function to compute the pie slice angles.
+            var pie = d3.layout.pie().sort(null).value(function(d) { return d.freq; });
+
+            // Draw the pie slices.
+            piesvg.selectAll("path").data(pie(pD)).enter().append("path").attr("d", arc)
+                    .each(function(d) { this._current = d; })
+                    .style("fill", function(d) { return segColor(d.data.type); })
+                    .on("mouseover",mouseover).on("mouseout",mouseout);
+
+            // create function to update pie-chart. This will be used by histogram.
+            pC.update = function(nD){
+                piesvg.selectAll("path").data(pie(nD)).transition().duration(500)
+                        .attrTween("d", arcTween);
+            }
+            // Utility function to be called on mouseover a pie slice.
+            function mouseover(d){
+
+                var langage = d.data.type;
+                d3.select("#technologie").text(langage);
+                // call the update function of histogram with new data.
+                hG.update(fData.map(function(v){
+                    return [v.State,v.freq[d.data.type]];}),segColor(d.data.type));
+            }
+            //Utility function to be called on mouseout a pie slice.
+            function mouseout(d){
+                d3.select("#technologie").text("---");
+                // call the update function of histogram with all data.
+                hG.update(fData.map(function(v){
+                    return [v.State,v.total];}), barColor);
+            }
+            // Animating the pie-slice requiring a custom function which specifies
+            // how the intermediate paths should be drawn.
+            function arcTween(a) {
+                var i = d3.interpolate(this._current, a);
+                this._current = i(0);
+                return function(t) { return arc(i(t));    };
+            }
+            return pC;
         }
-        //Utility function to be called on mouseout a pie slice.
-        function mouseout(d){
-            // call the update function of histogram with all data.
-            hG.update(fData.map(function(v){
-                return [v.State,v.total];}), barColor);
-        }
-        // Animating the pie-slice requiring a custom function which specifies
-        // how the intermediate paths should be drawn.
-        function arcTween(a) {
-            var i = d3.interpolate(this._current, a);
-            this._current = i(0);
-            return function(t) { return arc(i(t));    };
-        }    
-        return pC;
-    }
-    
     // function to handle legend.
     function legend(lD){
         var leg = {};
@@ -233,22 +195,27 @@ function dashboard(id, fData){
         // create the first column for each segment.
         tr.append("td").append("svg").attr("width", '16').attr("height", '16').append("rect")
             .attr("width", '16').attr("height", '16')
-			.attr("fill",function(d){ return segColor(d.type); });
+            .attr("fill",function(d){ return segColor(d.type); });
             
         // create the second column for each segment.
         tr.append("td").text(function(d){ return d.type;});
+
         // create the third column for each segment.
         tr.append("td").attr("class",'legendFreq')
             .text(function(d){ return d3.format(",")(d.freq);});
+
         // create the fourth column for each segment.
         tr.append("td").attr("class",'legendPerc')
             .text(function(d){ return getLegend(d,lD);});
+
         // Utility function to be used to update the legend.
         leg.update = function(nD){
             // update the data attached to the row elements.
             var l = legend.select("tbody").selectAll("tr").data(nD);
+
             // update the frequencies.
             l.select(".legendFreq").text(function(d){ return d3.format(",")(d.freq);});
+
             // update the percentage column.
             l.select(".legendPerc").text(function(d){ return getLegend(d,nD);});        
         }
@@ -256,52 +223,30 @@ function dashboard(id, fData){
         function getLegend(d,aD){ // Utility function to compute percentage.
             return d3.format("%")(d.freq/d3.sum(aD.map(function(v){ return v.freq; })));
         }
+
         return leg;
     }
     
     // calculate total frequency by segment for all state.
     var tF = [
-            'PHP',
-			'JS'].map(function(d){ 
+        'PHP',
+        'HTML',
+        'JSON',
+        'CSS',
+        'XML',
+        'JAVA',
+        'SQL',
+        'Python',
+        'ASP',
+        'JS'].map(function(d){ 
               return {type:d, freq: d3.sum(fData.map(function(t){ return t.freq[d];}))}; 
           });    
+
     
     // calculate total frequency by state for all segment.
     var sF = fData.map(function(d){return [d.State,d.total];});
+
     var hG = histoGram(sF), // create the histogram.
         pC = pieChart(tF), // create the pie-chart.
         leg= legend(tF);  // create the legend.
 }
-</script>
-
-<script>
-var dataEtu;
-d3.csv("php/lecteurFlux.php?url=THYP1617data", null, function(error, data) {
-	freqData = [];
-	dataEtu = data;
-	/*formulaire THYP*/
-																					
-	var comp = {"médiocre":5,"trop fort":10,"mauvais":2,"connais pas":1};
-	data.forEach(function(d){
-		var args = {
-			State:d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase()
-			,freq:{
-                PHP:comp[d["Vos compétences : langage informatique [PHP]"]], 
-                JS:comp[d["Vos compétences : langage informatique [Javascript]"]], 
-			}
-		};
-		d.state = d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase();	
-		
-		//vérification des données
-		for(var p in args.freq) {
-		   if(args.freq[p] == undefined)args.freq[p]=0;
-		}		
-		freqData.push(args);		
-	});
-	
-	dashboard('#dashboard',freqData);
-});
-</script>
-
-</body>
-</html>
