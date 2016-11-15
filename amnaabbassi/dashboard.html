@@ -56,11 +56,21 @@ rect:hover {  fill:blue; }
 	<img id="photoEtu" />
 	<h2 id="sltEtu"></h2>
 	<p id="mailEtu"></p>
+	 <p id="present"></p>
+	 <p id="absent"></p>
+    <p id="enretard"></p>
+    
 </div>
 <div id='dashboard'>
 </div>
+
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
+ function rappel(idmsg,identi){
+         alert(idmsg,identi);
+
+
+ }
 function dashboard(id, fData){
     var barColor = 'steelblue';
     /*
@@ -145,6 +155,9 @@ function dashboard(id, fData){
         			*/
         			d3.select("#sltEtu").text(etu["Prénom"]+' '+etu["Nom"]+' : '+etu["N° étudiant"]);
         			d3.select("#mailEtu").text(etu["E-mail"]);
+					document.getElementById("present").innerHTML='<button class="pr"  onclick=rappel("present",'+etu["N° étudiant"]+'); type="button" >Présent(e)</button>';
+                    document.getElementById("enretard").innerHTML='<button class="pr" onclick=rappel("enRetard",'+etu["N° étudiant"]+'); type="button">En Retard</button>';
+                    document.getElementById("absent").innerHTML='<button class="pr" onclick=rappel("absent",'+etu["N° étudiant"]+'); type="button">Absent(e)</button>';
         			var urlTof = tofEtu[etu["lien vers la photo"]] ? tofEtu[etu["lien vers la photo"]].large : "";
         			d3.select("#photoEtu").attr('src', urlTof);        			
         			
@@ -164,7 +177,12 @@ function dashboard(id, fData){
         	//met à jour le titre de la légende
 			d3.select("#sltEtu").text("---");
 			d3.select("#mailEtu").text("---");
-			d3.select("#photoEtu").attr('src', "");        			
+			d3.select("#photoEtu").attr('src', "");  
+			d3.select("#present").text("");
+			d3.select("#absent").text("");
+            d3.select("#enretard").text(""); 
+          
+			
 
         		// reset the pie-chart and legend.    
             pC.update(tF);
