@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: gray;
+}
+
+div.datab {
+    margin: 40px;
+    border: 0px solid #ccc;
+    float: left;
+
+    
+ 
+}
+
