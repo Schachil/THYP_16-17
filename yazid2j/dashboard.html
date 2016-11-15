@@ -5,6 +5,7 @@
 <!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
 <!--[if gt IE 8]><!--> <html lang="fr"> <!--<![endif]-->
 <head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 <!-- Meta Tags -->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -120,7 +121,7 @@
                             <img class="img" id="photoEtu" />
                         </div>
                         <div class="span4">
-                            <button class="btn"> Présent</button>
+                            <a href="" class="btn" id="present"> Présent</a>
                             <button class="btn"> Absent</button>
                         </div>
               
@@ -132,9 +133,13 @@
                 </div>
             </div>
         </div>
-        <!-- End Title Page -->
-        
-        <!-- Portfolio Projects -->
+       <script type="text/javascript">
+                  
+            $(document).ready(function(){
+                $("#present").attr('href','Calendar.html?val=');
+            });
+
+              </script>
         <div class="row">
             
             
@@ -166,8 +171,7 @@
 <!-- End Back to Top -->
 
 
-<!-- Js -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+
 <script src="js/bootstrap.min.js"></script> <!-- Bootstrap -->
 <script src="js/supersized.3.2.7.min.js"></script> <!-- Slider -->
 <script src="js/waypoints.js"></script> <!-- WayPoints -->

@@ -23,17 +23,17 @@
 #fond{
 position: fixed; /* ici on met une position en absolute, mais tu peux adapter selon tes besoins*/
 width: 20%;
-height: 30% ;
+height: 40% ;
 margin-left: 1px;
 margin-right: 5px;
 padding: 5px;
-background-color: lightblue;
+background-color: grey;
 color: white;
 border: 2px solid white;
 margin-bottom: 100px;
 margin-top:300px;
 z-index:1;
-/*text-indent: 20px;*/
+text-indent: 20px;
 text-transform: capitalize;
 font-weight: bold;
 }
@@ -59,9 +59,6 @@ function showinfo(identi,mail){ moveDivs(event);
     document.getElementById("prenombar").innerText=document.getElementById("tof_"+identi).getAttribute("p");
     document.getElementById("identibar").innerText=identi;
     document.getElementById("mailbar").innerText=mail;
-    document.getElementById("infobar").setAttribute("value",document.getElementById("tof_"+identi).getAttribute("info"));
-    document.getElementById("cmsbar").setAttribute("value",document.getElementById("tof_"+identi).getAttribute("cms"));
-    document.getElementById("lngbar").setAttribute("value",document.getElementById("tof_"+identi).getAttribute("lng"));
     //document.getElementById("picbar").setAttribute("src",document.getElementById("tof_"+identi).getAttribute("src"));
 
 }
@@ -102,17 +99,19 @@ function hidy()
   
 <!--    <img src="test.jpg" id="picbar" border= "1px" width="110" height="120" class="imageflottante"> -->
 
-<ul>
- <li> <div id="identibar"  >  </div>
-  <li>  <div id="nombar" > </div>
-  <li><div id="prenombar" >   </div>
- <li><div id="mailbar" >  </div>
-    <br>
 
-<li><div >INFOS : <progress id="infobar" max="100" value="80"></progress></div>
-<li><div>CMS : <progress id="cmsbar" max="100" value="80"></progress></div>
-<li><div>LANGUES: <progress id="lngbar" max="100" value="80"></progress></div>
-</ul>
+  <div id="identibar" style="white-space : normal;" >  </div><br />
+    <div id="nombar" > </div><br />
+  <div id="prenombar" >   </div><br />
+ <div id="mailbar" >  </div><br />
+ <table border=0>
+    <tr><td>info</td><td><progress max="100" value="80"></progress></td></tr>
+        <tr><td>CMS</td><td><progress max="100" value="80"></progress></td></tr>
+            <tr><td>Langues</td><td><progress max="100" value="80"></progress></td></tr>
+
+
+</table>
+  
 
    </div>
 
@@ -134,54 +133,8 @@ function hidy()
                 var urlData = "php/lecteurFlux.php?url=THYP1617data";
             d3.csv(urlData, function(data)
             {
-            
-                var comp = {"médiocre":5,"trop fort":10,"mauvais":2,"connais pas":1,"génie":15};
-            data.forEach(function(d,i){
-
-var freq = {
-            cms:{
-                WORDPRESS:comp[d["Vos compétences : CMS [WORDPRESS]"]],
-                Prestashop:comp[d["Vos compétences : CMS [Prestashop]"]], 
-                SPIP:comp[d["Vos compétences : CMS [SPIP]"]],
-                Omeka:comp[d["Vos compétences : CMS [Omeka]"]],
-            },
-
-            infos:{
-                PHP:comp[d["Vos compétences : langage informatique [PHP]"]], 
-                HTML:comp[d["Vos compétences : langage informatique [HTML]"]],
-                JSON:comp[d["Vos compétences : langage informatique [jSON]"]],
-                CSS:comp[d["Vos compétences : langage informatique [CSS]"]],
-                XML:comp[d["Vos compétences : langage informatique [XML]"]],
-                JAVA:comp[d["Vos compétences : langage informatique [JAVA]"]],
-                SQL:comp[d["Vos compétences : langage informatique [SQL]"]], 
-                Python:comp[d["Vos compétences : langage informatique [Phyton]"]],
-                ASP:comp[d["Vos compétences : langage informatique [ASP]"]],
-                JS:comp[d["Vos compétences : langage informatique [JS]"]],
-            },
-            lng:{
-                fr:comp[d["Langues [Français]"]],
-                ar:comp[d["Langues [Arabe]"]],
-                es:comp[d["Langues [Espagnol]"]],
-                it:comp[d["Langues [Italien]"]],
-                an:comp[d["Langues [Anglais]"]],
-                al:comp[d["Langues [Allemand]"]],
-                ch:comp[d["Langues [Chinois]"]],
-                ja:comp[d["Langues [Japonais]"]]
-            }
-
-
-        };
-            var sinfo=0, scms=0, slng=0;
-for(var p in freq.infos) {  if(freq.infos[p] == undefined) freq.infos[p]=0;  sinfo+=freq.infos[p]; }  sinfo=(sinfo/150)*100; 
-for(var p in freq.cms) {  if(freq.cms[p] == undefined) freq.cms[p]=0;  scms+=freq.cms[p];} scms=(scms/60)*100;
-for(var p in freq.lng) {  if(freq.lng[p] == undefined) freq.lng[p]=0;  slng+=freq.lng[p];} slng=(slng/120)*100;
-
-
-
-
-
-
-                  var h = ' <a onmouseout=hidy() onmouseover=showinfo("'+d['N° étudiant']+'","'+d['E-mail']+'") ><img    src="test.jpg" id="tof_'+d['N° étudiant']+'" lng='+slng+' cms='+scms+' info='+sinfo+' n='+d.Nom+' p='+d.Prénom+' alt="ronad" /><span class="name">'+d.Prénom+' '+d.Nom+'</span>'; 
+                data.forEach(function(d,i){
+                  var h = ' <a onmouseout=hidy() onmouseover=showinfo("'+d['N° étudiant']+'","'+d['E-mail']+'") ><img    src="test.jpg" id="tof_'+d['N° étudiant']+'" n='+d.Nom+' p='+d.Prénom+' alt="ronad" /><span class="name">'+d.Prénom+' '+d.Nom+'</span>'; 
                    
                
                     $('<div class="col"> </div>').html(h).appendTo('#tro');

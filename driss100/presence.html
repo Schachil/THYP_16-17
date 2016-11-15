@@ -1,0 +1,72 @@
+<!doctype html>
+<!--[if IE 8]><html lang="en" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+
+	<meta charset="utf-8">
+	<title>Trombinoscope THYP 2016-2017</title>
+
+	
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	
+    <script type="text/javascript" src="js/d3.v3.js"></script>
+ 	<script type="text/javascript" src="js/jquery.min.js" ></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+	
+</head>
+
+<body style="background-color:gray;">
+<h1><marquee>Liste des Presents/Absents</marquee></h1>
+
+		<!-- intération de l'appel du csv depuis google drive-->
+
+	<br/><br/>
+			<div  id="THYP">
+			</div>
+		
+				
+					
+					<!--<a href="about/Dave-Wrightson.html">-->
+						
+						 <script type="text/javascript">
+	    var urlData = "php/lecteurFlux.php?url=THYP1617data";
+		var i=0;
+		
+		
+    		d3.csv(urlData, function(data)
+    	    {
+    	        data.forEach(function(d,i){
+				
+	    	        var h ='<div style="margin-right in:520px;"><table><tr>'
+					+'<td style="text-align: left solid black; width:300px;">'+(i=i+1)+' ) '+d['Prénom']+' '+d.Nom+' : '
+	    	        +d['N° étudiant']+'</td>'
+					+'<td><a href="https://calendar.google.com/calendar/"><button style="bottom: 8px; width:100%;background-color:#yellow"><b>Présent(e)</b></button></a></td>'
+					+'<td><a href="https://calendar.google.com/calendar/"><button style="bottom: 8px; width:100%;background-color:#white"><b>Absent(e)</b></button></a></td>'
+					
+					+ '</tr></table></div>';
+	    	        		    	        	
+    	            $('<div></div>').html(h).appendTo('#THYP');
+					
+    	        });
+    	      
+    	        
+    	    })
+    	    </script>
+					
+		<!-- End intération de l'appel du csv depuis google drive-->
+
+
+	</div>
+
+	
+
+
+	</div>
+
+
+
+	
+
+</body>
+</html>

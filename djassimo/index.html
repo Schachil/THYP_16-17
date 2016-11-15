@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html>
  <head>
-    <title>Trombiniscope</title>
-	<meta charset="utf-8">
-	 <link rel="icon" type="image/png" href="images/img2.png" />
-
-    <script type="text/javascript" src="js/d3.v3.js"></script>
+	 <title>Trombiniscope</title>
+	 <meta charset="utf-8"><link rel="icon" type="image/png" href="images/img2.png" />
+	 <script type="text/javascript" src="js/d3.v3.js"></script>
+	 <script src="bootstrap/dist/js/jquery-2.1.4.js"></script>
+	 <script type="text/javascript" src="js/monscript.js"></script>
+	 <script src="bootstrap/dist/js/bootstrap.js"></script>
+	 <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+	 <link rel="stylesheet" href="style.css">
 
  </head>
- <body>
- <script src="bootstrap/dist/js/jquery-2.1.4.js"></script>
- <script type="text/javascript" src="js/monscript.js"></script>
- <script src="bootstrap/dist/js/bootstrap.js"></script>
- <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
- <link rel="stylesheet" href="style.css">
+ <body class="body1 container">
 
  <!-- maquette-->
  <div class="container">
-	<div class="row"><h1> Trombinoscope THYP M2 2016-2017</h1></div>
+	<div class="row titlediv"><h1 class="tromtitle"> Trombinoscope THYP M2 2016-2017</h1></div>
  </div>
  <div class="container blocmaq" >
 	 <!-- premier rang du trombi-->
@@ -31,26 +29,7 @@
  </div>
 
 
- 	<div id="trombi"/>
-    <script type="text/javascript">/*
-	    var urlData = "php/lecteurFlux.php?url=THYP1617data";
-    		d3.csv(urlData, function(data)
-    	    {
-    	        //prices is an array of json objects containing the data in from the csv
-    	        //console.log("data:", data);
-    	        data.forEach(function(d,i){
-	    	        	var h = "N"+ i + " " + d.Prénom+" "+d.Nom+" "+d['N° étudiant'];
 
-    	            $('<div class="data" id="data_' + i + '"></div>').html(h).appendTo('#trombi');
-					//$('<div class="data" id="data_' + i + '"></div>').html(h).appendTo(this).next('.casetr');
-
-    	        });
-    	    })
-*/
-	</script>
- <br><br>
-
- <br><br>
 
  <!-- intération de l'appel du csv depuis google drive-->
 
@@ -59,8 +38,7 @@
 		 var urlData = "php/lecteurFlux.php?url=THYP1617data";
 		 d3.csv(urlData, function(data)
 		 {
-			 //prices is an array of json objects containing the data in from the csv
-			 //console.log("data:", data);
+
 			 data.forEach(function(d,i){
 				 //var h = '<a href="about/will-blackmore.html"><div class="person" id="data_' + i + '"><img src="h.jpg"></div>'d.Prénom+" "+d.Nom+" "+d['N° étudiant'];
 				 var h = '<a href="dashboard.html">'
@@ -72,7 +50,7 @@
 						 +'</div>'
 						 +'</div>'
 						 +'</a>';
-				 $('<div class="col-md-3"></div>').html(h).appendTo('#THYP');
+				 $('<div class="col-md-3 col-sm-5"></div>').html(h).appendTo('#THYP');
 			 });
 			 d3.xml("../samszo/php/lecteurFlux.php?url=THYP1617photo", "application/xml", function(xml) {
 				 var tofs = xml.documentElement.getElementsByTagName("enclosure");

@@ -76,10 +76,10 @@ a:hover {
                             data.forEach(function(d,i)
                             {
                                 
-                                var h = /*'<div class="content"> '
-                                        +*/'<a href=#  title="Plus..." target="blank">'
+                                var pro = /*'<div class="content"> '
+                                        +*/'<a href=#  title="Compétences..." target="blank">'
                                         +'<div class="blocc">'
-                                        +'<img src="h.jpg" id="tof_'+d['lien vers la photo']+'" >'
+                                        +'<img src="profil.jpg" id="tof_'+d['lien vers la photo']+'" >'
                                         +'<div>'
                                         +'<h4> '+d['Prénom']+' '+d.Nom+'</h4>'
                                         +'<h5>'+d['N° étudiant']+'</h5>'
@@ -87,14 +87,14 @@ a:hover {
                                         +'</div>'
                                         +'</a>'
                                         /*+'</div>'*/;                            
-                                        $('<div></div>').html(h).appendTo('#Trom');
+                                        $('<div></div>').html(pro).appendTo('#Trom');
 
 
 
                                     
                             });
 
-                            d3.xml("../samszo/php/lecteurFlux.php?url=THYP1617photo", "application/xml", function(xml) 
+                            d3.xml("php/lecteurFlux.php?url=THYP1617photo", "application/xml", function(xml) 
                             {
                                 var tofs = xml.documentElement.getElementsByTagName("enclosure"); 
                                 for (i = 0; i < tofs.length; i++) { 
