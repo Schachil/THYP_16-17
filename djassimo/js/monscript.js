@@ -20,5 +20,13 @@ $(document).ready( ".imgtrom" ).mouseover(function() {
 
 $(document).ready("#etu").mouseenter(function() {
     $(".seduit").removeClass('hide');
-    console.log("hfjdshgkjdhfkdsjhfkdsjhfk");
+    });
+
+$(document).ready(function(){
+    $("titlediv").mouseenter(function(){
+        console.log('00000');
+        $("tromtitle").animate({left: '250px'});
+        console.log('111111');
+
+    });
 });

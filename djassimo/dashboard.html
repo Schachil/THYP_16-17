@@ -56,6 +56,7 @@
         }
 
     </style>
+
 </head>
 <body>
 <h1>Les compétences des étudiants</h1>
@@ -82,6 +83,9 @@
 
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
+
+</script>
+<script>
     var x = 0;
     function addNumber(){
         x = x + 1;
@@ -89,15 +93,19 @@
     }
     function addPresent()
     {
+
         document.getElementById("stname").innerHTML ='<br>'+''+'Nbre presence :'+ addNumber();
     }
 
     function addRetard()
     {
+        alert('non fonctionnel');
         document.getElementById("stname").innerHTML ='<br>'+''+'Nbre retard :'+ addNumber();
+
     }
     function addAbscent()
     {
+        alert('non fonctionnel');
         document.getElementById("stname").innerHTML = '<br>'+''+'Nbre Abscence :'+ addNumber();
     }
     function dashboard(id, fData){
