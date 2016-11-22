@@ -9,20 +9,35 @@
 
  </head>
  <body>
- 	<div id="trombi"/>
+ 	<div id="etuTrombi"/>
+ 	<div id="etuData"/>
     <script type="text/javascript">
-	    var urlData = "php/lecteurFlux.php?url=THYP1617data";
-    		d3.csv(urlData, function(data)
-    	    {
-    	        //prices is an array of json objects containing the data in from the csv
-    	        //console.log("data:", data);
-    	        data.forEach(function(d,i){
-	    	        	var h = d.Prénom+" "+d.Nom+" "+d['N° étudiant'];
-    	            $('<div class="data" id="data_' + i + '"></div>').html(h).appendTo('#trombi');
-    	        		
-    	        });
-    	    })
-    	    </script>
+	    var urlPhoto = "php/lecteurFlux.php?url=CDNL1617photo";
+   		d3.json(urlPhoto, function(data)
+   	    {
+   	        //prices is an array of json objects containing the data in from the csv
+   	        //console.log("data:", data);
+			data.feed.entry.map(function(e, i){									
+				var tof = e['media$group']['media$thumbnail'][2];
+	        	var h = i+' = <img src="'+tof.url+'" />';
+   	            $('<div class="data" id="etu_' + i + '"></div>').html(h).appendTo('#etuTrombi');
+			});																
+
+		    var urlData = "php/lecteurFlux.php?url=CDNL1617data";
+	   		d3.csv(urlData, function(data)
+	   	    {
+	   	        //prices is an array of json objects containing the data in from the csv
+	   	        //console.log("data:", data);
+	   	        data.forEach(function(d,i){
+	    	        	var h = i+' - '+d.numPhoto+' = '+d['Votre prénom']+" "+d['Votre nom']+" "+d['numEtudiant'];
+	   	            $('<div class="data" id="data_' + i + '"></div>').html(h).appendTo('#etu_'+d['numTof']);
+	   	        		
+	   	        });
+	   	    })
+			
+   	    })
+   	    
+</script>
 
 
  </body>
