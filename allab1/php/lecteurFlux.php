@@ -4,7 +4,7 @@ $arrUrl = array(
 	,"THYP1617photo"=>"https://picasaweb.google.com/data/feed/base/user/107069028374380439764/albumid/6340716155566922545?alt=rss&kind=photo&hl=en_US&imgmax=1152"
 	,"CFI1617data"=>"https://docs.google.com/spreadsheets/d/1tKXAG8mCk7Y-piLDi68DhZzuiQuo8eVyBPr_zMz1Zl8/pub?gid=293749862&single=true&output=csv"
 	);
-	
+
 curl($arrUrl[$_GET['url']]);
 
 function curl($url){
