@@ -1,0 +1,12 @@
+
+git bash:
+
+$ php -S localhost:8080
+
+
+1 creer compte developpeur
+2 activer les cles de l'api sur google drive api
+
+563961581531-69ba4i0i09t7i97nte40k0u794fk5vpi.apps.googleusercontent.com
+
+K7mySubFBxtgm045V5Hpxeip
