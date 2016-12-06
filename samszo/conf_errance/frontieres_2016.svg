@@ -1,0 +1,4610 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="1052.36"
+   height="744.09003"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="frontieres_2016.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="922"
+     id="namedview435"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="2.6045946"
+     inkscape:cx="338.95384"
+     inkscape:cy="611.2204"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     units="pc">
+    <sodipodi:guide
+       orientation="0,1"
+       position="770.36439,701.00007"
+       id="guide4082" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="1359.9612,484.4993"
+       id="guide4496" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="1436.9957,448.861"
+       id="guide4729" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="319.37228,404.91843"
+       id="guide5151" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="378.47689,301.22613"
+       id="guide5153" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="477.50304,269.08152"
+       id="guide5207" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="415.28766,289.30151"
+       id="guide5209" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="768.8784,331.29689"
+       id="guide5295" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1120.9419,39.95853"
+       id="guide5388" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1475.023,269.08152"
+       id="guide5451" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1829.6506,245.75075"
+       id="guide5569" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="2183.9252,252.23391"
+       id="guide5802" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="2896.486,135.57573"
+       id="guide5804" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="444.18272,517.60136"
+       id="guide3717" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="2541.5989,346.53336"
+       id="guide4748" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="1451.9347,53.826643"
+       id="guide8191" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="765.73941,-129.39489"
+       id="guide9895" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="323.85662,-161.14812"
+       id="guide10053" />
+    <sodipodi:guide
+       position="1446.85,463.88872"
+       orientation="0,1"
+       id="guide4946" />
+    <sodipodi:guide
+       position="169.82072,568.60166"
+       orientation="0,1"
+       id="guide5329" />
+    <sodipodi:guide
+       position="761.62051,694.76853"
+       orientation="0,1"
+       id="guide7448" />
+    <sodipodi:guide
+       position="2597.0044,674.76527"
+       orientation="0,1"
+       id="guide4818" />
+    <sodipodi:guide
+       position="2605.2182,613.98301"
+       orientation="0,1"
+       id="guide4820" />
+    <sodipodi:guide
+       position="1839.563,260.37278"
+       orientation="0,1"
+       id="guide9115" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker8899"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="SquareM">
+      <path
+         transform="scale(0.4)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M -5.0,-5.0 L -5.0,5.0 L 5.0,5.0 L 5.0,-5.0 L -5.0,-5.0 z "
+         id="path8901" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker8771"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path8773"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path7471"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path7760"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <linearGradient
+       id="linearGradient3779">
+      <stop
+         id="stop3781"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0" />
+    </linearGradient>
+    <inkscape:perspective
+       id="perspective75"
+       inkscape:persp3d-origin="526.17999 : 248.03001 : 1"
+       inkscape:vp_z="1052.36 : 372.04501 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 372.04501 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       osb:paint="solid"
+       id="linearGradient3779-8">
+      <stop
+         id="stop3781-0"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2516" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2583" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2709" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2778" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2845" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2913" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2946" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2983" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3014" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3045" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3076" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3089" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3133" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2571" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2638" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2903" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2974" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3035" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3139" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3206" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2682" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2766" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2833" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2934" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2972" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3065" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3160" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3288" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3371" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3566" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3641" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3708" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3825" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3909" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective4248" />
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker11472"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path11474" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker11408"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path11410"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) translate(7.4, 1)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="Arrow1Lend-8"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path5221" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="DotL"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="DotL">
+      <path
+         transform="scale(0.8) translate(7.4, 1)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         id="path5279" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow1Lstart-3"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path7760-4" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path7760-1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="SquareM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker8899-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path8901-2"
+         d="M -5.0,-5.0 L -5.0,5.0 L 5.0,5.0 L 5.0,-5.0 L -5.0,-5.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker8771-0"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path8773-1" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="Arrow1Lend-9"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path7471-1" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow1Lstart-8"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path7760-0" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 372.04501 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1052.36 : 372.04501 : 1"
+       inkscape:persp3d-origin="526.17999 : 248.03001 : 1"
+       id="perspective75-7" />
+    <inkscape:perspective
+       id="perspective2516-6"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2583-2"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2709-3"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2778-9"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2845-9"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2913-7"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2946-8"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2983-6"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3014-9"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3045-8"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3076-3"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3089-8"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3133-8"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2571-4"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2638-3"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2903-1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2974-1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3035-8"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3139-6"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3206-4"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2682-9"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2766-4"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2833-3"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2934-7"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2972-2"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3065-3"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3160-9"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3288-8"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3371-2"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3566-9"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3641-5"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3708-0"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3825-5"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3909-0"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4248-0"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker11472-3"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path11474-2"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker11408-7"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="DotM">
+      <path
+         transform="scale(0.4) translate(7.4, 1)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         id="path11410-0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend-8-9"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5221-5"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotL-8"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path5279-9"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(7.4, 1)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart-3-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path7760-4-1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow1Lstart-6-2"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path7760-1-0" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(2481.1983,432.13967)"
+     id="g8916">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       x="481.5932"
+       y="215.5186"
+       width="28.617781"
+       height="8.4609089"
+       id="image8918" />
+    <text
+       x="438.75183"
+       y="220.92625"
+       id="text8920"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:linespacing="125%"><tspan
+         x="438.75183"
+         y="220.92625"
+         id="tspan8922"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond">S. Szoniecky</tspan></text>
+    <rect
+       width="256.11386"
+       height="13.193951"
+       x="415.86072"
+       y="213.15207"
+       id="rect8924"
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       width="8.7394962"
+       height="8"
+       id="image8926"
+       x="469.81454"
+       y="215.74905" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text8928"
+       y="221.02225"
+       x="521.18359"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="221.02225"
+         x="521.18359"
+         id="tspan8930"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       width="15.22845"
+       height="15.99038"
+       preserveAspectRatio="none"
+       id="image8932"
+       x="417.28766"
+       y="214.29868" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       width="36.884792"
+       height="12.610187"
+       preserveAspectRatio="none"
+       id="image8934"
+       x="634.38269"
+       y="213.46858" />
+  </g>
+  <g
+     id="g8883"
+     transform="translate(2126.3112,432.06767)">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       id="image8885"
+       height="8.4609089"
+       width="28.617781"
+       y="215.5186"
+       x="481.5932" />
+    <text
+       sodipodi:linespacing="125%"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"
+       id="text8887"
+       y="220.92625"
+       x="438.75183"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond"
+         id="tspan8889"
+         y="220.92625"
+         x="438.75183">S. Szoniecky</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8891"
+       y="213.15207"
+       x="415.86072"
+       height="13.193951"
+       width="256.11386" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       y="215.74905"
+       x="469.81454"
+       id="image8893"
+       height="8"
+       width="8.7394962" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="521.18359"
+       y="221.02225"
+       id="text8895"
+       sodipodi:linespacing="125%"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial"
+         sodipodi:role="line"
+         id="tspan8897"
+         x="521.18359"
+         y="221.02225">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       y="214.29868"
+       x="417.28766"
+       id="image8899"
+       preserveAspectRatio="none"
+       height="15.99038"
+       width="15.22845" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       y="213.46858"
+       x="634.38269"
+       id="image8901"
+       preserveAspectRatio="none"
+       height="12.610187"
+       width="36.884792" />
+  </g>
+  <g
+     transform="translate(1768.7382,432.32776)"
+     id="g8863">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       x="481.5932"
+       y="215.5186"
+       width="28.617781"
+       height="8.4609089"
+       id="image8865" />
+    <text
+       x="438.75183"
+       y="220.92625"
+       id="text8867"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:linespacing="125%"><tspan
+         x="438.75183"
+         y="220.92625"
+         id="tspan8869"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond">S. Szoniecky</tspan></text>
+    <rect
+       width="256.11386"
+       height="13.193951"
+       x="415.86072"
+       y="213.15207"
+       id="rect8871"
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       width="8.7394962"
+       height="8"
+       id="image8873"
+       x="469.81454"
+       y="215.74905" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text8875"
+       y="221.02225"
+       x="521.18359"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="221.02225"
+         x="521.18359"
+         id="tspan8877"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       width="15.22845"
+       height="15.99038"
+       preserveAspectRatio="none"
+       id="image8879"
+       x="417.28766"
+       y="214.29868" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       width="36.884792"
+       height="12.610187"
+       preserveAspectRatio="none"
+       id="image8881"
+       x="634.38269"
+       y="213.46858" />
+  </g>
+  <g
+     id="g8843"
+     transform="translate(705.33366,432.09926)">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       id="image8845"
+       height="8.4609089"
+       width="28.617781"
+       y="215.5186"
+       x="481.5932" />
+    <text
+       sodipodi:linespacing="125%"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"
+       id="text8847"
+       y="220.92625"
+       x="438.75183"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond"
+         id="tspan8849"
+         y="220.92625"
+         x="438.75183">S. Szoniecky</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8851"
+       y="213.15207"
+       x="415.86072"
+       height="13.193951"
+       width="256.11386" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       y="215.74905"
+       x="469.81454"
+       id="image8853"
+       height="8"
+       width="8.7394962" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="521.18359"
+       y="221.02225"
+       id="text8855"
+       sodipodi:linespacing="125%"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial"
+         sodipodi:role="line"
+         id="tspan8857"
+         x="521.18359"
+         y="221.02225">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       y="214.29868"
+       x="417.28766"
+       id="image8859"
+       preserveAspectRatio="none"
+       height="15.99038"
+       width="15.22845" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       y="213.46858"
+       x="634.38269"
+       id="image8861"
+       preserveAspectRatio="none"
+       height="12.610187"
+       width="36.884792" />
+  </g>
+  <g
+     transform="translate(353.21855,432.09926)"
+     id="g8823">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       x="481.5932"
+       y="215.5186"
+       width="28.617781"
+       height="8.4609089"
+       id="image8825" />
+    <text
+       x="438.75183"
+       y="220.92625"
+       id="text8827"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:linespacing="125%"><tspan
+         x="438.75183"
+         y="220.92625"
+         id="tspan8829"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond">S. Szoniecky</tspan></text>
+    <rect
+       width="256.11386"
+       height="13.193951"
+       x="415.86072"
+       y="213.15207"
+       id="rect8831"
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       width="8.7394962"
+       height="8"
+       id="image8833"
+       x="469.81454"
+       y="215.74905" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text8835"
+       y="221.02225"
+       x="521.18359"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="221.02225"
+         x="521.18359"
+         id="tspan8837"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       width="15.22845"
+       height="15.99038"
+       preserveAspectRatio="none"
+       id="image8839"
+       x="417.28766"
+       y="214.29868" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       width="36.884792"
+       height="12.610187"
+       preserveAspectRatio="none"
+       id="image8841"
+       x="634.38269"
+       y="213.46858" />
+  </g>
+  <g
+     id="g8803"
+     transform="translate(-0.61613464,432.09926)">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       id="image8805"
+       height="8.4609089"
+       width="28.617781"
+       y="215.5186"
+       x="481.5932" />
+    <text
+       sodipodi:linespacing="125%"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"
+       id="text8807"
+       y="220.92625"
+       x="438.75183"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond"
+         id="tspan8809"
+         y="220.92625"
+         x="438.75183">S. Szoniecky</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8811"
+       y="213.15207"
+       x="415.86072"
+       height="13.193951"
+       width="256.11386" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       y="215.74905"
+       x="469.81454"
+       id="image8813"
+       height="8"
+       width="8.7394962" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="521.18359"
+       y="221.02225"
+       id="text8815"
+       sodipodi:linespacing="125%"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial"
+         sodipodi:role="line"
+         id="tspan8817"
+         x="521.18359"
+         y="221.02225">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       y="214.29868"
+       x="417.28766"
+       id="image8819"
+       preserveAspectRatio="none"
+       height="15.99038"
+       width="15.22845" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       y="213.46858"
+       x="634.38269"
+       id="image8821"
+       preserveAspectRatio="none"
+       height="12.610187"
+       width="36.884792" />
+  </g>
+  <g
+     transform="translate(-352.82751,432.09926)"
+     id="g8783">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       x="481.5932"
+       y="215.5186"
+       width="28.617781"
+       height="8.4609089"
+       id="image8785" />
+    <text
+       x="438.75183"
+       y="220.92625"
+       id="text8787"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:linespacing="125%"><tspan
+         x="438.75183"
+         y="220.92625"
+         id="tspan8789"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond">S. Szoniecky</tspan></text>
+    <rect
+       width="256.11386"
+       height="13.193951"
+       x="415.86072"
+       y="213.15207"
+       id="rect8791"
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       width="8.7394962"
+       height="8"
+       id="image8793"
+       x="469.81454"
+       y="215.74905" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text8795"
+       y="221.02225"
+       x="521.18359"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="221.02225"
+         x="521.18359"
+         id="tspan8797"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       width="15.22845"
+       height="15.99038"
+       preserveAspectRatio="none"
+       id="image8799"
+       x="417.28766"
+       y="214.29868" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       width="36.884792"
+       height="12.610187"
+       preserveAspectRatio="none"
+       id="image8801"
+       x="634.38269"
+       y="213.46858" />
+  </g>
+  <g
+     id="g8745"
+     transform="translate(-352.66821,216.87633)">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       id="image8747"
+       height="8.4609089"
+       width="28.617781"
+       y="215.5186"
+       x="481.5932" />
+    <text
+       sodipodi:linespacing="125%"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"
+       id="text8749"
+       y="220.92625"
+       x="438.75183"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond"
+         id="tspan8751"
+         y="220.92625"
+         x="438.75183">S. Szoniecky</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8753"
+       y="213.15207"
+       x="415.86072"
+       height="13.193951"
+       width="256.11386" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       y="215.74905"
+       x="469.81454"
+       id="image8755"
+       height="8"
+       width="8.7394962" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="521.18359"
+       y="221.02225"
+       id="text8757"
+       sodipodi:linespacing="125%"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial"
+         sodipodi:role="line"
+         id="tspan8759"
+         x="521.18359"
+         y="221.02225">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       y="214.29868"
+       x="417.28766"
+       id="image8761"
+       preserveAspectRatio="none"
+       height="15.99038"
+       width="15.22845" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       y="213.46858"
+       x="634.38269"
+       id="image8763"
+       preserveAspectRatio="none"
+       height="12.610187"
+       width="36.884792" />
+  </g>
+  <g
+     transform="translate(-0.59526062,216.87633)"
+     id="g8725">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       x="481.5932"
+       y="215.5186"
+       width="28.617781"
+       height="8.4609089"
+       id="image8727" />
+    <text
+       x="438.75183"
+       y="220.92625"
+       id="text8729"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:linespacing="125%"><tspan
+         x="438.75183"
+         y="220.92625"
+         id="tspan8731"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond">S. Szoniecky</tspan></text>
+    <rect
+       width="256.11386"
+       height="13.193951"
+       x="415.86072"
+       y="213.15207"
+       id="rect8733"
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       width="8.7394962"
+       height="8"
+       id="image8735"
+       x="469.81454"
+       y="215.74905" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text8737"
+       y="221.02225"
+       x="521.18359"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="221.02225"
+         x="521.18359"
+         id="tspan8739"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       width="15.22845"
+       height="15.99038"
+       preserveAspectRatio="none"
+       id="image8741"
+       x="417.28766"
+       y="214.29868" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       width="36.884792"
+       height="12.610187"
+       preserveAspectRatio="none"
+       id="image8743"
+       x="634.38269"
+       y="213.46858" />
+  </g>
+  <g
+     id="g8705"
+     transform="translate(353.02129,216.87633)">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       id="image8707"
+       height="8.4609089"
+       width="28.617781"
+       y="215.5186"
+       x="481.5932" />
+    <text
+       sodipodi:linespacing="125%"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"
+       id="text8709"
+       y="220.92625"
+       x="438.75183"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond"
+         id="tspan8711"
+         y="220.92625"
+         x="438.75183">S. Szoniecky</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8713"
+       y="213.15207"
+       x="415.86072"
+       height="13.193951"
+       width="256.11386" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       y="215.74905"
+       x="469.81454"
+       id="image8715"
+       height="8"
+       width="8.7394962" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="521.18359"
+       y="221.02225"
+       id="text8717"
+       sodipodi:linespacing="125%"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial"
+         sodipodi:role="line"
+         id="tspan8719"
+         x="521.18359"
+         y="221.02225">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       y="214.29868"
+       x="417.28766"
+       id="image8721"
+       preserveAspectRatio="none"
+       height="15.99038"
+       width="15.22845" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       y="213.46858"
+       x="634.38269"
+       id="image8723"
+       preserveAspectRatio="none"
+       height="12.610187"
+       width="36.884792" />
+  </g>
+  <g
+     transform="translate(705.14958,216.87633)"
+     id="g8685">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       x="481.5932"
+       y="215.5186"
+       width="28.617781"
+       height="8.4609089"
+       id="image8687" />
+    <text
+       x="438.75183"
+       y="220.92625"
+       id="text8689"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:linespacing="125%"><tspan
+         x="438.75183"
+         y="220.92625"
+         id="tspan8691"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond">S. Szoniecky</tspan></text>
+    <rect
+       width="256.11386"
+       height="13.193951"
+       x="415.86072"
+       y="213.15207"
+       id="rect8693"
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       width="8.7394962"
+       height="8"
+       id="image8695"
+       x="469.81454"
+       y="215.74905" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text8697"
+       y="221.02225"
+       x="521.18359"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="221.02225"
+         x="521.18359"
+         id="tspan8699"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       width="15.22845"
+       height="15.99038"
+       preserveAspectRatio="none"
+       id="image8701"
+       x="417.28766"
+       y="214.29868" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       width="36.884792"
+       height="12.610187"
+       preserveAspectRatio="none"
+       id="image8703"
+       x="634.38269"
+       y="213.46858" />
+  </g>
+  <g
+     id="g8665"
+     transform="translate(1059.2645,216.87633)">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       id="image8667"
+       height="8.4609089"
+       width="28.617781"
+       y="215.5186"
+       x="481.5932" />
+    <text
+       sodipodi:linespacing="125%"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"
+       id="text8669"
+       y="220.92625"
+       x="438.75183"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond"
+         id="tspan8671"
+         y="220.92625"
+         x="438.75183">S. Szoniecky</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8673"
+       y="213.15207"
+       x="415.86072"
+       height="13.193951"
+       width="256.11386" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       y="215.74905"
+       x="469.81454"
+       id="image8675"
+       height="8"
+       width="8.7394962" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="521.18359"
+       y="221.02225"
+       id="text8677"
+       sodipodi:linespacing="125%"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial"
+         sodipodi:role="line"
+         id="tspan8679"
+         x="521.18359"
+         y="221.02225">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       y="214.29868"
+       x="417.28766"
+       id="image8681"
+       preserveAspectRatio="none"
+       height="15.99038"
+       width="15.22845" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       y="213.46858"
+       x="634.38269"
+       id="image8683"
+       preserveAspectRatio="none"
+       height="12.610187"
+       width="36.884792" />
+  </g>
+  <g
+     transform="translate(1413.9782,216.87633)"
+     id="g8645">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       x="481.5932"
+       y="215.5186"
+       width="28.617781"
+       height="8.4609089"
+       id="image8647" />
+    <text
+       x="438.75183"
+       y="220.92625"
+       id="text8649"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:linespacing="125%"><tspan
+         x="438.75183"
+         y="220.92625"
+         id="tspan8651"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond">S. Szoniecky</tspan></text>
+    <rect
+       width="256.11386"
+       height="13.193951"
+       x="415.86072"
+       y="213.15207"
+       id="rect8653"
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       width="8.7394962"
+       height="8"
+       id="image8655"
+       x="469.81454"
+       y="215.74905" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text8657"
+       y="221.02225"
+       x="521.18359"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="221.02225"
+         x="521.18359"
+         id="tspan8659"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       width="15.22845"
+       height="15.99038"
+       preserveAspectRatio="none"
+       id="image8661"
+       x="417.28766"
+       y="214.29868" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       width="36.884792"
+       height="12.610187"
+       preserveAspectRatio="none"
+       id="image8663"
+       x="634.38269"
+       y="213.46858" />
+  </g>
+  <g
+     id="g8625"
+     transform="translate(1768.3025,216.87633)">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       id="image8627"
+       height="8.4609089"
+       width="28.617781"
+       y="215.5186"
+       x="481.5932" />
+    <text
+       sodipodi:linespacing="125%"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"
+       id="text8629"
+       y="220.92625"
+       x="438.75183"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond"
+         id="tspan8631"
+         y="220.92625"
+         x="438.75183">S. Szoniecky</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8633"
+       y="213.15207"
+       x="415.86072"
+       height="13.193951"
+       width="256.11386" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       y="215.74905"
+       x="469.81454"
+       id="image8635"
+       height="8"
+       width="8.7394962" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="521.18359"
+       y="221.02225"
+       id="text8637"
+       sodipodi:linespacing="125%"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial"
+         sodipodi:role="line"
+         id="tspan8639"
+         x="521.18359"
+         y="221.02225">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       y="214.29868"
+       x="417.28766"
+       id="image8641"
+       preserveAspectRatio="none"
+       height="15.99038"
+       width="15.22845" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       y="213.46858"
+       x="634.38269"
+       id="image8643"
+       preserveAspectRatio="none"
+       height="12.610187"
+       width="36.884792" />
+  </g>
+  <g
+     id="g5832"
+     transform="translate(2480.8738,216.87633)">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       id="image5834"
+       height="8.4609089"
+       width="28.617781"
+       y="215.5186"
+       x="481.5932" />
+    <text
+       sodipodi:linespacing="125%"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"
+       id="text5836"
+       y="220.92625"
+       x="438.75183"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond"
+         id="tspan5838"
+         y="220.92625"
+         x="438.75183">S. Szoniecky</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5840"
+       y="213.15207"
+       x="415.86072"
+       height="13.193951"
+       width="256.11386" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       y="215.74905"
+       x="469.81454"
+       id="image5842"
+       height="8"
+       width="8.7394962" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="521.18359"
+       y="221.02225"
+       id="text5844"
+       sodipodi:linespacing="125%"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial"
+         sodipodi:role="line"
+         id="tspan5846"
+         x="521.18359"
+         y="221.02225">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       y="214.29868"
+       x="417.28766"
+       id="image5848"
+       preserveAspectRatio="none"
+       height="15.99038"
+       width="15.22845" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       y="213.46858"
+       x="634.38269"
+       id="image5850"
+       preserveAspectRatio="none"
+       height="12.610187"
+       width="36.884792" />
+  </g>
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/gapaii.jpg"
+     xlink:href="img/gapaii.jpg"
+     y="70.297646"
+     x="456.64713"
+     id="image5990"
+     preserveAspectRatio="none"
+     height="142.96704"
+     width="173.82326" />
+  <rect
+     width="256.12103"
+     height="183.15039"
+     x="1475.1216"
+     y="43.327923"
+     id="slide_1.4.7"
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <text
+     x="389.69153"
+     y="320.6496"
+     id="text3409"
+     xml:space="preserve"
+     style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"><tspan
+       x="389.69153"
+       y="320.6496"
+       id="tspan3411"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial" /><tspan
+       x="389.69153"
+       y="338.1496"
+       id="tspan3413"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:4px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="67.399994"
+     y="375.9826"
+     id="text5265"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan5267"
+       x="67.399994"
+       y="375.9826" /><tspan
+       sodipodi:role="line"
+       id="tspan5269"
+       x="67.399994"
+       y="380.9826" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:4px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="1979.2979"
+     y="188.76443"
+     id="text4768"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4770"
+       x="1979.2979"
+       y="188.76443" /></text>
+  <text
+     x="188.93425"
+     y="118.97245"
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.45034409px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     sodipodi:linespacing="125%"
+     id="text5339"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial"
+       id="tspan5341" /></text>
+  <rect
+     width="256.12103"
+     height="183.15039"
+     x="415.26187"
+     y="259.65143"
+     id="slide_2.5"
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_2.2"
+     y="259.82251"
+     x="1829.8353"
+     height="183.15039"
+     width="256.12103" />
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot4911"
+     style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+       id="flowRegion4913"><rect
+         id="rect4915"
+         width="338.8956"
+         height="247.7307"
+         x="1431.8834"
+         y="-0.092975967" /></flowRegion><flowPara
+       id="flowPara4917" /></flowRoot>  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect6226"
+     y="43.247215"
+     x="768.91907"
+     height="183.15039"
+     width="256.12103" />
+  <rect
+     width="256.12103"
+     height="183.15039"
+     x="768.91907"
+     y="43.247215"
+     id="slide_1.3.1"
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     width="256.12103"
+     height="183.15039"
+     x="1121.0067"
+     y="43.355824"
+     id="rect6521"
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_1.3.2"
+     y="43.355824"
+     x="1121.0067"
+     height="183.15039"
+     width="256.12103" />
+  <rect
+     width="256.12103"
+     height="183.15039"
+     x="768.87842"
+     y="259.7135"
+     id="rect7174"
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_2.4.2"
+     y="259.7135"
+     x="768.87842"
+     height="183.15039"
+     width="256.12103" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_3.2"
+     y="475.04544"
+     x="415.241"
+     height="183.15039"
+     width="256.12103" />
+  <rect
+     width="256.12103"
+     height="183.15039"
+     x="769.07568"
+     y="475.05539"
+     id="slide_3.3"
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     width="256.12103"
+     height="183.15039"
+     x="1121.1908"
+     y="475.04544"
+     id="slide_3.4"
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_2.0"
+     y="259.82251"
+     x="2541.8154"
+     height="183.15039"
+     width="256.12103" />
+  <rect
+     width="256.46829"
+     height="183.39871"
+     x="62.90398"
+     y="43.089958"
+     id="slide_1"
+     style="fill:none;stroke:#000000;stroke-width:0.38550043;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:4px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="1258.9087"
+     y="-46.834805"
+     id="text4418"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4420"
+       x="1258.9087"
+       y="-46.834805" /></text>
+  <rect
+     width="256.12103"
+     height="183.15039"
+     x="1829.8353"
+     y="43.317493"
+     id="rect4666"
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_1.5"
+     y="43.317493"
+     x="1829.8353"
+     height="183.15039"
+     width="256.12103" />
+  <text
+     sodipodi:linespacing="125%"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:584.9019165px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     id="text3813"
+     y="1422.1351"
+     x="26.095425"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:128.08267212px;font-family:Arial;-inkscape-font-specification:Arial"
+       id="tspan3815"
+       y="1422.1351"
+       x="26.095425">Samuel Szoniecky </tspan></text>
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+     xlink:href="img/citu.png"
+     y="1308.9888"
+     x="1801.5776"
+     id="image3817"
+     height="160"
+     width="174.78992" />
+  <text
+     id="text3825"
+     sodipodi:linespacing="125%"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:558.18017578px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     y="1231.1688"
+     x="1195.7517"><tspan
+       id="tspan3827"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:132.70913696px;font-family:Arial;-inkscape-font-specification:Arial">cartographier les frontières sapientielles </tspan></text>
+  <text
+     sodipodi:linespacing="125%"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:558.18017578px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     id="text3829"
+     y="1026.442"
+     x="896.24896"><tspan
+       id="tspan3831"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:132.70913696px;font-family:Arial;-inkscape-font-specification:Arial">La perception des proverbes : </tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:48.74982452px;line-height:125%;font-family:Sans;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="3094.9478"
+     y="-273.2121"
+     id="text4730"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="3094.9478"
+       y="-273.2121"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:113.74958801px;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;text-anchor:end"
+       id="tspan5004">3e édition du colloque international &quot;Frontières Numériques&quot;</tspan><tspan
+       sodipodi:role="line"
+       x="3094.9478"
+       y="-131.02512"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:113.74958801px;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;text-anchor:end"
+       id="tspan4885">- Perceptions</tspan><tspan
+       sodipodi:role="line"
+       x="3094.9478"
+       y="11.161873"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:113.74958801px;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;text-anchor:end"
+       id="tspan5097">Toulon, 1 et 2 Décembre 2016</tspan></text>
+  <text
+     x="164.47163"
+     y="185.51035"
+     id="text3570"
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.02253723px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     sodipodi:linespacing="125%"><tspan
+       x="164.47163"
+       y="185.51035"
+       id="tspan3572"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.66928625px;font-family:Garamond;-inkscape-font-specification:Garamond">Samuel Szoniecky </tspan></text>
+  <g
+     id="g8614"
+     transform="translate(2.9702205e-6,0)">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       width="60.424038"
+       height="17.864498"
+       id="image3803"
+       x="163.59973"
+       y="194.04478" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       width="17.478992"
+       height="16"
+       id="image3679"
+       x="246.11469"
+       y="194.97704" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       y="194.05356"
+       x="118.68258"
+       id="image5326-7"
+       preserveAspectRatio="none"
+       height="25.846964"
+       width="22.826233" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:10.08512878px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="191.13484"
+     y="150.3961"
+     id="text5347"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan5349"
+       x="192.99954"
+       y="150.3961"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.44683838px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle">La perception des proverbes : </tspan><tspan
+       sodipodi:role="line"
+       x="191.13484"
+       y="167.20465"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.44683838px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
+       id="tspan5353">cartographier les frontières sapientielles</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:14px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="-747.79907"
+     y="317.8349"
+     id="text3409-9"><tspan
+       sodipodi:role="line"
+       id="tspan3411-2"
+       x="-747.79907"
+       y="317.8349" /><tspan
+       y="335.3349"
+       x="-747.79907"
+       sodipodi:role="line"
+       id="tspan3413-5" /></text>
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect14842"
+     y="43.326199"
+     x="2184.1597"
+     height="183.15039"
+     width="256.12103" />
+  <rect
+     width="256.12103"
+     height="183.15039"
+     x="2184.1597"
+     y="43.326199"
+     id="slide_1.6"
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     width="256.12103"
+     height="183.15039"
+     x="2541.8154"
+     y="43.299622"
+     id="rect14962"
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_1.7"
+     y="43.299622"
+     x="2541.8154"
+     height="183.15039"
+     width="256.12103" />
+  <g
+     id="g5232"
+     transform="matrix(1.2584943,0,0,1.2584943,778.7612,-20.445356)">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/descola-matrice-ana.png"
+       xlink:href="img/descola-matrice-ana.png"
+       y="73.075821"
+       x="953.58038"
+       id="image4956"
+       height="111.83388"
+       width="67.804802" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/AgentAllego_Descola.png"
+       xlink:href="img/AgentAllego_Descola.png"
+       y="61.841942"
+       x="852.4964"
+       id="image4958"
+       height="113.64642"
+       width="106.70455" />
+  </g>
+  <rect
+     width="256.12103"
+     height="183.15039"
+     x="2896.7537"
+     y="43.332195"
+     id="slide_1.8"
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     width="256.12103"
+     height="183.15039"
+     x="2896.7537"
+     y="259.82251"
+     id="rect5151"
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_1.9"
+     y="259.82251"
+     x="2896.7537"
+     height="183.15039"
+     width="256.12103" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/AgentAllegoArbreRhizome.png"
+     xlink:href="img/AgentAllegoArbreRhizome.png"
+     width="211.89207"
+     height="143.57172"
+     id="image4724"
+     x="2918.8682"
+     y="279.61185" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:2.16240358px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     x="3024.5691"
+     y="276.82602"
+     id="text5219"><tspan
+       sodipodi:role="line"
+       id="tspan5221"
+       x="3024.5691"
+       y="276.82602"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle">Modéliser des existences</tspan></text>
+  <rect
+     width="256.12103"
+     height="183.15039"
+     x="1475.1216"
+     y="259.82251"
+     id="slide_2.3"
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/iceIHM.jpg"
+     xlink:href="img/iceIHM.jpg"
+     y="287.39771"
+     x="2187.1887"
+     id="image6481"
+     height="140"
+     width="250.06287" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect5297"
+     y="475.27396"
+     x="2184.5955"
+     height="183.15039"
+     width="256.12103" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_4.2"
+     y="475.27396"
+     x="2184.5955"
+     height="183.15039"
+     width="256.12103" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect5453"
+     y="474.93307"
+     x="2542.1685"
+     height="183.15039"
+     width="256.12103" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_4.3"
+     y="474.93307"
+     x="2542.1685"
+     height="183.15039"
+     width="256.12103" />
+  <text
+     x="988.15137"
+     y="1627.8828"
+     id="text3409-2"
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none"><tspan
+       x="988.15137"
+       y="1627.8828"
+       id="tspan3411-0"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial" /><tspan
+       x="988.15137"
+       y="1645.3828"
+       id="tspan3413-1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:4px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="665.8598"
+     y="1683.2158"
+     id="text5265-9"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan5267-9"
+       x="665.8598"
+       y="1683.2158" /><tspan
+       sodipodi:role="line"
+       id="tspan5269-6"
+       x="665.8598"
+       y="1688.2158" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:4px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="2577.7576"
+     y="1495.9977"
+     id="text4768-8"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4770-7"
+       x="2577.7576"
+       y="1495.9977" /></text>
+  <text
+     x="787.39404"
+     y="1408.7754"
+     id="text4771"
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.45034409px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     sodipodi:linespacing="125%"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4212513px;font-family:Arial;-inkscape-font-specification:Arial"
+       id="tspan4773" /></text>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot4911-8"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     transform="translate(598.45982,1307.2332)"><flowRegion
+       id="flowRegion4913-6"><rect
+         id="rect4915-8"
+         width="338.8956"
+         height="247.7307"
+         x="1431.8834"
+         y="-0.092975967" /></flowRegion><flowPara
+       id="flowPara4917-0" /></flowRoot>  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="743.25311"
+     y="1503.132"
+     id="text5034-0"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan5036-9"
+       x="743.25311"
+       y="1503.132" /></text>
+  <text
+     sodipodi:linespacing="125%"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.32051659px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     id="text5054"
+     y="1502.629"
+     x="717.69556"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.6574297px;font-family:Arial;-inkscape-font-specification:Arial"
+       id="tspan5056"
+       y="1502.629"
+       x="717.69556" /></text>
+  <text
+     x="-1799.3226"
+     y="1473.3492"
+     id="text3409-8"
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none"><tspan
+       x="-1799.3226"
+       y="1473.3492"
+       id="tspan3411-6"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial" /><tspan
+       x="-1799.3226"
+       y="1490.8492"
+       id="tspan3413-7"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:4px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="-2121.6145"
+     y="1528.6823"
+     id="text5265-4"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan5267-6"
+       x="-2121.6145"
+       y="1528.6823" /><tspan
+       sodipodi:role="line"
+       id="tspan5269-9"
+       x="-2121.6145"
+       y="1533.6823" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:4px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="-209.71645"
+     y="1341.4641"
+     id="text4768-6"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4770-2"
+       x="-209.71645"
+       y="1341.4641" /></text>
+  <text
+     x="-2000.08"
+     y="1254.2418"
+     id="text4771-0"
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.45034409px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     sodipodi:linespacing="125%"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4212513px;font-family:Arial;-inkscape-font-specification:Arial"
+       id="tspan4773-0" /></text>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot4911-7"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     transform="translate(-2189.0143,1152.6997)"><flowRegion
+       id="flowRegion4913-8"><rect
+         id="rect4915-1"
+         width="338.8956"
+         height="247.7307"
+         x="1431.8834"
+         y="-0.092975967" /></flowRegion><flowPara
+       id="flowPara4917-3" /></flowRoot>  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="-2044.2211"
+     y="1348.5985"
+     id="text5034-5"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan5036-4"
+       x="-2044.2211"
+       y="1348.5985" /></text>
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/gapaii-eval1.png"
+     xlink:href="img/gapaii-eval1.png"
+     onclick="showWebPage('http://localhost/jdc/public/graph/roueemotion');"
+     width="203.26701"
+     height="142.93126"
+     preserveAspectRatio="none"
+     id="image17023"
+     x="1147.6178"
+     y="501.95404" />
+  <text
+     x="451.97217"
+     y="496.15314"
+     id="text8792"
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.86221695px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     sodipodi:linespacing="125%"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start"
+       id="tspan8794">Cartographier le temps</tspan></text>
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/PulsationsExistentielles.png"
+     xlink:href="img/PulsationsExistentielles.png"
+     width="162.18124"
+     height="148.04619"
+     preserveAspectRatio="none"
+     id="image14642"
+     x="2588.7854"
+     y="285.3746" />
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.46180487;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect9476"
+     width="7.7915673"
+     height="70.542206"
+     x="-240.10782"
+     y="744.39777" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:4.86794186;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_99"
+     y="-391.39026"
+     x="-37.882065"
+     height="2315.8838"
+     width="3238.5767" />
+  <text
+     sodipodi:linespacing="125%"
+     id="text5087"
+     y="91.189316"
+     x="74.76239"
+     style="font-style:normal;font-weight:normal;font-size:4.05668831px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     xml:space="preserve"><tspan
+       id="tspan5091"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial"
+       y="91.189316"
+       x="74.76239"
+       sodipodi:role="line">3e édition du colloque international &quot;Frontières Numériques&quot; - Perceptions, Toulon, 1 et 2 décembre 2016</tspan></text>
+  <rect
+     width="256.12103"
+     height="183.15039"
+     x="2184.1597"
+     y="259.82251"
+     id="slide_2.1"
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <text
+     id="text4971"
+     y="276.82602"
+     x="2312.2786"
+     style="font-style:normal;font-weight:normal;font-size:2.16240358px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
+       y="276.82602"
+       x="2312.2786"
+       id="tspan4973"
+       sodipodi:role="line">Modéliser des existences</tspan></text>
+  <g
+     id="g8944"
+     transform="translate(-1059.8597,0.12451172)">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/GenerateurIEMLjaimephilo.png"
+       xlink:href="img/GenerateurIEMLjaimephilo.png"
+       y="286.83066"
+       x="1513.9506"
+       id="image5882"
+       preserveAspectRatio="none"
+       height="141.24084"
+       width="178.46312"
+       onclick="showWebPage('http://localhost/generateur/services/api.php?oeu=57&amp;cpt=170023&amp;frt=html&amp;btn=1');" />
+    <text
+       id="text5019"
+       y="276.82602"
+       x="1603.0723"
+       style="font-style:normal;font-weight:normal;font-size:2.16240358px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
+         y="276.82602"
+         x="1603.0723"
+         id="tspan5021"
+         sodipodi:role="line">Simuler des controverses</tspan></text>
+  </g>
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/iceIHMcomplexe.jpg"
+     xlink:href="img/iceIHMcomplexe.jpg"
+     y="287.39771"
+     x="1838.6082"
+     id="image7118"
+     height="140"
+     width="245.22678" />
+  <text
+     sodipodi:linespacing="125%"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.86221695px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     id="text4991"
+     y="496.19855"
+     x="2193.1138"><tspan
+       id="tspan4993"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start">Explorer les lieux de connaissances</tspan></text>
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/IksRay.png"
+     xlink:href="img/IksRay.png"
+     onclick="showWebPage('img/IKSRAYTeaser.mp4');"
+     width="191.94646"
+     height="135.08232"
+     preserveAspectRatio="none"
+     id="image5220"
+     x="2216.6826"
+     y="503.30798" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:2.16240358px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     x="1957.9542"
+     y="276.82602"
+     id="text5227"><tspan
+       sodipodi:role="line"
+       id="tspan5229"
+       x="1957.9542"
+       y="276.82602"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle">Modéliser des existences</tspan></text>
+  <g
+     id="g8991"
+     transform="translate(709.64305,0)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.16240358px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+       x="542.91223"
+       y="276.82602"
+       id="text5448"><tspan
+         sodipodi:role="line"
+         id="tspan5450"
+         x="542.91223"
+         y="276.82602"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle">Interopérabilité des modèles</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/symogihPreface.png"
+       xlink:href="img/symogihPreface.png"
+       y="312.03564"
+       x="559.41217"
+       id="image5511-8"
+       preserveAspectRatio="none"
+       height="78.381935"
+       width="107.61712" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/symogihVieIntellectuelle.png"
+       xlink:href="img/symogihVieIntellectuelle.png"
+       y="296.7735"
+       x="415.81906"
+       id="image5573"
+       preserveAspectRatio="none"
+       height="108.90628"
+       width="141.94046"
+       onclick="showWebPage('http://symogih.org/?q=type-of-knowledge-unit-classes-tree');" />
+  </g>
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/evolution_internet-1-745x445.jpg"
+     xlink:href="img/evolution_internet-1-745x445.jpg"
+     width="251.46301"
+     height="150.20277"
+     preserveAspectRatio="none"
+     id="image5735-2"
+     x="2544.4973"
+     y="485.16687" />
+  <g
+     id="g8997"
+     transform="translate(705.68949,0)">
+    <text
+       id="text5576"
+       y="276.82602"
+       x="190.83929"
+       style="font-style:normal;font-weight:normal;font-size:2.16240358px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
+         y="276.82602"
+         x="190.83929"
+         id="tspan5578"
+         sodipodi:role="line">Interopérabilité des modèles</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/WebAnnotationDataModel.png"
+       xlink:href="img/WebAnnotationDataModel.png"
+       y="285.21609"
+       x="71.376305"
+       id="image5797"
+       preserveAspectRatio="none"
+       height="138.89146"
+       width="239.74628"
+       onclick="showWebPage('https://www.w3.org/annotation/');" />
+  </g>
+  <text
+     sodipodi:linespacing="125%"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.86221695px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     id="text5805"
+     y="496.15314"
+     x="1159.1378"><tspan
+       id="tspan5807"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start">Cartographier les émotions</tspan></text>
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/dendro.png"
+     xlink:href="img/dendro.png"
+     onclick="showWebPage('http://localhost/jdc/public/graph/dendrochronologie');"
+     width="181.60698"
+     height="99.08416"
+     preserveAspectRatio="none"
+     id="image5868"
+     x="487.87454"
+     y="517.07855" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/dendroChronologie.jpg"
+     xlink:href="img/dendroChronologie.jpg"
+     width="70"
+     height="74.008812"
+     preserveAspectRatio="none"
+     id="image5996"
+     x="417.05167"
+     y="500.44312" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/kronobase.png"
+     xlink:href="img/kronobase.png"
+     width="70"
+     height="67.420143"
+     preserveAspectRatio="none"
+     id="image6058"
+     x="417.05167"
+     y="575.51031" />
+  <rect
+     width="256.12103"
+     height="183.15039"
+     x="2897.0557"
+     y="475.00507"
+     id="slide_5.3"
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/ecosystem_fr_header.jpg"
+     xlink:href="img/ecosystem_fr_header.jpg"
+     id="image9032"
+     height="143.77007"
+     width="225.92439"
+     y="490.1925"
+     x="2910.8813" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:2.16240358px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     x="1602.8424"
+     y="275.86594"
+     id="text5031"><tspan
+       sodipodi:role="line"
+       id="tspan5033"
+       x="1602.8424"
+       y="275.86594"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle">Interopérabilité des modèles</tspan></text>
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/editinfluDoc.png"
+     xlink:href="img/editinfluDoc.png"
+     width="124"
+     height="67.410255"
+     preserveAspectRatio="none"
+     id="image17235"
+     x="1475.0229"
+     y="286.19812" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/editinfluChercheActeur.png"
+     xlink:href="img/editinfluChercheActeur.png"
+     width="124"
+     height="67.530518"
+     preserveAspectRatio="none"
+     id="image17407"
+     x="1607.0231"
+     y="286.13794" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/editinfluChercheRapport.png"
+     xlink:href="img/editinfluChercheRapport.png"
+     y="359.1452"
+     x="1551.5961"
+     id="image9473"
+     preserveAspectRatio="none"
+     height="67.087723"
+     width="179.16524" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/editinfluChercheNotion.png"
+     xlink:href="img/editinfluChercheNotion.png"
+     onclick="showWebPage('http://localhost/jdc/public/editinflu/navigrameau?idBNF=11947434');"
+     width="122.97276"
+     height="67.087715"
+     preserveAspectRatio="none"
+     id="image17297"
+     x="1475.0229"
+     y="359.22217" />
+  <rect
+     style="fill:none;stroke:none;stroke-width:0.14882967;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_2.3.2.1"
+     y="283.17935"
+     x="1474.962"
+     height="70.804512"
+     width="99.014389" />
+  <rect
+     width="99.014389"
+     height="70.804512"
+     x="1606.8204"
+     y="282.97427"
+     id="slide_2.3.2.2"
+     style="fill:none;stroke:none;stroke-width:0.14882967;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     style="fill:none;stroke:none;stroke-width:0.17509024;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_2.3.2.3"
+     y="353.94073"
+     x="1597.6055"
+     height="72.828926"
+     width="133.22945" />
+  <rect
+     width="99.014389"
+     height="70.804512"
+     x="1474.757"
+     y="356.79858"
+     id="slide_2.3.2.4"
+     style="fill:none;stroke:none;stroke-width:0.14882967;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_2.4.1"
+     y="259.82251"
+     x="1121.0067"
+     height="183.15039"
+     width="256.12103" />
+  <text
+     id="text5025"
+     y="276.95053"
+     x="189.55505"
+     style="font-style:normal;font-weight:normal;font-size:2.16240358px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
+       y="276.95053"
+       x="189.55505"
+       id="tspan5027"
+       sodipodi:role="line">Simuler des proverbes</tspan></text>
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/genProverbe.png"
+     xlink:href="img/genProverbe.png"
+     onclick="showWebPage('http://localhost/generateur/services/api.php?oeu=57&amp;cpt=170013&amp;frt=html&amp;btn=1');"
+     width="193.77597"
+     height="77.373444"
+     preserveAspectRatio="none"
+     id="image6295"
+     x="65.326904"
+     y="283.25458" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/iemlActeursSociaux.png"
+     xlink:href="img/iemlActeursSociaux.png"
+     width="195.31361"
+     height="22.773191"
+     preserveAspectRatio="none"
+     id="image6386"
+     x="190.68396"
+     y="281.55261" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/ieml_fonction-social.png"
+     xlink:href="img/ieml_fonction-social.png"
+     width="253.55719"
+     height="22.148069"
+     preserveAspectRatio="none"
+     id="image6714"
+     x="63.157593"
+     y="394.77124" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/iemlBaseDevHumain.png"
+     xlink:href="img/iemlBaseDevHumain.png"
+     width="121.75223"
+     height="14.479746"
+     preserveAspectRatio="none"
+     id="image6542"
+     x="64.385742"
+     y="415.16168" />
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect6717"
+     width="81.206711"
+     height="64.391182"
+     x="317.81604"
+     y="269.68845" />
+  <rect
+     y="304.28479"
+     x="214.84961"
+     height="64.391182"
+     width="81.206711"
+     id="rect6719"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/iemlActeursSociauxMa.png"
+     xlink:href="img/iemlActeursSociauxMa.png"
+     width="24.48027"
+     height="91.670807"
+     preserveAspectRatio="none"
+     id="image6448"
+     x="190.68396"
+     y="304.32581" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logospartenairesopt.jpg"
+     xlink:href="img/logospartenairesopt.jpg"
+     y="1472.2361"
+     x="239.74904"
+     id="image4999-1"
+     preserveAspectRatio="none"
+     height="422.62207"
+     width="2683.3145" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logospartenairesopt.jpg"
+     xlink:href="img/logospartenairesopt.jpg"
+     width="229.43964"
+     height="36.136745"
+     preserveAspectRatio="none"
+     id="image5002"
+     x="76.418304"
+     y="45.548019" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+     xlink:href="img/logo_paragraphe.gif"
+     width="541.17645"
+     height="160"
+     id="image5004"
+     x="1225.4674"
+     y="1308.9888" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bandeau-2016.jpg"
+     xlink:href="img/frontnum_bandeau-2016.jpg"
+     y="95.949844"
+     x="159.92747"
+     id="image5079"
+     preserveAspectRatio="none"
+     height="39.843391"
+     width="62.421314" />
+  <rect
+     width="256.12103"
+     height="183.15039"
+     x="415.86075"
+     y="43.195583"
+     id="slide_1.2"
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <g
+     id="g5147">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       x="481.5932"
+       y="215.5186"
+       width="28.617781"
+       height="8.4609089"
+       id="image6124" />
+    <text
+       x="438.75183"
+       y="220.92625"
+       id="text6126"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:linespacing="125%"><tspan
+         x="438.75183"
+         y="220.92625"
+         id="tspan6128"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond">S. Szoniecky</tspan></text>
+    <rect
+       width="256.11386"
+       height="13.193951"
+       x="415.86072"
+       y="213.15207"
+       id="rect6130"
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       width="8.7394962"
+       height="8"
+       id="image6141"
+       x="469.81454"
+       y="215.74905" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text6460"
+       y="221.02225"
+       x="521.18359"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="221.02225"
+         x="521.18359"
+         id="tspan6462"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       width="15.22845"
+       height="15.99038"
+       preserveAspectRatio="none"
+       id="image5359"
+       x="417.28766"
+       y="214.29868" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       width="36.884792"
+       height="12.610187"
+       preserveAspectRatio="none"
+       id="image5143"
+       x="634.38269"
+       y="213.46858" />
+  </g>
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect5236"
+     width="95.864456"
+     height="17.027338"
+     x="1972.9343"
+     y="195.8204" />
+  <rect
+     y="57.044861"
+     x="1850.0697"
+     height="17.027338"
+     width="95.864456"
+     id="rect5238"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <g
+     id="g5158"
+     transform="translate(353.06194,0)">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       id="image5160"
+       height="8.4609089"
+       width="28.617781"
+       y="215.5186"
+       x="481.5932" />
+    <text
+       sodipodi:linespacing="125%"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"
+       id="text5162"
+       y="220.92625"
+       x="438.75183"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond"
+         id="tspan5164"
+         y="220.92625"
+         x="438.75183">S. Szoniecky</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5166"
+       y="213.15207"
+       x="415.86072"
+       height="13.193951"
+       width="256.11386" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       y="215.74905"
+       x="469.81454"
+       id="image5168"
+       height="8"
+       width="8.7394962" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="521.18359"
+       y="221.02225"
+       id="text5170"
+       sodipodi:linespacing="125%"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial"
+         sodipodi:role="line"
+         id="tspan5172"
+         x="521.18359"
+         y="221.02225">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       y="214.29868"
+       x="417.28766"
+       id="image5174"
+       preserveAspectRatio="none"
+       height="15.99038"
+       width="15.22845" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       y="213.46858"
+       x="634.38269"
+       id="image5176"
+       preserveAspectRatio="none"
+       height="12.610187"
+       width="36.884792" />
+  </g>
+  <text
+     id="text5228"
+     y="60.33572"
+     x="1957.9618"
+     style="font-style:normal;font-weight:normal;font-size:2.16240358px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
+       y="60.33572"
+       x="1957.9618"
+       id="tspan5230"
+       sodipodi:role="line">ontologie analogiste</tspan></text>
+  <g
+     transform="translate(705.14958,0)"
+     id="g5244">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       x="481.5932"
+       y="215.5186"
+       width="28.617781"
+       height="8.4609089"
+       id="image5246" />
+    <text
+       x="438.75183"
+       y="220.92625"
+       id="text5248"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:linespacing="125%"><tspan
+         x="438.75183"
+         y="220.92625"
+         id="tspan5250"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond">S. Szoniecky</tspan></text>
+    <rect
+       width="256.11386"
+       height="13.193951"
+       x="415.86072"
+       y="213.15207"
+       id="rect5252"
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       width="8.7394962"
+       height="8"
+       id="image5254"
+       x="469.81454"
+       y="215.74905" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5257"
+       y="221.02225"
+       x="521.18359"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="221.02225"
+         x="521.18359"
+         id="tspan5259"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       width="15.22845"
+       height="15.99038"
+       preserveAspectRatio="none"
+       id="image5261"
+       x="417.28766"
+       y="214.29868" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       width="36.884792"
+       height="12.610187"
+       preserveAspectRatio="none"
+       id="image5263"
+       x="634.38269"
+       y="213.46858" />
+  </g>
+  <g
+     id="g5448"
+     transform="translate(710.15439,0)">
+    <text
+       id="text4950"
+       y="60.33572"
+       x="1602.1097"
+       style="font-style:normal;font-weight:normal;font-size:2.16240358px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
+         y="60.33572"
+         x="1602.1097"
+         id="tspan4952"
+         sodipodi:role="line">argumentation analogique</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/ArgumentAnalogieUOH.png"
+       xlink:href="img/ArgumentAnalogieUOH.png"
+       width="155.14371"
+       height="138.89058"
+       preserveAspectRatio="none"
+       id="image5386"
+       x="1525.6102"
+       y="69.192902" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:2.16240358px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     x="2669.8943"
+     y="60.33572"
+     id="text5240"><tspan
+       sodipodi:role="line"
+       id="tspan5242"
+       x="2669.8943"
+       y="60.33572"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle">analogie et frontières proverbiales</tspan></text>
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/AnalogieCoeurPensee.jpg"
+     xlink:href="img/AnalogieCoeurPensee.jpg"
+     y="69.32476"
+     x="2544.2834"
+     id="image5324"
+     preserveAspectRatio="none"
+     height="140.43631"
+     width="91.185097" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="2640.1802"
+     y="80.900253"
+     id="text5389"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan5391"
+       x="2640.1802"
+       y="80.900253"
+       style="font-size:7.5px">&quot;A quel degré de généralité un proverbe</tspan><tspan
+       sodipodi:role="line"
+       x="2640.1802"
+       y="90.275253"
+       style="font-size:7.5px"
+       id="tspan5393">s'applique-t-il ?</tspan><tspan
+       sodipodi:role="line"
+       x="2640.1802"
+       y="99.650253"
+       style="font-size:7.5px"
+       id="tspan5395" /><tspan
+       sodipodi:role="line"
+       x="2640.1802"
+       y="109.02525"
+       style="font-size:7.5px"
+       id="tspan5423">Quelle est l'étendue des situations</tspan><tspan
+       sodipodi:role="line"
+       x="2640.1802"
+       y="118.40025"
+       style="font-size:7.5px"
+       id="tspan5397">auxquelles un proverbe peut être </tspan><tspan
+       sodipodi:role="line"
+       x="2640.1802"
+       y="127.77525"
+       style="font-size:7.5px"
+       id="tspan5399">attribué sans que cela semble exagéré, </tspan><tspan
+       sodipodi:role="line"
+       x="2640.1802"
+       y="137.15025"
+       style="font-size:7.5px"
+       id="tspan5401">voir incongru ? </tspan><tspan
+       sodipodi:role="line"
+       x="2640.1802"
+       y="146.52525"
+       style="font-size:7.5px"
+       id="tspan5403" /><tspan
+       sodipodi:role="line"
+       x="2640.1802"
+       y="155.90025"
+       style="font-size:7.5px"
+       id="tspan5427">[...]</tspan><tspan
+       sodipodi:role="line"
+       x="2640.1802"
+       y="165.27525"
+       style="font-size:7.5px"
+       id="tspan5407" /><tspan
+       sodipodi:role="line"
+       x="2640.1802"
+       y="174.65025"
+       style="font-size:7.5px"
+       id="tspan5425">Où se trouvent finalement les frontières </tspan><tspan
+       sodipodi:role="line"
+       x="2640.1802"
+       y="184.02525"
+       style="font-size:7.5px"
+       id="tspan5417">de la catégorie implicitement définie </tspan><tspan
+       sodipodi:role="line"
+       x="2640.1802"
+       y="193.40025"
+       style="font-size:7.5px"
+       id="tspan5419">par notre proverbe ?&quot; p. 134</tspan></text>
+  <g
+     id="g5453"
+     transform="translate(1059.2645,0)">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       id="image5455"
+       height="8.4609089"
+       width="28.617781"
+       y="215.5186"
+       x="481.5932" />
+    <text
+       sodipodi:linespacing="125%"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"
+       id="text5457"
+       y="220.92625"
+       x="438.75183"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond"
+         id="tspan5459"
+         y="220.92625"
+         x="438.75183">S. Szoniecky</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5461"
+       y="213.15207"
+       x="415.86072"
+       height="13.193951"
+       width="256.11386" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       y="215.74905"
+       x="469.81454"
+       id="image5463"
+       height="8"
+       width="8.7394962" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="521.18359"
+       y="221.02225"
+       id="text5465"
+       sodipodi:linespacing="125%"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial"
+         sodipodi:role="line"
+         id="tspan5467"
+         x="521.18359"
+         y="221.02225">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       y="214.29868"
+       x="417.28766"
+       id="image5469"
+       preserveAspectRatio="none"
+       height="15.99038"
+       width="15.22845" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       y="213.46858"
+       x="634.38269"
+       id="image5471"
+       preserveAspectRatio="none"
+       height="12.610187"
+       width="36.884792" />
+  </g>
+  <g
+     transform="translate(1413.9782,0)"
+     id="g5473">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       x="481.5932"
+       y="215.5186"
+       width="28.617781"
+       height="8.4609089"
+       id="image5475" />
+    <text
+       x="438.75183"
+       y="220.92625"
+       id="text5477"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:linespacing="125%"><tspan
+         x="438.75183"
+         y="220.92625"
+         id="tspan5479"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond">S. Szoniecky</tspan></text>
+    <rect
+       width="256.11386"
+       height="13.193951"
+       x="415.86072"
+       y="213.15207"
+       id="rect5481"
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       width="8.7394962"
+       height="8"
+       id="image5483"
+       x="469.81454"
+       y="215.74905" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5485"
+       y="221.02225"
+       x="521.18359"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="221.02225"
+         x="521.18359"
+         id="tspan5487"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       width="15.22845"
+       height="15.99038"
+       preserveAspectRatio="none"
+       id="image5489"
+       x="417.28766"
+       y="214.29868" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       width="36.884792"
+       height="12.610187"
+       preserveAspectRatio="none"
+       id="image5491"
+       x="634.38269"
+       y="213.46858" />
+  </g>
+  <text
+     id="text5510"
+     y="60.33572"
+     x="3024.8098"
+     style="font-style:normal;font-weight:normal;font-size:2.16240358px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
+       y="60.33572"
+       x="3024.8098"
+       id="tspan5512"
+       sodipodi:role="line">analogie et frontières proverbiales</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="2943.0312"
+     y="95.161316"
+     id="text5514"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan5516"
+       x="2943.0312"
+       y="95.161316"
+       style="font-size:10px">Celui qui s'est brulé en buvant du thè</tspan><tspan
+       sodipodi:role="line"
+       x="2943.0312"
+       y="107.66132"
+       style="font-size:10px"
+       id="tspan5518">souffle même sur le yaourt.</tspan></text>
+  <text
+     sodipodi:linespacing="125%"
+     id="text5520"
+     y="134.495"
+     x="2943.0117"
+     style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     xml:space="preserve"><tspan
+       id="tspan5524"
+       style="font-size:10px"
+       y="134.495"
+       x="2943.0117"
+       sodipodi:role="line">Celui qui s'est fait mordre par le serpent </tspan><tspan
+       style="font-size:10px"
+       y="146.995"
+       x="2943.0117"
+       sodipodi:role="line"
+       id="tspan5528">a peur même du petit lézard. </tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="2943.0117"
+     y="174.22906"
+     id="text5530"
+     sodipodi:linespacing="125%"><tspan
+       id="tspan5534"
+       sodipodi:role="line"
+       x="2943.0117"
+       y="174.22906"
+       style="font-size:10px">Chat échaudé craint l'eau froide.</tspan></text>
+  <g
+     id="g5543"
+     transform="translate(1768.3025,0)">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       id="image5545"
+       height="8.4609089"
+       width="28.617781"
+       y="215.5186"
+       x="481.5932" />
+    <text
+       sodipodi:linespacing="125%"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"
+       id="text5547"
+       y="220.92625"
+       x="438.75183"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond"
+         id="tspan5549"
+         y="220.92625"
+         x="438.75183">S. Szoniecky</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5551"
+       y="213.15207"
+       x="415.86072"
+       height="13.193951"
+       width="256.11386" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       y="215.74905"
+       x="469.81454"
+       id="image5553"
+       height="8"
+       width="8.7394962" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="521.18359"
+       y="221.02225"
+       id="text5555"
+       sodipodi:linespacing="125%"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial"
+         sodipodi:role="line"
+         id="tspan5557"
+         x="521.18359"
+         y="221.02225">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       y="214.29868"
+       x="417.28766"
+       id="image5559"
+       preserveAspectRatio="none"
+       height="15.99038"
+       width="15.22845" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       y="213.46858"
+       x="634.38269"
+       id="image5561"
+       preserveAspectRatio="none"
+       height="12.610187"
+       width="36.884792" />
+  </g>
+  <g
+     transform="translate(2125.9583,0)"
+     id="g5563">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       x="481.5932"
+       y="215.5186"
+       width="28.617781"
+       height="8.4609089"
+       id="image5565" />
+    <text
+       x="438.75183"
+       y="220.92625"
+       id="text5567"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:linespacing="125%"><tspan
+         x="438.75183"
+         y="220.92625"
+         id="tspan5569"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond">S. Szoniecky</tspan></text>
+    <rect
+       width="256.11386"
+       height="13.193951"
+       x="415.86072"
+       y="213.15207"
+       id="rect5571"
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       width="8.7394962"
+       height="8"
+       id="image5574"
+       x="469.81454"
+       y="215.74905" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5577"
+       y="221.02225"
+       x="521.18359"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="221.02225"
+         x="521.18359"
+         id="tspan5579"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       width="15.22845"
+       height="15.99038"
+       preserveAspectRatio="none"
+       id="image5581"
+       x="417.28766"
+       y="214.29868" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       width="36.884792"
+       height="12.610187"
+       preserveAspectRatio="none"
+       id="image5583"
+       x="634.38269"
+       y="213.46858" />
+  </g>
+  <text
+     id="text5598"
+     y="276.82602"
+     x="2669.6309"
+     style="font-style:normal;font-weight:normal;font-size:2.16240358px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
+       y="276.82602"
+       x="2669.6309"
+       id="tspan5600"
+       sodipodi:role="line">Modéliser des existences</tspan></text>
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/proverbeSite.png"
+     xlink:href="img/proverbeSite.png"
+     y="74.452408"
+     x="770.79541"
+     id="image5767"
+     preserveAspectRatio="none"
+     height="120.74001"
+     width="252.36839" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/InterOpTEIAliento.png"
+     xlink:href="img/InterOpTEIAliento.png"
+     y="85.08429"
+     x="1139.1628"
+     id="image5829"
+     preserveAspectRatio="none"
+     height="127.21439"
+     width="219.80888" />
+  <g
+     transform="translate(2480.8738,0)"
+     id="g5873">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       x="481.5932"
+       y="215.5186"
+       width="28.617781"
+       height="8.4609089"
+       id="image5875" />
+    <text
+       x="438.75183"
+       y="220.92625"
+       id="text5877"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:linespacing="125%"><tspan
+         x="438.75183"
+         y="220.92625"
+         id="tspan5879"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond">S. Szoniecky</tspan></text>
+    <rect
+       width="256.11386"
+       height="13.193951"
+       x="415.86072"
+       y="213.15207"
+       id="rect5881"
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       width="8.7394962"
+       height="8"
+       id="image5883"
+       x="469.81454"
+       y="215.74905" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5885"
+       y="221.02225"
+       x="521.18359"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="221.02225"
+         x="521.18359"
+         id="tspan5887"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       width="15.22845"
+       height="15.99038"
+       preserveAspectRatio="none"
+       id="image5889"
+       x="417.28766"
+       y="214.29868" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       width="36.884792"
+       height="12.610187"
+       preserveAspectRatio="none"
+       id="image5891"
+       x="634.38269"
+       y="213.46858" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:2.16240358px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     x="543.60022"
+     y="56.648624"
+     id="text5993"><tspan
+       sodipodi:role="line"
+       id="tspan5995"
+       x="544.98694"
+       y="56.648624"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle">Génération Automatique de Proverbes et </tspan><tspan
+       sodipodi:role="line"
+       x="543.60022"
+       y="69.148621"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
+       id="tspan5997">Analyse des Interprétations exprimées sur Internet</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:2.16240358px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     x="896.92102"
+     y="60.33572"
+     id="text6020"><tspan
+       sodipodi:role="line"
+       id="tspan6022"
+       x="896.92102"
+       y="60.33572"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle">Proverbes &amp; E-éducation</tspan></text>
+  <text
+     id="text6024"
+     y="56.648624"
+     x="1248.8964"
+     style="font-style:normal;font-weight:normal;font-size:2.16240358px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       id="tspan6028"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
+       y="56.648624"
+       x="1250.2831"
+       sodipodi:role="line">Analyse Linguistique &amp; Interculturelles </tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
+       y="69.148621"
+       x="1250.2831"
+       sodipodi:role="line"
+       id="tspan6032">des ENoncés sapientiels et Transmission </tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
+       y="81.648621"
+       x="1248.8964"
+       sodipodi:role="line"
+       id="tspan6038">Orient /occident - occident orient</tspan></text>
+  <text
+     x="-3591.4426"
+     y="44.849266"
+     id="text3409-0"
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none"><tspan
+       x="-3591.4426"
+       y="44.849266"
+       id="tspan3411-9"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial" /><tspan
+       x="-3591.4426"
+       y="62.349266"
+       id="tspan3413-4"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:4px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="-3913.7341"
+     y="100.18227"
+     id="text5265-47"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan5267-4"
+       x="-3913.7341"
+       y="100.18227" /><tspan
+       sodipodi:role="line"
+       id="tspan5269-8"
+       x="-3913.7341"
+       y="105.18227" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:4px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="-2001.8363"
+     y="-87.035896"
+     id="text4768-5"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4770-28"
+       x="-2001.8363"
+       y="-87.035896" /></text>
+  <text
+     x="-3792.2"
+     y="-156.82788"
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.45034409px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     sodipodi:linespacing="125%"
+     id="text5339-3"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial"
+       id="tspan5341-4" /></text>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot4911-6"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     transform="translate(-3981.1341,-275.80033)"><flowRegion
+       id="flowRegion4913-9"><rect
+         id="rect4915-3"
+         width="338.8956"
+         height="247.7307"
+         x="1431.8834"
+         y="-0.092975967" /></flowRegion><flowPara
+       id="flowPara4917-8" /></flowRoot>  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:4px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="-2722.2253"
+     y="-322.63513"
+     id="text4418-8"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4420-5"
+       x="-2722.2253"
+       y="-322.63513" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:14px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="-4728.9331"
+     y="42.034569"
+     id="text3409-9-5"><tspan
+       sodipodi:role="line"
+       id="tspan3411-2-5"
+       x="-4728.9331"
+       y="42.034569" /><tspan
+       y="59.534569"
+       x="-4728.9331"
+       sodipodi:role="line"
+       id="tspan3413-5-7" /></text>
+  <text
+     x="-2992.9827"
+     y="1352.0825"
+     id="text3409-2-6"
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none"><tspan
+       x="-2992.9827"
+       y="1352.0825"
+       id="tspan3411-0-4"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial" /><tspan
+       x="-2992.9827"
+       y="1369.5825"
+       id="tspan3413-1-1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:4px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="-3315.2744"
+     y="1407.4155"
+     id="text5265-9-6"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan5267-9-4"
+       x="-3315.2744"
+       y="1407.4155" /><tspan
+       sodipodi:role="line"
+       id="tspan5269-6-2"
+       x="-3315.2744"
+       y="1412.4155" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:4px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="-1403.3766"
+     y="1220.1974"
+     id="text4768-8-4"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4770-7-7"
+       x="-1403.3766"
+       y="1220.1974" /></text>
+  <text
+     x="-3193.74"
+     y="1132.9751"
+     id="text4771-3"
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.45034409px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     sodipodi:linespacing="125%"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4212513px;font-family:Arial;-inkscape-font-specification:Arial"
+       id="tspan4773-01" /></text>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot4911-8-1"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     transform="translate(-3382.6743,1031.4329)"><flowRegion
+       id="flowRegion4913-6-0"><rect
+         id="rect4915-8-1"
+         width="338.8956"
+         height="247.7307"
+         x="1431.8834"
+         y="-0.092975967" /></flowRegion><flowPara
+       id="flowPara4917-0-3" /></flowRoot>  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="-3237.8811"
+     y="1227.3317"
+     id="text5034-0-1"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan5036-9-4"
+       x="-3237.8811"
+       y="1227.3317" /></text>
+  <text
+     sodipodi:linespacing="125%"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.32051659px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     id="text5054-9"
+     y="1226.8287"
+     x="-3263.4385"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.6574297px;font-family:Arial;-inkscape-font-specification:Arial"
+       id="tspan5056-4"
+       y="1226.8287"
+       x="-3263.4385" /></text>
+  <text
+     x="-5780.4565"
+     y="1197.549"
+     id="text3409-8-7"
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none"><tspan
+       x="-5780.4565"
+       y="1197.549"
+       id="tspan3411-6-8"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial" /><tspan
+       x="-5780.4565"
+       y="1215.049"
+       id="tspan3413-7-4"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:4px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="-6102.7485"
+     y="1252.882"
+     id="text5265-4-1"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan5267-6-4"
+       x="-6102.7485"
+       y="1252.882" /><tspan
+       sodipodi:role="line"
+       id="tspan5269-9-7"
+       x="-6102.7485"
+       y="1257.882" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:4px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="-4190.8506"
+     y="1065.6638"
+     id="text4768-6-3"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4770-2-1"
+       x="-4190.8506"
+       y="1065.6638" /></text>
+  <text
+     x="-5981.2139"
+     y="978.44147"
+     id="text4771-0-9"
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.45034409px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     sodipodi:linespacing="125%"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4212513px;font-family:Arial;-inkscape-font-specification:Arial"
+       id="tspan4773-0-0" /></text>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot4911-7-0"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     transform="translate(-6170.1484,876.89937)"><flowRegion
+       id="flowRegion4913-8-4"><rect
+         id="rect4915-1-5"
+         width="338.8956"
+         height="247.7307"
+         x="1431.8834"
+         y="-0.092975967" /></flowRegion><flowPara
+       id="flowPara4917-3-1" /></flowRoot>  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="-6025.355"
+     y="1072.7982"
+     id="text5034-5-3"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan5036-4-1"
+       x="-6025.355"
+       y="1072.7982" /></text>
+  <text
+     id="text5256"
+     y="207.3476"
+     x="1533.8041"
+     style="font-style:normal;font-weight:normal;font-size:0.92528921px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.88360357px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
+       y="207.3476"
+       x="1533.8041"
+       id="tspan5258"
+       sodipodi:role="line"><tspan
+   id="tspan5260"
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.88360357px;font-family:Arial;-inkscape-font-specification:'Arial Italic'">Organized Chaos</tspan>, Kerry Warren, 2008</tspan></text>
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/Organized-Chaos-2008_Kerrie-Warren.jpg"
+     xlink:href="img/Organized-Chaos-2008_Kerrie-Warren.jpg"
+     width="104.71204"
+     height="70"
+     preserveAspectRatio="none"
+     id="image5321"
+     x="1481.5861"
+     y="130.10701" />
+  <rect
+     width="95.456413"
+     height="68.260231"
+     x="1486.91"
+     y="56.474579"
+     id="slide_1.4.1"
+     style="fill:none;stroke:#000000;stroke-width:0.14348164;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/chaos-never-dies-day.jpg"
+     xlink:href="img/chaos-never-dies-day.jpg"
+     width="105.42169"
+     height="70"
+     preserveAspectRatio="none"
+     id="image5401-7"
+     x="1481.9274"
+     y="55.604694" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/20150401_171839.jpg"
+     xlink:href="img/20150401_171839.jpg"
+     width="124.44445"
+     height="70"
+     preserveAspectRatio="none"
+     id="image5447"
+     x="1600.1654"
+     y="130.10701" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/LOD_Cloud_2014.svg.png"
+     xlink:href="img/LOD_Cloud_2014.svg.png"
+     width="106.94961"
+     height="70"
+     preserveAspectRatio="none"
+     id="image5509-9"
+     x="1609.271"
+     y="53.656559" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/DSC04226.JPG"
+     xlink:href="img/DSC04226.JPG"
+     width="52.499996"
+     height="70"
+     preserveAspectRatio="none"
+     id="image5571"
+     x="1672.11"
+     y="130.10701" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.16369839;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_1.4.3"
+     y="49.717468"
+     x="1608.2926"
+     height="77.878181"
+     width="108.90634" />
+  <rect
+     width="2.1385245"
+     height="1.5292443"
+     x="1665.3929"
+     y="82.360855"
+     id="slide_1.4.2"
+     style="fill:none;stroke:#000000;stroke-width:0.00321444;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     width="95.361954"
+     height="68.192688"
+     x="1488.972"
+     y="131.10606"
+     id="slide_1.4.4"
+     style="fill:none;stroke:#000000;stroke-width:0.14333966;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.08497971;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_1.4.5"
+     y="139.09724"
+     x="1614.1566"
+     height="40.428413"
+     width="56.535866" />
+  <rect
+     width="97.858459"
+     height="69.977921"
+     x="1626.8959"
+     y="130.11574"
+     id="slide_1.4.6"
+     style="fill:none;stroke:#000000;stroke-width:0.14709218;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     sodipodi:type="star"
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path8936"
+     sodipodi:sides="5"
+     sodipodi:cx="2920.7932"
+     sodipodi:cy="94.342049"
+     sodipodi:r1="2.3355198"
+     sodipodi:r2="9.2465487"
+     sodipodi:arg1="0.26625218"
+     sodipodi:arg2="0.93970112"
+     inkscape:flatsided="false"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     d="m 2923.0464,94.956565 3.2025,6.850975 -5.3438,-5.132651 -5.5261,5.162841 3.2301,-6.668423 -6.6178,-3.66017 7.3402,1.011345 1.436,-7.424946 1.3064,7.293464 7.5053,-0.928699 z"
+     inkscape:transform-center-x="0.23198228"
+     inkscape:transform-center-y="-0.080592234"
+     transform="matrix(0.34114338,0,0,0.35837605,1941.8407,58.126864)" />
+  <path
+     transform="matrix(0.34114338,0,0,0.35837605,1941.8407,97.118752)"
+     inkscape:transform-center-y="-0.080592234"
+     inkscape:transform-center-x="0.23198228"
+     d="m 2923.0464,94.956565 3.2025,6.850975 -5.3438,-5.132651 -5.5261,5.162841 3.2301,-6.668423 -6.6178,-3.66017 7.3402,1.011345 1.436,-7.424946 1.3064,7.293464 7.5053,-0.928699 z"
+     inkscape:randomized="0"
+     inkscape:rounded="0"
+     inkscape:flatsided="false"
+     sodipodi:arg2="0.93970112"
+     sodipodi:arg1="0.26625218"
+     sodipodi:r2="9.2465487"
+     sodipodi:r1="2.3355198"
+     sodipodi:cy="94.342049"
+     sodipodi:cx="2920.7932"
+     sodipodi:sides="5"
+     id="path8940"
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     sodipodi:type="star" />
+  <path
+     sodipodi:type="star"
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path8942"
+     sodipodi:sides="5"
+     sodipodi:cx="2920.7932"
+     sodipodi:cy="94.342049"
+     sodipodi:r1="2.3355198"
+     sodipodi:r2="9.2465487"
+     sodipodi:arg1="0.26625218"
+     sodipodi:arg2="0.93970112"
+     inkscape:flatsided="false"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     d="m 2923.0464,94.956565 3.2025,6.850975 -5.3438,-5.132651 -5.5261,5.162841 3.2301,-6.668423 -6.6178,-3.66017 7.3402,1.011345 1.436,-7.424946 1.3064,7.293464 7.5053,-0.928699 z"
+     inkscape:transform-center-x="0.23198228"
+     inkscape:transform-center-y="-2.1008973"
+     transform="matrix(0.34114338,0,0,0.35837605,1941.8407,137.54515)" />
+  <g
+     transform="translate(2125.9583,216.87633)"
+     id="g5852">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       x="481.5932"
+       y="215.5186"
+       width="28.617781"
+       height="8.4609089"
+       id="image5854" />
+    <text
+       x="438.75183"
+       y="220.92625"
+       id="text5856"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:linespacing="125%"><tspan
+         x="438.75183"
+         y="220.92625"
+         id="tspan5858"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond">S. Szoniecky</tspan></text>
+    <rect
+       width="256.11386"
+       height="13.193951"
+       x="415.86072"
+       y="213.15207"
+       id="rect5860"
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       width="8.7394962"
+       height="8"
+       id="image5862"
+       x="469.81454"
+       y="215.74905" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5864"
+       y="221.02225"
+       x="521.18359"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="221.02225"
+         x="521.18359"
+         id="tspan5866"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       width="15.22845"
+       height="15.99038"
+       preserveAspectRatio="none"
+       id="image5869"
+       x="417.28766"
+       y="214.29868" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       width="36.884792"
+       height="12.610187"
+       preserveAspectRatio="none"
+       id="image5871"
+       x="634.38269"
+       y="213.46858" />
+  </g>
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/gapaii_eval.jpg"
+     xlink:href="img/gapaii_eval.jpg"
+     y="503.04837"
+     x="81.045113"
+     id="image9112"
+     preserveAspectRatio="none"
+     height="140.14417"
+     width="220.09004"
+     onclick="showWebPage('http://localhost/jdc/public/gapaii/eval');" />
+  <rect
+     width="256.12103"
+     height="183.15039"
+     x="63.029617"
+     y="475.04544"
+     id="slide_3.1"
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     width="256.12103"
+     height="183.15039"
+     x="63.188927"
+     y="259.63776"
+     id="slide_2.6"
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <text
+     sodipodi:linespacing="125%"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.86221695px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     id="text9117"
+     y="496.15314"
+     x="99.760788"><tspan
+       id="tspan9119"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start">Cartographier les sagesses</tspan></text>
+  <text
+     x="796.19751"
+     y="496.15314"
+     id="text9121"
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.86221695px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     sodipodi:linespacing="125%"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start"
+       id="tspan9123">Cartographier les géographies</tspan></text>
+  <rect
+     width="146.02702"
+     height="104.42291"
+     x="1122.8722"
+     y="299.44452"
+     id="slide_2.4.1.1"
+     style="fill:none;stroke:#000000;stroke-width:0.21949489;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.16248657;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_2.4.1.2"
+     y="312.46039"
+     x="1268.8275"
+     height="77.301659"
+     width="108.10014" />
+  <rect
+     style="fill:none;stroke:none;stroke-width:0.13524011;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_2.6.1"
+     y="312.52536"
+     x="86.880447"
+     height="64.339394"
+     width="89.973442" />
+  <rect
+     style="fill:none;stroke:none;stroke-width:0.07838426;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_2.6.2"
+     y="391.45618"
+     x="64.553238"
+     height="37.290676"
+     width="52.147999" />
+  <rect
+     width="52.147999"
+     height="37.290676"
+     x="116.55324"
+     y="391.45618"
+     id="slide_2.6.3"
+     style="fill:none;stroke:none;stroke-width:0.07838426;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     style="fill:none;stroke:none;stroke-width:0.11180423;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_2.6.4"
+     y="375.54019"
+     x="168.56995"
+     height="53.18996"
+     width="74.381859" />
+  <rect
+     width="186.03264"
+     height="133.03067"
+     x="191.24931"
+     y="282.00037"
+     id="slide_2.6.5"
+     style="fill:none;stroke:none;stroke-width:0.2796278;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_2.6.6"
+     y="259.63776"
+     x="63.188927"
+     height="183.15039"
+     width="256.12103" />
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/monde.jpg"
+     xlink:href="img/monde.jpg"
+     y="508.45255"
+     x="771.04559"
+     id="image9209"
+     preserveAspectRatio="none"
+     height="109.89469"
+     width="250.65341"
+     onclick="showWebPage('http://localhost/jdc/public/carto/monde');" />
+  <g
+     transform="translate(1058.9193,432.24726)"
+     id="g9212">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       x="481.5932"
+       y="215.5186"
+       width="28.617781"
+       height="8.4609089"
+       id="image9214" />
+    <text
+       x="438.75183"
+       y="220.92625"
+       id="text9216"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:linespacing="125%"><tspan
+         x="438.75183"
+         y="220.92625"
+         id="tspan9218"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond">S. Szoniecky</tspan></text>
+    <rect
+       width="256.11386"
+       height="13.193951"
+       x="415.86072"
+       y="213.15207"
+       id="rect9220"
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       width="8.7394962"
+       height="8"
+       id="image9222"
+       x="469.81454"
+       y="215.74905" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text9224"
+       y="221.02225"
+       x="521.18359"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="221.02225"
+         x="521.18359"
+         id="tspan9226"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       width="15.22845"
+       height="15.99038"
+       preserveAspectRatio="none"
+       id="image9228"
+       x="417.28766"
+       y="214.29868" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       width="36.884792"
+       height="12.610187"
+       preserveAspectRatio="none"
+       id="image9230"
+       x="634.38269"
+       y="213.46858" />
+  </g>
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_3.5"
+     y="475.19342"
+     x="1474.7765"
+     height="183.15039"
+     width="256.12103" />
+  <text
+     x="1525.2479"
+     y="496.30112"
+     id="text9236"
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.86221695px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     sodipodi:linespacing="125%"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start"
+       id="tspan9238">Cartographier les idées</tspan></text>
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/TaxonomyIdeas.png"
+     xlink:href="img/TaxonomyIdeas.png"
+     y="505.19757"
+     x="1507.2297"
+     id="image9299"
+     preserveAspectRatio="none"
+     height="136.05229"
+     width="191.21452" />
+  <g
+     id="g9302"
+     transform="translate(1414.0069,432.21376)">
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/logo_paragraphe.gif"
+       xlink:href="img/logo_paragraphe.gif"
+       id="image9304"
+       height="8.4609089"
+       width="28.617781"
+       y="215.5186"
+       x="481.5932" />
+    <text
+       sodipodi:linespacing="125%"
+       style="font-style:normal;font-weight:normal;font-size:15.34791946px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"
+       id="text9306"
+       y="220.92625"
+       x="438.75183"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.7746768px;font-family:Garamond;-inkscape-font-specification:Garamond"
+         id="tspan9308"
+         y="220.92625"
+         x="438.75183">S. Szoniecky</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.19750442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect9310"
+       y="213.15207"
+       x="415.86072"
+       height="13.193951"
+       width="256.11386" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/citu.png"
+       xlink:href="img/citu.png"
+       y="215.74905"
+       x="469.81454"
+       id="image9312"
+       height="8"
+       width="8.7394962" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="521.18359"
+       y="221.02225"
+       id="text9314"
+       sodipodi:linespacing="125%"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:Arial;-inkscape-font-specification:Arial"
+         sodipodi:role="line"
+         id="tspan9316"
+         x="521.18359"
+         y="221.02225">La perception des proverbes, automne 2016</tspan></text>
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/papi-conf_errance.png"
+       xlink:href="img/papi-conf_errance.png"
+       y="214.29868"
+       x="417.28766"
+       id="image9318"
+       preserveAspectRatio="none"
+       height="15.99038"
+       width="15.22845" />
+    <image
+       sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/frontnum_bas-2016.jpg"
+       xlink:href="img/frontnum_bas-2016.jpg"
+       y="213.46858"
+       x="634.38269"
+       id="image9320"
+       preserveAspectRatio="none"
+       height="12.610187"
+       width="36.884792" />
+  </g>
+  <rect
+     width="256.12103"
+     height="183.15039"
+     x="1829.8641"
+     y="475.15991"
+     id="slide_3.6"
+     style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <text
+     sodipodi:linespacing="125%"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.86221695px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     id="text9324"
+     y="496.26761"
+     x="1859.4762"><tspan
+       id="tspan9326"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start">Cartographier les cohérences</tspan></text>
+  <image
+     sodipodi:absref="/Library/WebServer/Documents/samszo/conf_errance/frontieres_2016/img/graphCreator.jpg"
+     xlink:href="img/graphCreator.jpg"
+     y="506.32101"
+     x="1880.6707"
+     id="image9389"
+     preserveAspectRatio="none"
+     height="132.7005"
+     width="154.50792"
+     onclick="showWebPage('http://localhost/jdc/public/graph/graphcreator');" />
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:0.09418306;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="slide_1.1"
+     y="92.977432"
+     x="159.33922"
+     height="44.806831"
+     width="62.658737" />
+</svg>
