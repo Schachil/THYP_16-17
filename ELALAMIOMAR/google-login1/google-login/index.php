@@ -11,7 +11,8 @@ require_once __DIR__.'/gplus-lib/vendor/autoload.php';
 
 const CLIENT_ID = '829424526829-b17c60r5oes3phlni2rr2gt5uh01pjmn.apps.googleusercontent.com';
 const CLIENT_SECRET = 'iiVGCsRuJmw6ApDrHQBIivDX';
-const REDIRECT_URI = 'http://localhost:83/google-login1/google-login/index.php';
+const REDIRECT_URI = 'http://localhost:83/THYP_16-17/ELALAMIOMAR/google-login1/google-login/index.php';
+
 
 session_start();
 
