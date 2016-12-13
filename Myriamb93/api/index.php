@@ -13,7 +13,14 @@
 	  $client->setAccessToken($_SESSION['access_token']);
 	  $drive_service = new Google_Service_Drive($client);
 	  $files_list = $drive_service->files->listFiles(array())->getFiles();
-	  if (count($files_list) == 0) {
+	  echo json_encode($files_list);
+	 } else {
+			  $redirect_uri = 'http://' . $_SERVER['HTTP_HOST'] . '/THYP_16-17/Myriamb93/api/callback.php';
+			  header('Location: ' . filter_var($redirect_uri, FILTER_SANITIZE_URL));
+			}
+
+
+	  /*if (count($files_list) == 0) {
 	    print "No files found.\n";
 		} else {
 		    foreach ($files_list as $file) {
@@ -28,7 +35,7 @@
 	 {
 	  $redirect_uri = 'http://' . $_SERVER['HTTP_HOST'] . '/THYP_16-17/Myriamb93/api/callback.php';
 	  header('Location: ' . filter_var($redirect_uri, FILTER_SANITIZE_URL));
-	 }
+	 }*/
 
 ?>
 

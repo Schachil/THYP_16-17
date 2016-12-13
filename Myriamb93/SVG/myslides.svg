@@ -32,9 +32,9 @@
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="0.081393581"
-     inkscape:cx="-1701.7163"
-     inkscape:cy="1432.7362"
+     inkscape:zoom="1.8417265"
+     inkscape:cx="169.73412"
+     inkscape:cy="495.04799"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -54,7 +54,7 @@
        id="guide4729" />
     <sodipodi:guide
        orientation="1,0"
-       position="319.37228,404.91843"
+       position="319.43551,371.65093"
        id="guide5151" />
     <sodipodi:guide
        orientation="0,1"
@@ -943,12 +943,12 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <image
-     sodipodi:absref="C:\wamp\www\THYP_16-17\Myriamb93\SVG\img\gapaii.jpg"
+     sodipodi:absref="C:\wamp64\www\THYP_16-17\Myriamb93\SVG\img\gapaii.jpg"
      xlink:href="img\gapaii.jpg"
      width="175.74294"
      height="111.10028"
@@ -1295,34 +1295,28 @@
      width="3238.5767" />
   <text
      id="text5025"
-     y="276.95053"
-     x="189.55505"
-     style="font-style:normal;font-weight:normal;font-size:2.16240358px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
-     xml:space="preserve"><tspan
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
-       y="276.95053"
-       x="189.55505"
+     y="298.91248"
+     x="184.64751"
+     style="font-style:normal;font-weight:normal;font-size:2.16180539px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     transform="scale(1.0220703,0.97840627)"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.99585056px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle"
+       y="298.91248"
+       x="184.64751"
        id="tspan5027"
        sodipodi:role="line">Google Authentication API</tspan></text>
   <image
-     sodipodi:absref="C:\wamp\www\THYP_16-17\Myriamb93\SVG\img\genProverbe.png"
+     sodipodi:absref="C:\wamp64\www\THYP_16-17\Myriamb93\SVG\img\genProverbe.png"
      xlink:href="img\genProverbe.png"
-     y="306.26379"
-     x="133.198"
+     y="316.77359"
+     x="136.66212"
      id="image6295"
      preserveAspectRatio="none"
-     height="92.576569"
-     width="108.52987"
+     height="90.552437"
+     width="110.89448"
      onclick="showWebPage('http://localhost/generateur/services/api.php?oeu=57&amp;cpt=170013&amp;frt=html&amp;btn=1');" />
-  <rect
-     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-     id="rect6717"
-     width="81.206711"
-     height="64.391182"
-     x="317.81604"
-     y="269.68845" />
   <image
-     sodipodi:absref="C:\wamp\www\THYP_16-17\Myriamb93\SVG\img\frontnum_bandeau-2016.jpg"
+     sodipodi:absref="C:\wamp64\www\THYP_16-17\Myriamb93\SVG\img\frontnum_bandeau-2016.jpg"
      xlink:href="img\frontnum_bandeau-2016.jpg"
      width="62.421314"
      height="39.843391"
@@ -1338,7 +1332,7 @@
      id="slide_1.2"
      style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <image
-     sodipodi:absref="C:\wamp\www\THYP_16-17\Myriamb93\SVG\img\proverbeSite.png"
+     sodipodi:absref="C:\wamp64\www\THYP_16-17\Myriamb93\SVG\img\proverbeSite.png"
      xlink:href="img\proverbeSite.png"
      width="187.09912"
      height="98.087738"
@@ -1614,47 +1608,13 @@
      id="slide_2.6"
      style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <rect
-     style="fill:none;stroke:none;stroke-width:0.13524011;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="slide_2.6.1"
-     y="312.52536"
-     x="86.880447"
-     height="64.339394"
-     width="89.973442" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0.07838426;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="slide_2.6.2"
-     y="391.45618"
-     x="64.553238"
-     height="37.290676"
-     width="52.147999" />
-  <rect
-     width="52.147999"
-     height="37.290676"
-     x="116.55324"
-     y="391.45618"
-     id="slide_2.6.3"
-     style="fill:none;stroke:none;stroke-width:0.07838426;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0.11180423;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="slide_2.6.4"
-     y="375.54019"
-     x="168.56995"
-     height="53.18996"
-     width="74.381859" />
-  <rect
-     width="186.03264"
-     height="133.03067"
-     x="191.24931"
-     y="282.00037"
-     id="slide_2.6.5"
-     style="fill:none;stroke:none;stroke-width:0.2796278;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <rect
      style="fill:none;stroke:#000000;stroke-width:0.38497847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="slide_2.6.6"
+     id="slide_2.4.1"
      y="259.63776"
      x="63.188927"
      height="183.15039"
-     width="256.12103" />
+     width="256.12103"
+     inkscape:label="#slide_1" />
   <rect
      style="fill:none;stroke:#000000;stroke-width:0.09418306;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="slide_1.1"
