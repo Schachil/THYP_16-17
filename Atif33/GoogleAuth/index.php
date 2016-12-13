@@ -1,24 +1,13 @@
 <?php
 /*  GOOGLE LOGIN BASIC - Tutorial
- *  file            - index.php
- *  Developer       - Krishna Teja G S
- *  Website         - http://packetcode.com/apps/google-login/
- *  Date            - 28th Aug 2015
- *  license         - GNU General Public License version 2 or later
-*/
-// REQUIREMENTS - PHP v5.3 or later
-// Note: The PHP client library requires that PHP has curl extensions configured. 
-/*
- * DEFINITIONS
- *
- * load the autoload file
+
  * define the constants client id,secret and redirect url
  * start the session
  */
 require_once __DIR__.'/gplus-lib/vendor/autoload.php';
 const CLIENT_ID = '188113185072-q89mar07fidqig6latop4kd9qhkaiso6.apps.googleusercontent.com';
 const CLIENT_SECRET = 'pnY632MhyLeGWn4M7gtzf9Xe';
-const REDIRECT_URI = 'ADD_YOUR_REDIRECT_URI';
+const REDIRECT_URI = 'http://localhost:8080/callback.php';
 session_start();
 /* 
  * INITIALIZATION
