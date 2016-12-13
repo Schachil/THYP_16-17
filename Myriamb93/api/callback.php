@@ -1,10 +1,10 @@
 <?php
-require_once 'google-api-php-client\vendor\autoload.php';
+require_once 'vendor\autoload.php';
 session_start();
 
 $client = new Google_Client();
 $client->setAuthConfigFile('client_secret.json');
-$client->setRedirectUri('http://' . $_SERVER['HTTP_HOST'] . '/callback.php');
+$client->setRedirectUri('http://' . $_SERVER['HTTP_HOST'] . 'THYP_16-17/Myriamb93/api/callback.php');
 $client->addScope(Google_Service_Drive::DRIVE_METADATA_READONLY);
 
 if (! isset($_GET['code'])) {

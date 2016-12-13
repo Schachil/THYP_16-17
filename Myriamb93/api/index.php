@@ -1,6 +1,6 @@
 <?php
 
-	require_once 'google-api-php-client\vendor\autoload.php';
+	require_once 'vendor/autoload.php';
 
 	session_start();
 
@@ -26,7 +26,7 @@
 	 
 	} else
 	 {
-	  $redirect_uri = 'http://' . $_SERVER['HTTP_HOST'] . '/callback.php';
+	  $redirect_uri = 'http://' . $_SERVER['HTTP_HOST'] . '/THYP_16-17/Myriamb93/api/callback.php';
 	  header('Location: ' . filter_var($redirect_uri, FILTER_SANITIZE_URL));
 	 }
 
