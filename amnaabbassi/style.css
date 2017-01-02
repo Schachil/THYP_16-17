@@ -14,6 +14,7 @@ div.img {
     border: 1px solid #ccc;
     float: left;
     width: 150px;
+	height:auto;
 	margin-left:25px;
 	
 }
