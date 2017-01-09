@@ -1,6 +1,8 @@
-body.body1 {
+body{
     background-image: url("images/background-1.jpg");
-    padding-top:0px
+    padding-top:0px;
+    color: white;
+    margin-bottom: 20px;
 }
 #custom_carousel .item {
 
@@ -112,6 +114,26 @@ a img{
     background-color: gainsboro;
     text-align: center;
     border-radius: 9px;
+}
+.cont1{
+    margin-top: -5px;
+}
+
+.zoom {
+     padding: 5px;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.zoom:hover {
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    -ms-transform: scale(2);
+    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+    M11=2, M12=-0, M21=0, M22=2);
 }
 
 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://$MODULE_DIR$/ouahib16/auth/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/djassimo/djamelBEKKARI-appApiDrive1/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/Atif33/GoogleAuth/gplus-lib/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/yazid2j/google/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/Atif33/GoogleAuth/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/Mourik/auth_google/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/yazid2j/apigoogle/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/Myriamb93/api/composer.phar/" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://$MODULE_DIR$/ouahib16/auth/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/djassimo/djamelBEKKARI-appApiDrive1/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/Atif33/GoogleAuth/gplus-lib/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/yazid2j/google/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/Atif33/GoogleAuth/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/Mourik/auth_google/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/yazid2j/apigoogle/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/Myriamb93/api/composer.phar/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

@@ -1,88 +1,89 @@
 <!DOCTYPE html>
 <html>
- <head>
-	 <title>Trombiniscope</title>
-	 <meta charset="utf-8"><link rel="icon" type="image/png" href="images/img2.png" />
-	 <script type="text/javascript" src="js/d3.v3.js"></script>
-	 <script src="bootstrap/dist/js/jquery-2.1.4.js"></script>
-	 <script type="text/javascript" src="js/monscript.js"></script>
-	 <script src="bootstrap/dist/js/bootstrap.js"></script>
-	 <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
-	 <link rel="stylesheet" href="style.css">
+<head>
+    <title>Trombiniscope</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="images/img2.png"/>
+    <script type="text/javascript" src="js/d3.v3.js"></script>
+    <script src="bootstrap/dist/js/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="js/monscript.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
 
- </head>
+</head>
 
- <body class="body1 container">
+<body class="body1 container">
 
- <!-- maquette-->
- <div class="container">
-	<div class="row titlediv"><h1 class="tromtitle"> Trombinoscope THYP M2 2016-2017</h1></div>
-	 <a href="presentation_svg/slide.html" type="button" class="btn btn-primary">Voir la présentation de mon projet en SVG</a>
+<!-- maquette-->
+<div class="container">
+    <div class="row titlediv"><h1 class="tromtitle"> Trombinoscope THYP M2 2016-2017</h1></div>
+    <a href="presentation_svg/slide.html" type="button" class="btn btn-primary">Voir la présentation de mon projet en
+        SVG</a>
 
- </div>
- <div class="container blocmaq" >
-	 <!-- premier rang du trombi-->
+</div>
+<div class="container blocmaq">
+    <!-- premier rang du trombi-->
 
-	 <div class="row rang1" id="THYP">
-		 <div class="col-md-2  " ></div>
-	 </div>
-	 <!-- deuxieme rang du trombi-->
+    <div class="row rang1" id="THYP">
+        <div class="col-md-2  "></div>
+    </div>
+    <!-- deuxieme rang du trombi-->
 
- </div>
-
-
-
-
- <!-- intération de l'appel du csv depuis google drive-->
-
-  <script type="text/javascript">
-		 //var rssPhoto = "http://picasaweb.google.com/data/feed/base/user/107069028374380439764/albumid/6340716155566922545?alt=rss&kind=photo&hl=en_US";
-		 var urlData = "php/lecteurFlux.php?url=THYP1617data";
-		 d3.csv(urlData, function(data)
-		 {
-
-			 data.forEach(function(d,i){
-				 //var h = '<a href="about/will-blackmore.html"><div class="person" id="data_' + i + '"><img src="h.jpg"></div>'d.Prénom+" "+d.Nom+" "+d['N° étudiant'];
-				 var h = '<a href="dashboard.html">'
-						 +'<div class="imgtrom">'
-						 +'<img src="h.jpg" id="tof_'+d['lien vers la photo']+'" >'
-						 +'<div  class="contenu">'
-						 +'<h4>'+d['Prénom']+' '+d.Nom+'</h4>'
-						 +'<h5>'+d['N° étudiant']+'</h5>'
-						 +'</div>'
-						 +'</div>'
-						 +'</a>';
-				 $('<div class="col-md-3 col-sm-5"></div>').html(h).appendTo('#THYP');
-			 });
-			 d3.xml("../samszo/php/lecteurFlux.php?url=THYP1617photo", "application/xml", function(xml) {
-				 var tofs = xml.documentElement.getElementsByTagName("enclosure");
-				 for (i = 0; i < tofs.length; i++) {
-					 console.log(tofs[i].getAttribute("url"));
-					 d3.select("#tof_"+i)
-							 .attr('src',tofs[i].getAttribute("url"))
-							 .style('width',50);
-
-					 				 }
-
-			 });
-
-		 })
-	 </script>
-
-	 <!-- End intération de l'appel du csv depuis google drive-->
+</div>
 
 
- </section>
+<!-- intération de l'appel du csv depuis google drive-->
 
- <!--footer-->
+<script type="text/javascript">
+    //var rssPhoto = "http://picasaweb.google.com/data/feed/base/user/107069028374380439764/albumid/6340716155566922545?alt=rss&kind=photo&hl=en_US";
+    var urlData = "php/lecteurFlux.php?url=THYP1617data";
+    d3.csv(urlData, function (data) {
 
- <div class="container">
- 	<div class="row">
-	 <div class="modal-footer fotr">BEKKARI Djamel</div>
-	</div>
- </div>
- <br>
- <br>
- <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MW9jbDRpNnE1YjlsMGQzOWpiaDBkOGRxMTQgZGphbWVsLmJla2thcmkwNkBt&amp;tmsrc=djamel.bekkari06%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_fr.gif"></a>
- </body>
+        data.forEach(function (d, i) {
+            //var h = '<a href="about/will-blackmore.html"><div class="person" id="data_' + i + '"><img src="h.jpg"></div>'d.Prénom+" "+d.Nom+" "+d['N° étudiant'];
+            var h = '<a href="dashboard.html">'
+                    + '<div class="imgtrom">'
+                    + '<img src="h.jpg" id="tof_' + d['lien vers la photo'] + '" class="zoom" >'
+                    + '<div  class="contenu">'
+                    + '<h4>' + d['Prénom'] + ' ' + d.Nom + '</h4>'
+                    + '<h5>' + d['N° étudiant'] + '</h5>'
+                    + '</div>'
+                    + '</div>'
+                    + '</a>';
+            $('<div class="col-md-3 col-sm-5"></div>').html(h).appendTo('#THYP');
+        });
+        d3.xml("../samszo/php/lecteurFlux.php?url=THYP1617photo", "application/xml", function (xml) {
+            var tofs = xml.documentElement.getElementsByTagName("enclosure");
+            for (i = 0; i < tofs.length; i++) {
+                console.log(tofs[i].getAttribute("url"));
+                d3.select("#tof_" + i)
+                        .attr('src', tofs[i].getAttribute("url"))
+                        .style('width', 50);
+
+            }
+
+        });
+
+    })
+</script>
+
+<!-- End intération de l'appel du csv depuis google drive-->
+
+
+</section>
+
+<!--footer-->
+
+<div class="container">
+    <div class="row">
+        <div class="modal-footer fotr">BEKKARI Djamel</div>
+    </div>
+</div>
+<br>
+<br>
+<a target="_blank"
+   href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MW9jbDRpNnE1YjlsMGQzOWpiaDBkOGRxMTQgZGphbWVsLmJla2thcmkwNkBt&amp;tmsrc=djamel.bekkari06%40gmail.com"><img
+        border="0" src="https://www.google.com/calendar/images/ext/gc_button1_fr.gif"></a>
+</body>
 </html>
