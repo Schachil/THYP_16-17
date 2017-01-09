@@ -46,20 +46,7 @@ rect:hover {  fill:blue; }
 <script>
 function dashboard(id, fData){
     var barColor = 'steelblue';
-    /*
-    function segColor(c){ 
-        return {
-            HTML:"#807dba", 
-            Javascript:"#e08214",
-            Java:"#41ab5d"}[c]; 
-        }    
-    // compute total for each state.
-    fData.forEach(function(d){
-        d.total =   d.freq.HTML
-                    +d.freq.Javascript
-                    +d.freq.Java;}
-                    );
-   	*/
+
    var segColor = d3.scale.category20b();
    	
     fData.forEach(function(d){
@@ -284,14 +271,7 @@ function dashboard(id, fData){
     }
     
     // calculate total frequency by segment for all state.
-    /*
-    var tF = [
-        'HTML',
-        'Javascript',
-        'Java'].map(function(d){ 
-        return {type:d, freq: d3.sum(fData.map(function(t){ return t.freq[d];}))}; 
-    });
-    */
+
     var tF = [
             'EditWeb',
 			'HTML',
@@ -345,23 +325,7 @@ var dataEtu;
 d3.csv("php/lecteurFlux.php?url=CFI1617data", null, function(error, data) {
 	freqData = [];
 	dataEtu = data;
-	/*formulaire OCI
-	var comp = {"j'men sors":12,"fort":15,"boffff":8,"pas très bon":10,"connais pas":2,"expert":18};
-	data.forEach(function(d){
-		var args = {
-			State:d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase()
-			,freq:{
-                HTML:comp[d["Vos compétences [HTML]"]], 
-                Javascript:comp[d["Vos compétences [Javascript]"]], 
-                Java:comp[d["Vos compétences [Java]"]]}
-		};
-		d.state = d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase();
-		freqData.push(args);		
-	});
-	d.state = d["Nom"].substring(0,1).toUpperCase()+" "+d["Prénom"].substring(0,1).toUpperCase();	
-	*/
-	/*formulaire CFI*/
-																					
+
 	var comp = {"Pas besoin":1,"Besoin d'approfondissement":5,"Besoin urgent":10};
 	data.forEach(function(d){
 		var args = {
