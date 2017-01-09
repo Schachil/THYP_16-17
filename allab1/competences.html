@@ -104,10 +104,22 @@ rect:hover {  fill:blue; }
     <a href="index.html" class="button">  Trombinoscope </a>
     <a href="php/url.php" class="button"> URL PIC (PHP) </a>
     <a class="ace_btn dis" id="agn" >ABSENCE</a>
+    <a href="javascript:lancer()" class="button"> ABSENCE 2 </a>
 
 </div>
 
 <script >
+
+function lancer(){
+ var txt=document.getElementById("histoabs").innerText;
+ var  url="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Absence&details="+txt+"&location=Paris8&sprop=website:http://www.paris8.fr&sprop=name:&sf=true&output=xml#eventpage_6";
+
+ window.location.href = url;
+//alert(url);
+
+}
+
+
 var da = new Date(); 
 $(".ace_btn").addcalevent({
     'data': {
@@ -166,7 +178,7 @@ Absence:
 
 document.getElementById("pr_"+identi).innerText=identi+" : "+presence;
 document.getElementById("etat").innerText=presence;
- 
+ //document.getElementById("histoabs"
  
 // $(".pr").hide();
  } 
