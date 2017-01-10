@@ -25,8 +25,8 @@
 <div class="container blocmaq">
     <!-- premier rang du trombi-->
 
-    <div class="row rang1" id="THYP">
-        <div class="col-md-2  "></div>
+    <div class="row rang1" >
+        <div class="col-md-12" id="THYP"></div>
     </div>
     <!-- deuxieme rang du trombi-->
 
@@ -40,7 +40,7 @@
     var urlData = "php/lecteurFlux.php?url=THYP1617data";
     d3.csv(urlData, function (data) {
 
-        data.forEach(function (d, i) {
+        data.forEach(function (d) {
             //var h = '<a href="about/will-blackmore.html"><div class="person" id="data_' + i + '"><img src="h.jpg"></div>'d.Prénom+" "+d.Nom+" "+d['N° étudiant'];
             var h = '<a href="dashboard.html">'
                     + '<div class="imgtrom">'
@@ -59,7 +59,7 @@
                 console.log(tofs[i].getAttribute("url"));
                 d3.select("#tof_" + i)
                         .attr('src', tofs[i].getAttribute("url"))
-                        .style('width', 50);
+                        .style('width', 40);
 
             }
 

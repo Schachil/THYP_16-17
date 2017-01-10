@@ -55,6 +55,7 @@
             display: inline-block;
             border-collapse: collapse;
             border-spacing: 0px;
+            margin-top: -150px;
         }
 
         .legend td {
@@ -114,13 +115,9 @@
     </div>
 
 
-
 </div>
 
 <script src="http://d3js.org/d3.v3.min.js"></script>
-<script>
-
-</script>
 <script>
     var x = 0;
     function addNumber() {
@@ -141,9 +138,9 @@
         alert('non fonctionnel');
         document.getElementById("stname").innerHTML = '<br>' + '' + 'Nbre Abscence :' + addNumber();
     }
-    function dashboard(id, fData) {
-        var barColor = 'steelblue';
 
+    function dashboard(id, fData) {
+        var barColor = 'green';
         var segColor = d3.scale.category20b();
         var sltEtu = false;
         fData.forEach(function (d) {
@@ -169,15 +166,18 @@
                     .domain(fD.map(function (d) {
                         return d[0];
                     }));
+
             // Add x-axis to the histogram svg.
             hGsvg.append("g").attr("class", "x axis")
                     .attr("transform", "translate(0," + hGDim.h + ")")
                     .call(d3.svg.axis().scale(x).orient("bottom"));
+
             // Create function for y-axis map.
             var y = d3.scale.linear().range([hGDim.h, 0])
                     .domain([0, d3.max(fD, function (d) {
                         return d[1];
                     })]);
+
             // Create bars for histogram to contain rectangles and freq labels.
             var bars = hGsvg.selectAll(".bar").data(fD).enter()
                     .append("g").attr("class", "bar");
@@ -482,7 +482,7 @@
             return d["Nom"].substring(0, 1).toUpperCase() + "" + d["Nom"].substring(2, 1) + " " + d["Prénom"].substring(0, 1).toUpperCase();
         }
 
-        //récupère les photos
+        //récupération des photos
         d3.xml("php/lecteurFlux.php?url=THYP1617photo", "application/xml", function (xml) {
             var tofs = xml.documentElement.getElementsByTagName("group");
             for (i = 0; i < tofs.length; i++) {
