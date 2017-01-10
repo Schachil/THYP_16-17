@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e269b098-0c18-4437-a248-014abe05f252" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djassimo/dashboard.html" afterPath="$PROJECT_DIR$/djassimo/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djassimo/index.html" afterPath="$PROJECT_DIR$/djassimo/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djassimo/php/lecteurFlux.php" afterPath="$PROJECT_DIR$/djassimo/php/lecteurFlux.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djassimo/presentation_svg/frontieres_2016.svg" afterPath="$PROJECT_DIR$/djassimo/presentation_svg/frontieres_2016.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djassimo/presentation_svg/slide.html" afterPath="$PROJECT_DIR$/djassimo/presentation_svg/slide.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djassimo/style.css" afterPath="$PROJECT_DIR$/djassimo/style.css" />
-    </list>
+    <list default="true" id="e269b098-0c18-4437-a248-014abe05f252" name="Default" comment="" />
     <ignored path="THYP_16-17.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -266,12 +258,12 @@
       <option name="presentableId" value="Default" />
       <updated>1483998716707</updated>
       <workItem from="1483998719694" duration="3729000" />
-      <workItem from="1484040074040" duration="4180000" />
+      <workItem from="1484040074040" duration="4762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7909000" />
+    <option name="totallyTimeSpent" value="8491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="1" />
